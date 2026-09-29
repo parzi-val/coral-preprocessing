@@ -1,0 +1,2304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coral Figures QA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-base: #09090b;
+            --bg-surface: #121215;
+            --bg-elevated: #18181b;
+            --bg-subtle: #222227;
+            --border: #27272a;
+            --border-subtle: #1e1e22;
+            --text-primary: #f4f4f5;
+            --text-secondary: #a1a1aa;
+            --text-muted: #71717a;
+            --text-faint: #52525b;
+            --accent: #ffffff;
+            --accent-contrast: #000000;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            user-select: none;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg-base);
+            color: var(--text-primary);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* HEADER */
+        header {
+            background-color: var(--bg-surface);
+            border-bottom: 1px solid var(--border);
+            padding: 8px 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-shrink: 0;
+            height: 48px;
+            z-index: 20;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .app-title {
+            font-size: 0.88rem;
+            font-weight: 600;
+            letter-spacing: -0.01em;
+            color: var(--text-primary);
+        }
+
+        .nav-tabs {
+            display: flex;
+            background: var(--bg-base);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 2px;
+        }
+
+        .nav-tab {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            padding: 4px 10px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: color 0.15s, background 0.15s;
+        }
+
+        .nav-tab:hover {
+            color: var(--text-primary);
+        }
+
+        .nav-tab.active {
+            background: var(--bg-elevated);
+            color: var(--text-primary);
+            box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+        }
+
+        .header-stats {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .header-stats strong {
+            color: var(--text-primary);
+            font-weight: 500;
+        }
+
+        .stat-dot {
+            display: inline-block;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            margin-right: 4px;
+            background: var(--text-muted);
+        }
+        .stat-dot.ok { background: #10b981; }
+        .stat-dot.recropped { background: #38bdf8; }
+        .stat-dot.deleted { background: #ef4444; }
+        .stat-dot.flagged { background: #f59e0b; }
+
+        /* MAIN WORKSPACE */
+        main {
+            flex: 1;
+            display: flex;
+            overflow: hidden;
+            position: relative;
+        }
+
+        #reviewView {
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* LEFT PANE: SOURCE PDF */
+        .source-pane {
+            flex: 1;
+            min-width: 320px;
+            background: #050507;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .pane-header {
+            padding: 6px 14px;
+            background: var(--bg-surface);
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            height: 38px;
+            flex-shrink: 0;
+        }
+
+        .zoom-controls {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .icon-btn {
+            background: var(--bg-elevated);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+            width: 26px;
+            height: 26px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+
+        .icon-btn:hover {
+            color: var(--text-primary);
+            border-color: var(--text-muted);
+        }
+
+        .icon-btn.active {
+            background: var(--accent);
+            color: var(--accent-contrast);
+            border-color: var(--accent);
+        }
+
+        .zoom-slider {
+            width: 70px;
+            height: 4px;
+            accent-color: var(--text-secondary);
+            cursor: pointer;
+        }
+
+        .zoom-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.72rem;
+            width: 38px;
+            text-align: right;
+            color: var(--text-muted);
+        }
+
+        .pdf-frame-wrapper {
+            flex: 1;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            background: #09090b;
+            display: flex;
+        }
+
+        .pdf-frame-wrapper iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+
+        .canvas-viewport {
+            flex: 1;
+            position: relative;
+            overflow: auto;
+            display: flex;
+            padding: 24px;
+        }
+
+        #pdfCanvas {
+            margin: auto;
+            display: block;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.8);
+            border: 1px solid var(--border-subtle);
+            background: #fff;
+            flex-shrink: 0;
+        }
+
+        #pdfCanvas.crosshair {
+            cursor: crosshair;
+        }
+
+        .recrop-toast {
+            position: absolute;
+            top: 48px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--text-primary);
+            color: var(--bg-base);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-weight: 500;
+            font-size: 0.75rem;
+            letter-spacing: -0.01em;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+            display: none;
+            z-index: 30;
+            pointer-events: none;
+        }
+
+        /* RESIZE DIVIDER */
+        .resizer {
+            width: 4px;
+            background: var(--border);
+            cursor: col-resize;
+            transition: background 0.15s;
+            flex-shrink: 0;
+            z-index: 15;
+        }
+
+        .resizer:hover, .resizer.dragging {
+            background: var(--text-muted);
+        }
+
+        /* RIGHT PANE: INSPECTION & EDIT */
+        .inspector-pane {
+            width: 480px;
+            min-width: 360px;
+            background: var(--bg-surface);
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+            flex-shrink: 0;
+        }
+
+        .crop-preview {
+            background: #070709;
+            height: 280px;
+            padding: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 1px solid var(--border);
+            position: relative;
+            flex-shrink: 0;
+        }
+
+        .crop-preview img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            border-radius: 4px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+        }
+
+        .badge-minimal {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 2px 7px;
+            border-radius: 4px;
+            font-size: 0.68rem;
+            font-weight: 500;
+            font-family: 'JetBrains Mono', monospace;
+            background: var(--bg-elevated);
+            border: 1px solid var(--border);
+            color: var(--text-muted);
+        }
+
+        .badge-minimal.ok { color: #34d399; border-color: rgba(52, 211, 153, 0.3); }
+        .badge-minimal.recropped { color: #38bdf8; border-color: rgba(56, 189, 248, 0.3); }
+        .badge-minimal.deleted { color: #f87171; border-color: rgba(248, 113, 113, 0.3); }
+
+        .inspector-content {
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            flex: 1;
+        }
+
+        .meta-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .fig-title {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.88rem;
+            font-weight: 600;
+        }
+
+        .fig-input {
+            width: 70px;
+            background: var(--bg-elevated);
+            border: 1px solid var(--border);
+            color: var(--text-primary);
+            padding: 3px 6px;
+            border-radius: 4px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            user-select: text;
+        }
+
+        .page-indicator {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .field-group {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .field-label {
+            font-size: 0.72rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+
+        .caption-textarea {
+            width: 100%;
+            background: var(--bg-elevated);
+            border: 1px solid var(--border);
+            color: var(--text-primary);
+            padding: 10px;
+            border-radius: 6px;
+            font-family: inherit;
+            font-size: 0.85rem;
+            line-height: 1.45;
+            resize: vertical;
+            min-height: 80px;
+            outline: none;
+            user-select: text;
+            transition: border-color 0.15s;
+        }
+
+        .caption-textarea:focus {
+            border-color: var(--text-secondary);
+        }
+
+        /* ACTIONS */
+        .actions-stack {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .btn-row {
+            display: flex;
+            gap: 8px;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            padding: 9px 12px;
+            border-radius: 6px;
+            font-weight: 500;
+            font-size: 0.82rem;
+            cursor: pointer;
+            border: 1px solid var(--border);
+            background: var(--bg-elevated);
+            color: var(--text-primary);
+            transition: all 0.15s;
+            flex: 1;
+        }
+
+        .btn:hover {
+            background: var(--bg-subtle);
+            border-color: var(--text-muted);
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: var(--accent-contrast);
+            border-color: var(--accent);
+            font-weight: 600;
+        }
+
+        .btn-primary:hover {
+            background: #e4e4e7;
+            border-color: #e4e4e7;
+        }
+
+        .btn-danger {
+            color: #f87171;
+            border-color: rgba(239, 68, 68, 0.25);
+        }
+        .btn-danger:hover {
+            background: rgba(239, 68, 68, 0.1);
+            border-color: #ef4444;
+        }
+
+        .btn-flag {
+            color: var(--text-secondary);
+        }
+        .btn-flag.active {
+            color: #fbbf24;
+            border-color: rgba(245, 158, 11, 0.4);
+            background: rgba(245, 158, 11, 0.08);
+        }
+
+        .btn-recrop.active {
+            background: var(--text-primary);
+            color: var(--bg-base);
+            border-color: var(--text-primary);
+        }
+
+        /* NAVIGATION & FOOTER */
+        .nav-footer {
+            margin-top: auto;
+            padding-top: 12px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .jump-control {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .jump-input {
+            width: 50px;
+            background: var(--bg-elevated);
+            border: 1px solid var(--border);
+            color: var(--text-primary);
+            padding: 3px 5px;
+            border-radius: 4px;
+            text-align: center;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.78rem;
+            user-select: text;
+        }
+
+        .hotkey-hints {
+            font-size: 0.7rem;
+            color: var(--text-faint);
+            text-align: center;
+            line-height: 1.6;
+            padding-top: 8px;
+        }
+
+        kbd {
+            background: var(--bg-elevated);
+            border: 1px solid var(--border);
+            padding: 1px 4px;
+            border-radius: 3px;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--text-muted);
+            font-size: 0.68rem;
+        }
+
+        /* VIEW 2: MISSED PAGES QUEUE */
+        #missedView {
+            display: none;
+            width: 100%;
+            height: 100%;
+        }
+
+        .missed-list-pane {
+            width: 240px;
+            background: var(--bg-surface);
+            border-right: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+            flex-shrink: 0;
+        }
+
+        .missed-item {
+            padding: 10px 14px;
+            border-bottom: 1px solid var(--border-subtle);
+            cursor: pointer;
+            transition: background 0.15s;
+            font-size: 0.8rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .missed-item:hover { background: var(--bg-elevated); }
+        .missed-item.active {
+            background: var(--bg-subtle);
+            color: var(--text-primary);
+            font-weight: 500;
+        }
+
+        .missed-editor {
+            width: 360px;
+            background: var(--bg-surface);
+            border-left: 1px solid var(--border);
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            overflow-y: auto;
+            flex-shrink: 0;
+        }
+
+        /* VIEW 3: PAGE OVERVIEW */
+        #overviewView {
+            display: none;
+            width: 100%;
+            height: 100%;
+        }
+
+        .overview-sidebar {
+            width: 420px;
+            min-width: 320px;
+            background: var(--bg-surface);
+            border-left: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+            flex-shrink: 0;
+        }
+
+        .overview-card {
+            background: var(--bg-elevated);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+            transition: all 0.15s ease;
+            cursor: pointer;
+        }
+
+        .overview-card:hover, .overview-card.highlighted {
+            border-color: #38bdf8;
+            box-shadow: 0 0 14px rgba(56, 189, 248, 0.25);
+            background: var(--bg-subtle);
+        }
+
+        .overview-card-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+
+        .overview-card-title {
+            font-size: 0.88rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .overview-card-species {
+            font-style: italic;
+            color: #38bdf8;
+            font-size: 0.8rem;
+            margin-bottom: 6px;
+            font-weight: 500;
+        }
+
+        .overview-card-caption {
+            font-size: 0.76rem;
+            color: var(--text-secondary);
+            line-height: 1.4;
+            max-height: 80px;
+            overflow-y: auto;
+        }
+
+        .overview-card-img {
+            width: 100%;
+            max-height: 140px;
+            object-fit: contain;
+            background: #000;
+            border-radius: 4px;
+            margin-bottom: 8px;
+            border: 1px solid var(--border-subtle);
+        }
+
+        /* FLOATING TOOLTIP ON CANVASES */
+        .canvas-hover-tooltip {
+            position: fixed;
+            z-index: 9999;
+            background: rgba(18, 18, 21, 0.95);
+            border: 1px solid #38bdf8;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.75), 0 0 15px rgba(56, 189, 248, 0.25);
+            backdrop-filter: blur(8px);
+            padding: 10px 14px;
+            border-radius: 8px;
+            max-width: 320px;
+            pointer-events: none;
+            display: none;
+        }
+
+        .canvas-hover-tooltip .tip-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            margin-bottom: 4px;
+        }
+
+        .canvas-hover-tooltip .tip-title {
+            font-weight: 600;
+            font-size: 0.82rem;
+            color: #ffffff;
+        }
+
+        .canvas-hover-tooltip .tip-species {
+            font-style: italic;
+            color: #38bdf8;
+            font-size: 0.78rem;
+            font-weight: 500;
+            margin-bottom: 4px;
+        }
+
+        .canvas-hover-tooltip .tip-caption {
+            font-size: 0.72rem;
+            color: var(--text-secondary);
+            line-height: 1.35;
+        }
+
+        .existing-crop-card {
+            background: var(--bg-elevated);
+            padding: 8px;
+            border-radius: 6px;
+            border: 1px solid var(--border);
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+        .existing-crop-card:hover, .existing-crop-card.highlighted {
+            border-color: #38bdf8;
+            background: var(--bg-subtle);
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="header-left">
+            <span class="app-title">Coral Figures QA</span>
+            <div class="nav-tabs">
+                <button class="nav-tab active" id="tabReview" onclick="switchMode('review')">Review</button>
+                <button class="nav-tab" id="tabOverview" onclick="switchMode('overview')">Page Overview</button>
+                <button class="nav-tab" id="tabMissed" onclick="switchMode('missed')">Missed Pages (<span id="missedBadge">0</span>)</button>
+            </div>
+        </div>
+
+        <div class="header-stats">
+            <div><strong id="statCurrentIdx">0</strong> / <span id="statTotal">0</span></div>
+            <div><span class="stat-dot ok"></span><span id="statOk">0</span> ok</div>
+            <div><span class="stat-dot recropped"></span><span id="statRecropped">0</span> recropped</div>
+            <div><span class="stat-dot deleted"></span><span id="statDeleted">0</span> deleted</div>
+            <div><span class="stat-dot flagged"></span><span id="statFlagged">0</span> flagged</div>
+        </div>
+    </header>
+
+    <!-- MAIN BODY -->
+    <main>
+        <!-- REVIEW VIEW -->
+        <div id="reviewView">
+            <!-- LEFT: SOURCE PDF -->
+            <div class="source-pane" id="sourcePane">
+                <div class="pane-header">
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <span id="canvasPageLabel" style="font-weight: 500; font-family: 'JetBrains Mono', monospace; font-size: 0.8rem;">Page --</span>
+                        <div class="nav-tabs" style="height: 26px;">
+                            <button class="nav-tab active" id="btnViewPdf" onclick="setViewMode('pdf')">PDF Viewer</button>
+                            <button class="nav-tab" id="btnViewCrop" onclick="setViewMode('crop')">Crop Tool (R)</button>
+                        </div>
+                    </div>
+                    <div class="zoom-controls" id="canvasZoomControls" style="display: none;">
+                        <button class="icon-btn" onclick="adjustZoom(-0.15)" title="Zoom Out">-</button>
+                        <input type="range" class="zoom-slider" id="zoomRange" min="20" max="250" value="100" oninput="onZoomSlider(this.value)">
+                        <button class="icon-btn" onclick="adjustZoom(0.15)" title="Zoom In">+</button>
+                        <span class="zoom-label" id="zoomLabel">100%</span>
+                        <button class="icon-btn" id="btnFit" onclick="fitToViewport()" title="Fit to Viewport">Fit</button>
+                    </div>
+                </div>
+
+                <div class="recrop-toast" id="recropToast">Drag a box over the figure to recrop. Press ESC to cancel.</div>
+
+                <div class="pdf-frame-wrapper" id="pdfFrameWrapper">
+                    <iframe id="pdfViewerFrame" src="about:blank"></iframe>
+                </div>
+
+                <div class="canvas-viewport" id="canvasViewport" style="display: none;">
+                    <canvas id="pdfCanvas"></canvas>
+                </div>
+            </div>
+
+            <!-- RESIZABLE DIVIDER -->
+            <div class="resizer" id="dragResizer"></div>
+
+            <!-- RIGHT: INSPECTOR -->
+            <div class="inspector-pane" id="inspectorPane">
+                <div class="crop-preview">
+                    <img id="cropImage" src="" alt="Cropped figure">
+                    <span class="badge-minimal" id="statusBadge">PENDING</span>
+                </div>
+
+                <div class="inspector-content">
+                    <div class="meta-row">
+                        <div class="fig-title">
+                            <span>Fig.</span>
+                            <input type="text" id="figNumInput" class="fig-input">
+                        </div>
+                        <span class="page-indicator" id="pageTag">Page --</span>
+                    </div>
+
+                    <div class="field-group" id="speciesRow" style="display: none;">
+                        <label class="field-label" for="speciesInput">Scientific Species</label>
+                        <input type="text" id="speciesInput" class="fig-input" style="width: 100%; font-style: italic; color: #38bdf8;" placeholder="Genus species...">
+                    </div>
+
+                    <div class="field-group">
+                        <label class="field-label" for="captionInput">Caption</label>
+                        <textarea id="captionInput" class="caption-textarea" placeholder="Caption text..."></textarea>
+                    </div>
+
+                    <div class="actions-stack">
+                        <button class="btn btn-primary" onclick="markOk()">
+                            Accept (Enter / D)
+                        </button>
+                        <div class="btn-row">
+                            <button class="btn btn-recrop" id="btnRecrop" onclick="toggleRecropMode()">
+                                Recrop (R)
+                            </button>
+                            <button class="btn btn-danger" onclick="markDelete()">
+                                Delete (X)
+                            </button>
+                        </div>
+                        <button class="btn btn-flag" id="btnFlagPage" onclick="toggleFlagPage()">
+                            Flag Page for Missed Items (M)
+                        </button>
+                    </div>
+
+                    <div class="nav-footer">
+                        <button class="icon-btn" style="width: auto; padding: 0 10px;" onclick="prevFigure()">← Prev</button>
+                        <div class="jump-control">
+                            Jump: <input type="number" id="jumpInput" class="jump-input" min="1" onchange="jumpToFigure(this.value)">
+                        </div>
+                        <button class="icon-btn" style="width: auto; padding: 0 10px;" onclick="nextFigure()">Next →</button>
+                    </div>
+
+                    <div class="hotkey-hints">
+                        <kbd>D</kbd> Accept · <kbd>R</kbd> Recrop · <kbd>X</kbd> Delete · <kbd>M</kbd> Flag · <kbd>←</kbd>/<kbd>→</kbd> Navigate
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PAGE OVERVIEW VIEW -->
+        <div id="overviewView">
+            <div class="source-pane">
+                <div class="pane-header">
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                        <button class="icon-btn" style="width: auto; padding: 0 8px;" onclick="prevOverviewPage()" title="Previous Page (A / Left)">← Prev</button>
+                        <div style="display: flex; align-items: center; gap: 4px; font-size: 0.8rem; font-family: 'JetBrains Mono', monospace;">
+                            Page <input type="number" id="overviewPageInput" class="jump-input" min="1" max="296" style="width: 50px;" onchange="jumpOverviewPage(this.value)"> / 296
+                        </div>
+                        <button class="icon-btn" style="width: auto; padding: 0 8px;" onclick="nextOverviewPage()" title="Next Page (D / Right)">Next →</button>
+
+                        <select id="overviewPageSelect" class="fig-input" style="width: auto; font-size: 0.78rem; padding: 2px 6px;" onchange="jumpOverviewPage(this.value)" title="Jump to page with figures">
+                            <option value="">-- Jump to Page --</option>
+                        </select>
+                    </div>
+
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                        <button class="btn btn-flag" id="btnOverviewFlagPage" onclick="toggleOverviewFlagPage()" style="padding: 3px 10px; font-size: 0.76rem; height: 26px; border-radius: 4px;" title="Flag/Unflag this page for missed figures (M)">
+                            Flag Page for Missed (M)
+                        </button>
+                        <span id="overviewFigCountBadge" class="badge-minimal ok" style="position: static;">0 figures</span>
+                        <div class="zoom-controls" id="overviewZoomControls">
+                            <button class="icon-btn" onclick="adjustOverviewZoom(-0.15)" title="Zoom Out">-</button>
+                            <button class="icon-btn" onclick="adjustOverviewZoom(0.15)" title="Zoom In">+</button>
+                            <button class="icon-btn" id="btnOverviewFit" onclick="fitOverviewToViewport()" title="Fit to Viewport">Fit</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="canvas-viewport" id="overviewCanvasViewport" style="position: relative;">
+                    <canvas id="overviewCanvas" style="margin: auto; display: block; box-shadow: 0 4px 24px rgba(0,0,0,0.8); border: 1px solid var(--border-subtle); background: #fff;"></canvas>
+                    <div id="overviewTooltip" class="canvas-hover-tooltip">
+                        <div class="tip-header">
+                            <span class="tip-title" id="overviewTipTitle">Fig. --</span>
+                            <span class="badge-minimal ok" id="overviewTipBadge">OK</span>
+                        </div>
+                        <div class="tip-species" id="overviewTipSpecies"></div>
+                        <div class="tip-caption" id="overviewTipCaption"></div>
+                        <div style="margin-top: 6px; font-size: 0.68rem; color: #38bdf8;">Click box to inspect in Review tab</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT: FIGURES ON THIS PAGE -->
+            <div class="overview-sidebar" id="overviewSidebar">
+                <div class="pane-header" style="justify-content: space-between;">
+                    <span style="font-weight: 500;">Page Figures (<span id="overviewSidebarCount">0</span>)</span>
+                    <span style="font-size: 0.72rem; color: var(--text-muted);">Hover to locate</span>
+                </div>
+                <div id="overviewCardsList" style="padding: 12px; overflow-y: auto; flex: 1;"></div>
+            </div>
+        </div>
+
+        <!-- MISSED PAGES VIEW -->
+        <div id="missedView">
+            <div class="missed-list-pane">
+                <div class="pane-header" style="justify-content: space-between;">
+                    <span>Flagged Pages</span>
+                    <button class="icon-btn" style="width: auto; padding: 0 8px; font-size: 0.72rem;" onclick="promptAddPage()">+ Add</button>
+                </div>
+                <div id="missedPagesList"></div>
+            </div>
+
+            <div class="source-pane">
+                <div class="pane-header">
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <span id="missedCanvasLabel" style="font-weight: 500; font-family: 'JetBrains Mono', monospace; font-size: 0.8rem;">Select a page</span>
+                        <div class="nav-tabs" style="height: 26px;">
+                            <button class="nav-tab active" id="btnMissedViewCrop" onclick="setMissedViewMode('crop')">Crop Tool</button>
+                            <button class="nav-tab" id="btnMissedViewPdf" onclick="setMissedViewMode('pdf')">PDF Viewer</button>
+                        </div>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                        <button class="btn" id="btnMarkMissedPageOk" onclick="markCurrentMissedPageOk()" style="padding: 3px 10px; font-size: 0.76rem; height: 26px; border-radius: 4px; background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.35); font-weight: 500;" title="Mark this page as complete and remove from missed list">
+                            ✓ Mark Page OK
+                        </button>
+                        <div class="zoom-controls" id="missedZoomControls">
+                            <button class="icon-btn" onclick="adjustMissedZoom(-0.15)">-</button>
+                            <button class="icon-btn" onclick="adjustMissedZoom(0.15)">+</button>
+                            <button class="icon-btn" onclick="fitMissedToViewport()">Fit</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pdf-frame-wrapper" id="missedPdfWrapper" style="display: none;">
+                    <iframe id="missedPdfFrame" src="about:blank"></iframe>
+                </div>
+                <div class="canvas-viewport" id="missedViewport" style="position: relative;">
+                    <canvas id="missedCanvas" style="cursor: crosshair; margin: auto; display: block;"></canvas>
+                    <div id="missedTooltip" class="canvas-hover-tooltip">
+                        <div class="tip-header">
+                            <span class="tip-title" id="missedTipTitle">Existing Fig. --</span>
+                        </div>
+                        <div class="tip-species" id="missedTipSpecies"></div>
+                        <div class="tip-caption" id="missedTipCaption"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="missed-editor">
+                <span class="app-title" style="font-size: 0.85rem;">Add Crop</span>
+                <p style="font-size: 0.75rem; color: var(--text-muted);">Drag a rectangle on the page to set the coordinates.</p>
+
+                <div class="field-group">
+                    <label class="field-label">Fig Number</label>
+                    <input type="text" id="newFigNum" class="fig-input" style="width: 100%;" placeholder="e.g. 294">
+                </div>
+
+                <div class="field-group">
+                    <label class="field-label">Caption</label>
+                    <textarea id="newFigCaption" class="caption-textarea" placeholder="Full caption..."></textarea>
+                </div>
+
+                <div style="font-size: 0.75rem; color: var(--text-muted); font-family: 'JetBrains Mono', monospace;" id="newBoxCoords">
+                    Box: Draw on canvas...
+                </div>
+
+                <button class="btn btn-primary" onclick="saveNewCrop()">
+                    Save New Crop
+                </button>
+                <button class="btn" onclick="markCurrentMissedPageOk()" style="background: rgba(16, 185, 129, 0.12); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); font-weight: 500;" title="Done with this page, remove from missed list">
+                    ✓ Mark Page OK (Done)
+                </button>
+
+                <hr style="border: none; border-top: 1px solid var(--border-subtle); margin: 6px 0;">
+                <label class="field-label">Existing on this page:</label>
+                <div id="existingPageFigures" style="display: flex; flex-direction: column; gap: 6px; font-size: 0.75rem;"></div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // STATE
+        let figures = [];
+        let currentIndex = 0;
+        let flaggedPages = new Set();
+        let currentMode = 'review';
+        let currentViewMode = 'pdf'; // 'pdf' or 'crop'
+        let missedViewMode = 'crop'; // 'crop' or 'pdf'
+        let isRecropping = false;
+        let currentLoadedPdfPage = null;
+        let currentLoadedMissedPdfPage = null;
+
+        // ZOOM & SIZING (FOR CANVAS CROPPER)
+        let zoomScale = 1.0;
+        let isFitMode = true;
+        let nativePageWidth = 0;
+        let nativePageHeight = 0;
+
+        // CANVAS
+        const canvas = document.getElementById('pdfCanvas');
+        const ctx = canvas.getContext('2d');
+        const viewport = document.getElementById('canvasViewport');
+        let currentPdfImage = new Image();
+        let isMouseDown = false;
+        let dragStart = null;
+        let dragEnd = null;
+
+        // MISSED CANVAS
+        const missedCanvas = document.getElementById('missedCanvas');
+        const missedCtx = missedCanvas.getContext('2d');
+        const missedViewport = document.getElementById('missedViewport');
+        let missedImage = new Image();
+        let selectedMissedPage = null;
+        let newCropBox = null;
+        let missedZoom = 1.0;
+        let missedHoveredFigId = null;
+
+        // PAGE OVERVIEW CANVAS & STATE
+        const overviewCanvas = document.getElementById('overviewCanvas');
+        const overviewCtx = overviewCanvas ? overviewCanvas.getContext('2d') : null;
+        const overviewViewport = document.getElementById('overviewCanvasViewport');
+        let currentOverviewPage = 21;
+        let overviewZoom = 1.0;
+        let overviewImage = new Image();
+        let overviewHoveredFigId = null;
+
+        // INIT
+        async function init() {
+            await loadFigures();
+            await loadFlaggedPages();
+            setupCanvasEvents();
+            setupKeyboardShortcuts();
+            setupPaneResizer();
+            setupOverviewEvents();
+            populateOverviewPageSelect();
+            window.addEventListener('resize', () => {
+                if (isFitMode && currentViewMode === 'crop') fitToViewport();
+                if (currentMode === 'overview') fitOverviewToViewport();
+            });
+            if (figures.length > 0) {
+                showFigure(0);
+            }
+        }
+
+        async function loadFigures() {
+            try {
+                const res = await fetch('/api/figures');
+                figures = await res.json();
+                updateStats();
+            } catch (err) {
+                console.error("Failed to load figures", err);
+            }
+        }
+
+        async function loadFlaggedPages() {
+            try {
+                const res = await fetch('/api/flagged_pages');
+                const list = await res.json();
+                flaggedPages = new Set(list);
+                document.getElementById('missedBadge').innerText = flaggedPages.size;
+                updateStats();
+            } catch (err) {
+                console.error("Failed to load flagged pages", err);
+            }
+        }
+
+        function updateStats() {
+            document.getElementById('statTotal').innerText = figures.length;
+            document.getElementById('statCurrentIdx').innerText = figures.length > 0 ? currentIndex + 1 : 0;
+            
+            let ok = 0, recropped = 0, deleted = 0;
+            figures.forEach(f => {
+                const st = f.review_status;
+                if (st === 'ok') ok++;
+                else if (st === 'recropped') recropped++;
+                else if (st === 'deleted') deleted++;
+            });
+
+            document.getElementById('statOk').innerText = ok;
+            document.getElementById('statRecropped').innerText = recropped;
+            document.getElementById('statDeleted').innerText = deleted;
+            document.getElementById('statFlagged').innerText = flaggedPages.size;
+            document.getElementById('missedBadge').innerText = flaggedPages.size;
+        }
+
+        // FIGURE INSPECTION
+        function showFigure(index) {
+            if (index < 0 || index >= figures.length) return;
+            currentIndex = index;
+            const fig = figures[currentIndex];
+
+            document.getElementById('figNumInput').value = fig.fig_num || '';
+            document.getElementById('captionInput').value = fig.caption || '';
+            document.getElementById('pageTag').innerText = `P. ${fig.page}`;
+            document.getElementById('jumpInput').value = currentIndex + 1;
+
+            const species = fig.species_name || '';
+            const spRow = document.getElementById('speciesRow');
+            const spInput = document.getElementById('speciesInput');
+            if (species) {
+                spRow.style.display = 'flex';
+                spInput.value = species;
+            } else {
+                spRow.style.display = 'none';
+                spInput.value = '';
+            }
+
+            const filename = fig.image_path.split(/[\\/]/).pop();
+            document.getElementById('cropImage').src = `/api/image/${filename}?t=${Date.now()}`;
+
+            const status = fig.review_status || 'pending';
+            const badge = document.getElementById('statusBadge');
+            badge.className = `badge-minimal ${status}`;
+            badge.innerText = status.toUpperCase();
+
+            const flagBtn = document.getElementById('btnFlagPage');
+            flagBtn.classList.toggle('active', flaggedPages.has(fig.page));
+
+            // Default to PDF view unless actively recropping
+            if (isRecropping) {
+                exitRecropMode();
+            }
+
+            document.getElementById('canvasPageLabel').innerText = `Page ${fig.page}`;
+            updateSourcePdfViewer(fig.page);
+            updateStats();
+        }
+
+        let currentLoadedActiveId = null;
+
+        function updateSourcePdfViewer(pageNum) {
+            const iframe = document.getElementById('pdfViewerFrame');
+            if (currentLoadedPdfPage !== pageNum || currentLoadedActiveId !== currentIndex) {
+                iframe.src = `/api/page_pdf/${pageNum}?active_id=${currentIndex}#toolbar=1&navpanes=0&view=Fit`;
+                currentLoadedPdfPage = pageNum;
+                currentLoadedActiveId = currentIndex;
+                // Pre-cache page bitmap for seamless crop tool transition
+                loadAndRenderPdfPage(pageNum, false);
+            }
+        }
+
+        function loadAndRenderPdfPage(pageNum, drawImmediate = true) {
+            currentPdfImage = new Image();
+            currentPdfImage.src = `/api/page/${pageNum}?dpi=150`;
+            currentPdfImage.onload = () => {
+                nativePageWidth = currentPdfImage.width;
+                nativePageHeight = currentPdfImage.height;
+                canvas.width = nativePageWidth;
+                canvas.height = nativePageHeight;
+
+                if (currentViewMode === 'crop' || drawImmediate) {
+                    if (isFitMode) {
+                        fitToViewport();
+                    } else {
+                        applyZoom();
+                    }
+                    drawPageCanvas();
+                }
+            };
+        }
+
+        // FIT TO FRAME & ZOOM LOGIC
+        function fitToViewport() {
+            if (!nativePageWidth || !nativePageHeight) return;
+            isFitMode = true;
+            document.getElementById('btnFit').classList.add('active');
+
+            const availW = viewport.clientWidth - 32;
+            const availH = viewport.clientHeight - 32;
+
+            const scaleW = availW / nativePageWidth;
+            const scaleH = availH / nativePageHeight;
+            zoomScale = Math.min(scaleW, scaleH);
+
+            applyZoom();
+        }
+
+        function adjustZoom(delta) {
+            isFitMode = false;
+            document.getElementById('btnFit').classList.remove('active');
+            zoomScale = Math.max(0.2, Math.min(2.5, zoomScale + delta));
+            applyZoom();
+        }
+
+        function onZoomSlider(val) {
+            isFitMode = false;
+            document.getElementById('btnFit').classList.remove('active');
+            zoomScale = val / 100.0;
+            applyZoom();
+        }
+
+        function applyZoom() {
+            const displayW = Math.round(nativePageWidth * zoomScale);
+            const displayH = Math.round(nativePageHeight * zoomScale);
+            canvas.style.width = `${displayW}px`;
+            canvas.style.height = `${displayH}px`;
+
+            const pct = Math.round(zoomScale * 100);
+            document.getElementById('zoomLabel').innerText = `${pct}%`;
+            document.getElementById('zoomRange').value = pct;
+
+            drawPageCanvas();
+        }
+
+        // MOUSEWHEEL ZOOM
+        viewport.addEventListener('wheel', (e) => {
+            if (e.ctrlKey || e.metaKey) {
+                e.preventDefault();
+                const delta = e.deltaY < 0 ? 0.1 : -0.1;
+                adjustZoom(delta);
+            }
+        }, { passive: false });
+
+        // CANVAS DRAWING
+        function drawPageCanvas() {
+            if (!currentPdfImage.complete) return;
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.drawImage(currentPdfImage, 0, 0);
+
+            const currentFig = figures[currentIndex];
+            if (!currentFig) return;
+
+            const s = 150.0 / 300.0; // 300 DPI to 150 DPI
+
+            // Other figures on page: Bright Royal Blue (#2563eb)
+            const otherFigs = figures.filter((f, idx) => f.page === currentFig.page && idx !== currentIndex && f.review_status !== 'deleted');
+            otherFigs.forEach(ofig => {
+                const b = ofig.box;
+                const ox = b[0] * s;
+                const oy = b[1] * s;
+                const ow = b[2] * s;
+                const oh = b[3] * s;
+
+                ctx.strokeStyle = '#2563eb';
+                ctx.lineWidth = 2.5;
+                ctx.strokeRect(ox, oy, ow, oh);
+                ctx.fillStyle = 'rgba(37, 99, 235, 0.14)';
+                ctx.fillRect(ox, oy, ow, oh);
+
+                // Small badge
+                const label = `Fig. ${ofig.fig_num}`;
+                ctx.font = '600 11px Inter, sans-serif';
+                const tw = ctx.measureText(label).width;
+                const badgeH = 16;
+                const byPos = Math.max(0, oy - badgeH);
+                ctx.fillStyle = '#2563eb';
+                ctx.fillRect(ox, byPos, tw + 10, badgeH);
+                ctx.fillStyle = '#ffffff';
+                ctx.fillText(label, ox + 5, byPos + 12);
+            });
+
+            // Active Figure: Bold Crimson Red (#ef4444)
+            if (currentFig.box && currentFig.review_status !== 'deleted') {
+                const b = currentFig.box;
+                const bx = b[0] * s;
+                const by = b[1] * s;
+                const bw = b[2] * s;
+                const bh = b[3] * s;
+
+                ctx.strokeStyle = '#ef4444';
+                ctx.lineWidth = 3.5;
+                ctx.strokeRect(bx, by, bw, bh);
+
+                ctx.fillStyle = 'rgba(239, 68, 68, 0.22)';
+                ctx.fillRect(bx, by, bw, bh);
+
+                // Active badge
+                const label = `Fig. ${currentFig.fig_num} [Active]`;
+                ctx.font = '700 11px Inter, sans-serif';
+                const tw = ctx.measureText(label).width;
+                const badgeH = 18;
+                const byPos = Math.max(0, by - badgeH);
+                ctx.fillStyle = '#ef4444';
+                ctx.fillRect(bx, byPos, tw + 12, badgeH);
+                ctx.fillStyle = '#ffffff';
+                ctx.fillText(label, bx + 6, byPos + 13);
+            }
+
+            // Dragged Rubberband for recrop
+            if (isMouseDown && dragStart && dragEnd) {
+                const rx = Math.min(dragStart.x, dragEnd.x);
+                const ry = Math.min(dragStart.y, dragEnd.y);
+                const rw = Math.abs(dragEnd.x - dragStart.x);
+                const rh = Math.abs(dragEnd.y - dragStart.y);
+
+                ctx.strokeStyle = '#38bdf8';
+                ctx.lineWidth = 2;
+                ctx.setLineDash([4, 2]);
+                ctx.strokeRect(rx, ry, rw, rh);
+                ctx.fillStyle = 'rgba(56, 189, 248, 0.15)';
+                ctx.fillRect(rx, ry, rw, rh);
+                ctx.setLineDash([]);
+            }
+        }
+
+        // CANVAS RECROP DRAG
+        function setupCanvasEvents() {
+            canvas.addEventListener('mousedown', (e) => {
+                if (!isRecropping) return;
+                isMouseDown = true;
+                const rect = canvas.getBoundingClientRect();
+                const scaleX = canvas.width / rect.width;
+                const scaleY = canvas.height / rect.height;
+                dragStart = {
+                    x: (e.clientX - rect.left) * scaleX,
+                    y: (e.clientY - rect.top) * scaleY
+                };
+                dragEnd = { ...dragStart };
+            });
+
+            canvas.addEventListener('mousemove', (e) => {
+                if (!isRecropping || !isMouseDown) return;
+                const rect = canvas.getBoundingClientRect();
+                const scaleX = canvas.width / rect.width;
+                const scaleY = canvas.height / rect.height;
+                dragEnd = {
+                    x: (e.clientX - rect.left) * scaleX,
+                    y: (e.clientY - rect.top) * scaleY
+                };
+                drawPageCanvas();
+            });
+
+            canvas.addEventListener('mouseup', async (e) => {
+                if (!isRecropping || !isMouseDown) return;
+                isMouseDown = false;
+                if (!dragStart || !dragEnd) return;
+
+                const rx = Math.min(dragStart.x, dragEnd.x);
+                const ry = Math.min(dragStart.y, dragEnd.y);
+                const rw = Math.abs(dragEnd.x - dragStart.x);
+                const rh = Math.abs(dragEnd.y - dragStart.y);
+
+                if (rw < 10 || rh < 10) {
+                    drawPageCanvas();
+                    return;
+                }
+
+                const xmin = (rx / canvas.width) * 1000.0;
+                const ymin = (ry / canvas.height) * 1000.0;
+                const xmax = ((rx + rw) / canvas.width) * 1000.0;
+                const ymax = ((ry + rh) / canvas.height) * 1000.0;
+
+                await submitRecrop(ymin, xmin, ymax, xmax);
+            });
+        }
+
+        function setViewMode(mode) {
+            currentViewMode = mode;
+            const isCrop = mode === 'crop';
+            document.getElementById('btnViewPdf').classList.toggle('active', !isCrop);
+            document.getElementById('btnViewCrop').classList.toggle('active', isCrop);
+            document.getElementById('pdfFrameWrapper').style.display = isCrop ? 'none' : 'flex';
+            document.getElementById('canvasViewport').style.display = isCrop ? 'flex' : 'none';
+            document.getElementById('canvasZoomControls').style.display = isCrop ? 'flex' : 'none';
+
+            if (isCrop) {
+                enterRecropMode();
+            } else {
+                exitRecropMode();
+            }
+        }
+
+        function toggleRecropMode() {
+            if (currentViewMode === 'crop') {
+                setViewMode('pdf');
+            } else {
+                setViewMode('crop');
+            }
+        }
+
+        function enterRecropMode() {
+            isRecropping = true;
+            currentViewMode = 'crop';
+            document.getElementById('btnViewPdf').classList.remove('active');
+            document.getElementById('btnViewCrop').classList.add('active');
+            document.getElementById('pdfFrameWrapper').style.display = 'none';
+            document.getElementById('canvasViewport').style.display = 'flex';
+            document.getElementById('canvasZoomControls').style.display = 'flex';
+            canvas.classList.add('crosshair');
+            document.getElementById('recropToast').style.display = 'block';
+            document.getElementById('btnRecrop').classList.add('active');
+            document.getElementById('btnRecrop').innerText = 'Cancel Recrop (ESC)';
+
+            const fig = figures[currentIndex];
+            if (fig) {
+                if (currentPdfImage.complete && currentPdfImage.naturalWidth > 0) {
+                    fitToViewport();
+                    drawPageCanvas();
+                } else {
+                    loadAndRenderPdfPage(fig.page, true);
+                }
+            }
+        }
+
+        function exitRecropMode() {
+            isRecropping = false;
+            currentViewMode = 'pdf';
+            document.getElementById('btnViewPdf').classList.add('active');
+            document.getElementById('btnViewCrop').classList.remove('active');
+            document.getElementById('pdfFrameWrapper').style.display = 'flex';
+            document.getElementById('canvasViewport').style.display = 'none';
+            document.getElementById('canvasZoomControls').style.display = 'none';
+            canvas.classList.remove('crosshair');
+            document.getElementById('recropToast').style.display = 'none';
+            document.getElementById('btnRecrop').classList.remove('active');
+            document.getElementById('btnRecrop').innerText = 'Recrop (R)';
+            dragStart = null;
+            dragEnd = null;
+        }
+
+        async function submitRecrop(ymin, xmin, ymax, xmax) {
+            const fig = figures[currentIndex];
+            const caption = document.getElementById('captionInput').value;
+            const fig_num = document.getElementById('figNumInput').value;
+
+            try {
+                const res = await fetch(`/api/figure/${currentIndex}/recrop`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ ymin, xmin, ymax, xmax, caption, fig_num })
+                });
+                const data = await res.json();
+                if (data.status === 'success') {
+                    figures[currentIndex] = data.figure;
+                    exitRecropMode();
+                    showFigure(currentIndex);
+                }
+            } catch (err) {
+                alert("Failed to recrop: " + err);
+            }
+        }
+
+        // ACTIONS
+        async function markOk() {
+            const fig = figures[currentIndex];
+            const caption = document.getElementById('captionInput').value;
+            const fig_num = document.getElementById('figNumInput').value;
+            const species_name = document.getElementById('speciesInput').value.trim() || null;
+
+            await fetch(`/api/figure/${currentIndex}/update`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ status: 'ok', caption, fig_num, species_name })
+            });
+
+            fig.review_status = 'ok';
+            fig.caption = caption;
+            fig.fig_num = fig_num;
+            fig.species_name = species_name;
+            updateStats();
+            nextFigure();
+        }
+
+        async function markDelete() {
+            const fig = figures[currentIndex];
+            await fetch(`/api/figure/${currentIndex}/update`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ status: 'deleted' })
+            });
+
+            fig.review_status = 'deleted';
+            updateStats();
+            nextFigure();
+        }
+
+        async function toggleFlagPage() {
+            const fig = figures[currentIndex];
+            const res = await fetch(`/api/flag_page/${fig.page}`, { method: 'POST' });
+            const data = await res.json();
+            if (data.flagged) flaggedPages.add(fig.page);
+            else flaggedPages.delete(fig.page);
+            showFigure(currentIndex);
+        }
+
+        function prevFigure() {
+            if (currentIndex > 0) showFigure(currentIndex - 1);
+        }
+
+        function nextFigure() {
+            if (currentIndex < figures.length - 1) showFigure(currentIndex + 1);
+        }
+
+        function jumpToFigure(val) {
+            const idx = parseInt(val) - 1;
+            if (idx >= 0 && idx < figures.length) showFigure(idx);
+        }
+
+        // RESIZABLE DIVIDER
+        function setupPaneResizer() {
+            const resizer = document.getElementById('dragResizer');
+            const inspector = document.getElementById('inspectorPane');
+            let isResizing = false;
+
+            resizer.addEventListener('mousedown', (e) => {
+                isResizing = true;
+                resizer.classList.add('dragging');
+                document.body.style.cursor = 'col-resize';
+            });
+
+            document.addEventListener('mousemove', (e) => {
+                if (!isResizing) return;
+                const newWidth = document.body.clientWidth - e.clientX;
+                if (newWidth >= 320 && newWidth <= (document.body.clientWidth - 320)) {
+                    inspector.style.width = `${newWidth}px`;
+                    if (isFitMode) fitToViewport();
+                }
+            });
+
+            document.addEventListener('mouseup', () => {
+                if (isResizing) {
+                    isResizing = false;
+                    resizer.classList.remove('dragging');
+                    document.body.style.cursor = 'default';
+                }
+            });
+        }
+
+        // SHORTCUTS
+        function setupKeyboardShortcuts() {
+            document.addEventListener('keydown', (e) => {
+                if (['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+                    if (e.key === 'Enter' && e.ctrlKey) markOk();
+                    else if (e.key === 'Escape') {
+                        document.activeElement.blur();
+                        exitRecropMode();
+                    }
+                    return;
+                }
+
+                if (currentMode === 'overview') {
+                    if (e.key === 'ArrowLeft' || e.key === 'a' || e.key === 'A') {
+                        e.preventDefault();
+                        prevOverviewPage();
+                    } else if (e.key === 'ArrowRight' || e.key === 'd' || e.key === 'D') {
+                        e.preventDefault();
+                        nextOverviewPage();
+                    } else if (e.key === 'm' || e.key === 'M') {
+                        e.preventDefault();
+                        toggleOverviewFlagPage();
+                    }
+                    return;
+                }
+
+                if (e.key === 'd' || e.key === 'D' || e.key === 'Enter') {
+                    e.preventDefault();
+                    markOk();
+                } else if (e.key === 'r' || e.key === 'R') {
+                    e.preventDefault();
+                    toggleRecropMode();
+                } else if (e.key === 'x' || e.key === 'X' || e.key === 'Delete') {
+                    e.preventDefault();
+                    markDelete();
+                } else if (e.key === 'm' || e.key === 'M') {
+                    e.preventDefault();
+                    toggleFlagPage();
+                } else if (e.key === 'ArrowLeft' || e.key === 'a' || e.key === 'A') {
+                    e.preventDefault();
+                    prevFigure();
+                } else if (e.key === 'ArrowRight' || e.key === 's' || e.key === 'S') {
+                    e.preventDefault();
+                    nextFigure();
+                } else if (e.key === 'Escape') {
+                    exitRecropMode();
+                }
+            });
+        }
+
+        // MODE SWITCHING (Review / Overview / Missed)
+        function switchMode(mode) {
+            currentMode = mode;
+            document.getElementById('tabReview').classList.toggle('active', mode === 'review');
+            document.getElementById('tabOverview').classList.toggle('active', mode === 'overview');
+            document.getElementById('tabMissed').classList.toggle('active', mode === 'missed');
+            
+            document.getElementById('reviewView').style.display = (mode === 'review' ? 'flex' : 'none');
+            document.getElementById('overviewView').style.display = (mode === 'overview' ? 'flex' : 'none');
+            document.getElementById('missedView').style.display = (mode === 'missed' ? 'flex' : 'none');
+
+            if (mode === 'overview') {
+                populateOverviewPageSelect();
+                if (figures[currentIndex] && !currentOverviewPage) {
+                    currentOverviewPage = figures[currentIndex].page;
+                }
+                showOverviewPage(currentOverviewPage || 21);
+            } else if (mode === 'missed') {
+                renderMissedSidebar();
+            } else {
+                showFigure(currentIndex);
+            }
+        }
+
+        function renderMissedSidebar() {
+            const listEl = document.getElementById('missedPagesList');
+            listEl.innerHTML = '';
+            const sorted = Array.from(flaggedPages).sort((a,b) => a - b);
+
+            if (sorted.length === 0) {
+                listEl.innerHTML = '<div style="padding: 16px; color: var(--text-muted); font-size: 0.75rem;">No flagged pages. Click "Flag Page" on any figure.</div>';
+                return;
+            }
+
+            sorted.forEach(p => {
+                const count = figures.filter(f => f.page === p && f.review_status !== 'deleted').length;
+                const item = document.createElement('div');
+                item.className = `missed-item ${selectedMissedPage === p ? 'active' : ''}`;
+                item.innerHTML = `<span>Page ${p}</span><span style="color:var(--text-muted); font-size:0.72rem;">${count} figs</span>`;
+                item.onclick = () => selectMissedPage(p);
+                listEl.appendChild(item);
+            });
+
+            if (!selectedMissedPage && sorted.length > 0) selectMissedPage(sorted[0]);
+        }
+
+        function promptAddPage() {
+            const p = prompt("Page number (14-170):");
+            if (p) {
+                const num = parseInt(p);
+                if (num >= 1 && num <= 296) {
+                    flaggedPages.add(num);
+                    fetch(`/api/flag_page/${num}`, {
+                        method: 'POST',
+                        headers: {'Content-Type': 'application/json'},
+                        body: JSON.stringify({ action: 'add' })
+                    });
+                    renderMissedSidebar();
+                    selectMissedPage(num);
+                }
+            }
+        }
+
+        function setMissedViewMode(mode) {
+            missedViewMode = mode;
+            const isCrop = mode === 'crop';
+            document.getElementById('btnMissedViewCrop').classList.toggle('active', isCrop);
+            document.getElementById('btnMissedViewPdf').classList.toggle('active', !isCrop);
+            document.getElementById('missedViewport').style.display = isCrop ? 'flex' : 'none';
+            document.getElementById('missedPdfWrapper').style.display = isCrop ? 'none' : 'flex';
+            document.getElementById('missedZoomControls').style.display = isCrop ? 'flex' : 'none';
+
+            if (!isCrop && selectedMissedPage) {
+                const iframe = document.getElementById('missedPdfFrame');
+                if (currentLoadedMissedPdfPage !== selectedMissedPage) {
+                    iframe.src = `/api/page_pdf/${selectedMissedPage}#toolbar=1&navpanes=0&view=Fit`;
+                    currentLoadedMissedPdfPage = selectedMissedPage;
+                }
+            }
+        }
+
+        function selectMissedPage(p) {
+            selectedMissedPage = p;
+            renderMissedSidebar();
+
+            document.getElementById('missedCanvasLabel').innerText = `Page ${p}`;
+            document.getElementById('newFigNum').value = '';
+            document.getElementById('newFigCaption').value = '';
+            document.getElementById('newBoxCoords').innerText = 'Draw on canvas...';
+            newCropBox = null;
+            missedHoveredFigId = null;
+
+            const existingContainer = document.getElementById('existingPageFigures');
+            existingContainer.innerHTML = '';
+            const existing = figures.filter(f => f.page === p && f.review_status !== 'deleted');
+            
+            if (existing.length === 0) {
+                existingContainer.innerHTML = '<div style="color:var(--text-muted); font-size:0.75rem; padding: 4px 0;">No existing crops on this page. Entire page uncaptured!</div>';
+            } else {
+                existing.forEach(f => {
+                    const filename = f.image_path.split(/[\\/]/).pop();
+                    const el = document.createElement('div');
+                    el.className = 'existing-crop-card';
+                    el.id = `existing-card-${f.id}`;
+                    el.innerHTML = `
+                        <img src="/api/image/${filename}" style="width: 44px; height: 44px; object-fit: cover; border-radius: 4px; border: 1px solid var(--border); flex-shrink: 0;" onerror="this.style.display='none'">
+                        <div style="flex: 1; min-width: 0;">
+                            <div style="font-weight: 600; font-size: 0.8rem; color: #38bdf8;">Fig. ${f.fig_num}</div>
+                            ${f.species_name ? `<div style="font-style: italic; color: var(--text-primary); font-size: 0.72rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${f.species_name}</div>` : ''}
+                            <div style="color: var(--text-muted); font-size: 0.68rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${f.caption || ''}</div>
+                        </div>
+                        <button class="icon-btn" style="color: #f87171; border-color: rgba(239, 68, 68, 0.25); width: 24px; height: 24px; font-size: 0.75rem; flex-shrink: 0;" title="Delete this crop" onclick="event.stopPropagation(); deleteCropFromMissed(${f.id})">
+                            ✕
+                        </button>
+                    `;
+                    el.onmouseenter = () => {
+                        missedHoveredFigId = f.id;
+                        el.classList.add('highlighted');
+                        drawMissedCanvas();
+                    };
+                    el.onmouseleave = () => {
+                        missedHoveredFigId = null;
+                        el.classList.remove('highlighted');
+                        drawMissedCanvas();
+                    };
+                    existingContainer.appendChild(el);
+                });
+            }
+
+            // Update PDF viewer iframe if in PDF mode or pre-load
+            const iframe = document.getElementById('missedPdfFrame');
+            if (currentLoadedMissedPdfPage !== p) {
+                iframe.src = `/api/page_pdf/${p}#toolbar=1&navpanes=0&view=Fit`;
+                currentLoadedMissedPdfPage = p;
+            }
+
+            missedImage = new Image();
+            missedImage.src = `/api/page/${p}?dpi=150`;
+            missedImage.onload = () => {
+                missedCanvas.width = missedImage.width;
+                missedCanvas.height = missedImage.height;
+                fitMissedToViewport();
+            };
+        }
+
+        function fitMissedToViewport() {
+            if (!missedImage.complete) return;
+            const availW = missedViewport.clientWidth - 32;
+            const availH = missedViewport.clientHeight - 32;
+            missedZoom = Math.min(availW / missedImage.width, availH / missedImage.height);
+            applyMissedZoom();
+        }
+
+        function adjustMissedZoom(delta) {
+            missedZoom = Math.max(0.2, Math.min(2.5, missedZoom + delta));
+            applyMissedZoom();
+        }
+
+        function applyMissedZoom() {
+            missedCanvas.style.width = `${Math.round(missedImage.width * missedZoom)}px`;
+            missedCanvas.style.height = `${Math.round(missedImage.height * missedZoom)}px`;
+            drawMissedCanvas();
+        }
+
+        let isMissedDown = false;
+        let mStart = null, mEnd = null;
+
+        missedCanvas.addEventListener('mousedown', (e) => {
+            isMissedDown = true;
+            const r = missedCanvas.getBoundingClientRect();
+            mStart = {
+                x: (e.clientX - r.left) * (missedCanvas.width / r.width),
+                y: (e.clientY - r.top) * (missedCanvas.height / r.height)
+            };
+            mEnd = { ...mStart };
+        });
+
+        missedCanvas.addEventListener('mousemove', (e) => {
+            const r = missedCanvas.getBoundingClientRect();
+            const cx = (e.clientX - r.left) * (missedCanvas.width / r.width);
+            const cy = (e.clientY - r.top) * (missedCanvas.height / r.height);
+
+            if (isMissedDown) {
+                mEnd = { x: cx, y: cy };
+                drawMissedCanvas();
+                const tip = document.getElementById('missedTooltip');
+                if (tip) tip.style.display = 'none';
+                return;
+            }
+
+            // Hover check over existing crops
+            const existing = figures.filter(f => f.page === selectedMissedPage && f.review_status !== 'deleted');
+            const s = 150.0 / 300.0;
+            const found = existing.find(f => {
+                const ox = f.box[0] * s;
+                const oy = f.box[1] * s;
+                const ow = f.box[2] * s;
+                const oh = f.box[3] * s;
+                return (cx >= ox && cx <= ox + ow && cy >= oy && cy <= oy + oh);
+            });
+
+            const tip = document.getElementById('missedTooltip');
+            if (found) {
+                if (missedHoveredFigId !== found.id) {
+                    missedHoveredFigId = found.id;
+                    drawMissedCanvas();
+                    document.querySelectorAll('.existing-crop-card').forEach(c => c.classList.remove('highlighted'));
+                    const card = document.getElementById(`existing-card-${found.id}`);
+                    if (card) {
+                        card.classList.add('highlighted');
+                        card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                    }
+                }
+                document.getElementById('missedTipTitle').innerText = `Existing Fig. ${found.fig_num}`;
+                const sp = document.getElementById('missedTipSpecies');
+                if (found.species_name) {
+                    sp.style.display = 'block';
+                    sp.innerText = found.species_name;
+                } else {
+                    sp.style.display = 'none';
+                }
+                document.getElementById('missedTipCaption').innerText = found.caption || '(No caption)';
+
+                let tipX = e.clientX + 14;
+                let tipY = e.clientY + 14;
+                if (tipX + 330 > window.innerWidth) tipX = e.clientX - 336;
+                if (tipY + 180 > window.innerHeight) tipY = e.clientY - 180;
+                tip.style.left = `${tipX}px`;
+                tip.style.top = `${tipY}px`;
+                tip.style.display = 'block';
+            } else {
+                if (missedHoveredFigId !== null) {
+                    missedHoveredFigId = null;
+                    drawMissedCanvas();
+                    document.querySelectorAll('.existing-crop-card').forEach(c => c.classList.remove('highlighted'));
+                }
+                if (tip) tip.style.display = 'none';
+            }
+        });
+
+        missedCanvas.addEventListener('mouseleave', () => {
+            if (!isMissedDown) {
+                missedHoveredFigId = null;
+                drawMissedCanvas();
+                document.querySelectorAll('.existing-crop-card').forEach(c => c.classList.remove('highlighted'));
+                const tip = document.getElementById('missedTooltip');
+                if (tip) tip.style.display = 'none';
+            }
+        });
+
+        missedViewport.addEventListener('wheel', (e) => {
+            if (e.ctrlKey || e.metaKey) {
+                e.preventDefault();
+                const delta = e.deltaY < 0 ? 0.1 : -0.1;
+                adjustMissedZoom(delta);
+            }
+        }, { passive: false });
+
+        missedCanvas.addEventListener('mouseup', () => {
+            if (!isMissedDown || !mStart || !mEnd) return;
+            isMissedDown = false;
+            const rx = Math.min(mStart.x, mEnd.x);
+            const ry = Math.min(mStart.y, mEnd.y);
+            const rw = Math.abs(mEnd.x - mStart.x);
+            const rh = Math.abs(mEnd.y - mStart.y);
+            if (rw < 10 || rh < 10) return;
+
+            newCropBox = {
+                xmin: (rx / missedCanvas.width) * 1000.0,
+                ymin: (ry / missedCanvas.height) * 1000.0,
+                xmax: ((rx + rw) / missedCanvas.width) * 1000.0,
+                ymax: ((ry + rh) / missedCanvas.height) * 1000.0
+            };
+            document.getElementById('newBoxCoords').innerText = `Box set: ${Math.round(rw)}x${Math.round(rh)}px`;
+            drawMissedCanvas();
+        });
+
+        function drawMissedCanvas() {
+            if (!missedImage.complete) return;
+            missedCtx.clearRect(0, 0, missedCanvas.width, missedCanvas.height);
+            missedCtx.drawImage(missedImage, 0, 0);
+
+            const existing = figures.filter(f => f.page === selectedMissedPage && f.review_status !== 'deleted');
+            const s = 150.0 / 300.0;
+            const currentZoom = missedZoom || 1.0;
+            const baseLw = Math.max(3.0, 3.8 / currentZoom);
+
+            existing.forEach(f => {
+                const b = f.box;
+                const ox = b[0] * s;
+                const oy = b[1] * s;
+                const ow = b[2] * s;
+                const oh = b[3] * s;
+                const isHovered = (missedHoveredFigId === f.id);
+
+                missedCtx.save();
+                if (isHovered) {
+                    missedCtx.strokeStyle = '#f59e0b';
+                    missedCtx.lineWidth = baseLw + 1.5;
+                    missedCtx.fillStyle = 'rgba(245, 158, 11, 0.28)';
+                } else {
+                    missedCtx.strokeStyle = '#0284c7';
+                    missedCtx.lineWidth = baseLw;
+                    missedCtx.fillStyle = 'rgba(2, 132, 199, 0.18)';
+                }
+
+                missedCtx.shadowColor = 'rgba(0, 0, 0, 0.7)';
+                missedCtx.shadowBlur = 4;
+                missedCtx.strokeRect(ox, oy, ow, oh);
+                missedCtx.fillRect(ox, oy, ow, oh);
+                missedCtx.restore();
+
+                const badgeLabel = f.species_name ? `Fig. ${f.fig_num}: ${f.species_name}` : `Fig. ${f.fig_num}`;
+                missedCtx.font = '600 12px Inter, sans-serif';
+                const tw = missedCtx.measureText(badgeLabel).width;
+                const badgeH = 18;
+                const byPos = Math.max(0, oy - badgeH);
+
+                missedCtx.fillStyle = isHovered ? '#f59e0b' : '#0284c7';
+                missedCtx.fillRect(ox, byPos, tw + 12, badgeH);
+                missedCtx.fillStyle = '#ffffff';
+                missedCtx.fillText(badgeLabel, ox + 6, byPos + 13);
+            });
+
+            if (isMissedDown && mStart && mEnd) {
+                const rx = Math.min(mStart.x, mEnd.x);
+                const ry = Math.min(mStart.y, mEnd.y);
+                const rw = Math.abs(mEnd.x - mStart.x);
+                const rh = Math.abs(mEnd.y - mStart.y);
+                missedCtx.strokeStyle = '#10b981';
+                missedCtx.lineWidth = baseLw + 1;
+                missedCtx.strokeRect(rx, ry, rw, rh);
+                missedCtx.fillStyle = 'rgba(16, 185, 129, 0.25)';
+                missedCtx.fillRect(rx, ry, rw, rh);
+            } else if (newCropBox) {
+                const bx = (newCropBox.xmin / 1000.0) * missedCanvas.width;
+                const by = (newCropBox.ymin / 1000.0) * missedCanvas.height;
+                const bw = ((newCropBox.xmax - newCropBox.xmin) / 1000.0) * missedCanvas.width;
+                const bh = ((newCropBox.ymax - newCropBox.ymin) / 1000.0) * missedCanvas.height;
+                missedCtx.strokeStyle = '#10b981';
+                missedCtx.lineWidth = baseLw + 1;
+                missedCtx.strokeRect(bx, by, bw, bh);
+                missedCtx.fillStyle = 'rgba(16, 185, 129, 0.25)';
+                missedCtx.fillRect(bx, by, bw, bh);
+            }
+        }
+
+        async function saveNewCrop() {
+            if (!selectedMissedPage || !newCropBox) {
+                alert("Draw a box on the canvas first.");
+                return;
+            }
+            const fig_num = document.getElementById('newFigNum').value.trim();
+            const caption = document.getElementById('newFigCaption').value.trim();
+            if (!fig_num) {
+                alert("Enter figure number.");
+                return;
+            }
+
+            try {
+                const res = await fetch(`/api/page/${selectedMissedPage}/add_crop`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        page: selectedMissedPage,
+                        fig_num,
+                        caption,
+                        ymin: newCropBox.ymin,
+                        xmin: newCropBox.xmin,
+                        ymax: newCropBox.ymax,
+                        xmax: newCropBox.xmax
+                    })
+                });
+                const data = await res.json();
+                if (data.status === 'success') {
+                    figures.push(data.figure);
+                    updateStats();
+                    selectMissedPage(selectedMissedPage);
+                }
+            } catch (err) {
+                alert("Error adding crop: " + err);
+            }
+        }
+
+        async function deleteCropFromMissed(figId) {
+            const idx = figures.findIndex(f => f.id === figId);
+            if (idx === -1) return;
+            const fig = figures[idx];
+            if (!confirm(`Delete Fig. ${fig.fig_num}? This removes it from the page.`)) return;
+
+            try {
+                await fetch(`/api/figure/${idx}/update`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ status: 'deleted' })
+                });
+                fig.review_status = 'deleted';
+                updateStats();
+                if (selectedMissedPage) {
+                    selectMissedPage(selectedMissedPage);
+                }
+            } catch (err) {
+                alert("Error deleting crop: " + err);
+            }
+        }
+
+        async function markCurrentMissedPageOk() {
+            if (!selectedMissedPage) return;
+            const pageToUnflag = selectedMissedPage;
+            try {
+                await fetch(`/api/flag_page/${pageToUnflag}`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ action: 'remove' })
+                });
+                flaggedPages.delete(pageToUnflag);
+                updateStats();
+
+                const remaining = Array.from(flaggedPages).sort((a,b) => a - b);
+                selectedMissedPage = remaining.length > 0 ? remaining[0] : null;
+                renderMissedSidebar();
+                if (selectedMissedPage) {
+                    selectMissedPage(selectedMissedPage);
+                } else {
+                    document.getElementById('missedCanvasLabel').innerText = 'All flagged pages cleared!';
+                    document.getElementById('existingPageFigures').innerHTML = '<div style="color:var(--text-muted); font-size:0.75rem; padding: 4px 0;">All flagged pages completed!</div>';
+                    missedCtx.clearRect(0, 0, missedCanvas.width, missedCanvas.height);
+                }
+            } catch (err) {
+                alert("Error marking page OK: " + err);
+            }
+        }
+
+
+        // ==========================================
+        // PAGE OVERVIEW FUNCTIONS
+        // ==========================================
+        function populateOverviewPageSelect() {
+            const sel = document.getElementById('overviewPageSelect');
+            if (!sel) return;
+            sel.innerHTML = '<option value="">-- Jump to Page with Figures --</option>';
+
+            const pageCounts = {};
+            figures.forEach(f => {
+                if (f.review_status !== 'deleted') {
+                    pageCounts[f.page] = (pageCounts[f.page] || 0) + 1;
+                }
+            });
+
+            const pages = Object.keys(pageCounts).map(Number).sort((a,b) => a - b);
+            pages.forEach(p => {
+                const opt = document.createElement('option');
+                opt.value = p;
+                opt.innerText = `Page ${p} (${pageCounts[p]} fig${pageCounts[p] > 1 ? 's' : ''})`;
+                sel.appendChild(opt);
+            });
+        }
+
+        function showOverviewPage(pageNum) {
+            pageNum = parseInt(pageNum);
+            if (isNaN(pageNum) || pageNum < 1) pageNum = 1;
+            if (pageNum > 296) pageNum = 296;
+            currentOverviewPage = pageNum;
+
+            const input = document.getElementById('overviewPageInput');
+            if (input) input.value = pageNum;
+            const sel = document.getElementById('overviewPageSelect');
+            if (sel) sel.value = pageNum;
+
+            const pageFigs = figures.filter(f => f.page === pageNum && f.review_status !== 'deleted');
+            
+            const badge = document.getElementById('overviewFigCountBadge');
+            if (badge) badge.innerText = `${pageFigs.length} figure${pageFigs.length === 1 ? '' : 's'}`;
+            const sideCount = document.getElementById('overviewSidebarCount');
+            if (sideCount) sideCount.innerText = pageFigs.length;
+
+            renderOverviewSidebarCards(pageFigs);
+            updateOverviewFlagButton();
+
+            overviewImage = new Image();
+            overviewImage.src = `/api/page/${pageNum}?dpi=150`;
+            overviewImage.onload = () => {
+                overviewCanvas.width = overviewImage.width;
+                overviewCanvas.height = overviewImage.height;
+                fitOverviewToViewport();
+            };
+        }
+
+        function fitOverviewToViewport() {
+            if (!overviewImage.complete || !overviewViewport) return;
+            const availW = overviewViewport.clientWidth - 48;
+            const availH = overviewViewport.clientHeight - 48;
+            overviewZoom = Math.min(availW / overviewImage.width, availH / overviewImage.height);
+            applyOverviewZoom();
+        }
+
+        function adjustOverviewZoom(delta) {
+            overviewZoom = Math.max(0.2, Math.min(3.0, overviewZoom + delta));
+            applyOverviewZoom();
+        }
+
+        function applyOverviewZoom() {
+            if (!overviewImage.complete) return;
+            overviewCanvas.style.width = `${Math.round(overviewImage.width * overviewZoom)}px`;
+            overviewCanvas.style.height = `${Math.round(overviewImage.height * overviewZoom)}px`;
+            drawOverviewCanvas();
+        }
+
+        function drawOverviewCanvas() {
+            if (!overviewImage.complete) return;
+            overviewCtx.clearRect(0, 0, overviewCanvas.width, overviewCanvas.height);
+            overviewCtx.drawImage(overviewImage, 0, 0);
+
+            const pageFigs = figures.filter(f => f.page === currentOverviewPage && f.review_status !== 'deleted');
+            const s = 150.0 / 300.0;
+            const currentZoom = overviewZoom || 1.0;
+            const baseLw = Math.max(3.0, 3.8 / currentZoom);
+
+            pageFigs.forEach(f => {
+                const b = f.box;
+                const bx = b[0] * s;
+                const by = b[1] * s;
+                const bw = b[2] * s;
+                const bh = b[3] * s;
+                const isHovered = (overviewHoveredFigId === f.id);
+
+                overviewCtx.save();
+                if (isHovered) {
+                    overviewCtx.strokeStyle = '#38bdf8';
+                    overviewCtx.lineWidth = baseLw + 1.5;
+                    overviewCtx.fillStyle = 'rgba(56, 189, 248, 0.28)';
+                } else {
+                    overviewCtx.strokeStyle = '#0284c7';
+                    overviewCtx.lineWidth = baseLw;
+                    overviewCtx.fillStyle = 'rgba(2, 132, 199, 0.16)';
+                }
+
+                overviewCtx.shadowColor = 'rgba(0, 0, 0, 0.65)';
+                overviewCtx.shadowBlur = 4;
+                overviewCtx.strokeRect(bx, by, bw, bh);
+                overviewCtx.fillRect(bx, by, bw, bh);
+                overviewCtx.restore();
+
+                // BADGE ABOVE BOX
+                const badgeLabel = f.species_name ? `Fig. ${f.fig_num}: ${f.species_name}` : `Fig. ${f.fig_num}`;
+                overviewCtx.font = '600 12px Inter, sans-serif';
+                const tw = overviewCtx.measureText(badgeLabel).width;
+                const badgeHeight = 18;
+                const byPos = Math.max(0, by - badgeHeight);
+
+                overviewCtx.fillStyle = isHovered ? '#38bdf8' : '#0284c7';
+                overviewCtx.fillRect(bx, byPos, tw + 12, badgeHeight);
+                overviewCtx.fillStyle = isHovered ? '#000000' : '#ffffff';
+                overviewCtx.fillText(badgeLabel, bx + 6, byPos + 13);
+
+                // SUBTLE CAPTION SNIPPET BELOW BOX
+                if (f.caption) {
+                    const capSnippet = f.caption.length > 55 ? f.caption.substring(0, 52) + '...' : f.caption;
+                    overviewCtx.font = '400 10px Inter, sans-serif';
+                    const ctw = overviewCtx.measureText(capSnippet).width;
+                    const cW = Math.min(bw, ctw + 10);
+                    overviewCtx.fillStyle = 'rgba(0, 0, 0, 0.78)';
+                    overviewCtx.fillRect(bx, by + bh + 2, cW, 16);
+                    overviewCtx.fillStyle = '#e4e4e7';
+                    overviewCtx.fillText(capSnippet, bx + 5, by + bh + 13);
+                }
+            });
+        }
+
+        function renderOverviewSidebarCards(pageFigs) {
+            const container = document.getElementById('overviewCardsList');
+            if (!container) return;
+            container.innerHTML = '';
+
+            if (pageFigs.length === 0) {
+                container.innerHTML = `
+                    <div style="padding: 24px; text-align: center; color: var(--text-muted); font-size: 0.8rem;">
+                        No figures on Page ${currentOverviewPage}.
+                        <div style="margin-top: 8px; font-size: 0.74rem;">Use the controls above to navigate pages.</div>
+                    </div>
+                `;
+                return;
+            }
+
+            pageFigs.forEach(f => {
+                const filename = f.image_path.split(/[\\/]/).pop();
+                const card = document.createElement('div');
+                card.className = `overview-card ${overviewHoveredFigId === f.id ? 'highlighted' : ''}`;
+                card.id = `overview-card-${f.id}`;
+                
+                card.innerHTML = `
+                    <div class="overview-card-header">
+                        <span class="overview-card-title">Fig. ${f.fig_num}</span>
+                        <span class="badge-minimal ${f.review_status || 'ok'}">${(f.review_status || 'OK').toUpperCase()}</span>
+                    </div>
+                    ${f.species_name ? `<div class="overview-card-species">${f.species_name}</div>` : ''}
+                    <img class="overview-card-img" src="/api/image/${filename}" alt="Fig ${f.fig_num}" onerror="this.style.display='none'">
+                    <div class="overview-card-caption">${f.caption || '(No caption)'}</div>
+                    <div style="display: flex; justify-content: flex-end; margin-top: 8px;">
+                        <button class="icon-btn" style="width: auto; padding: 4px 10px; font-size: 0.74rem;" onclick="event.stopPropagation(); inspectFigureInReview(${f.id})">
+                            Inspect in Review →
+                        </button>
+                    </div>
+                `;
+
+                card.onmouseenter = () => {
+                    overviewHoveredFigId = f.id;
+                    card.classList.add('highlighted');
+                    drawOverviewCanvas();
+                };
+                card.onmouseleave = () => {
+                    overviewHoveredFigId = null;
+                    card.classList.remove('highlighted');
+                    drawOverviewCanvas();
+                };
+                card.onclick = () => {
+                    inspectFigureInReview(f.id);
+                };
+
+                container.appendChild(card);
+            });
+        }
+
+        function inspectFigureInReview(figId) {
+            const idx = figures.findIndex(f => f.id === figId);
+            if (idx !== -1) {
+                switchMode('review');
+                showFigure(idx);
+            }
+        }
+
+        function prevOverviewPage() {
+            if (currentOverviewPage > 1) {
+                showOverviewPage(currentOverviewPage - 1);
+            }
+        }
+
+        function nextOverviewPage() {
+            if (currentOverviewPage < 296) {
+                showOverviewPage(currentOverviewPage + 1);
+            }
+        }
+
+        function jumpOverviewPage(val) {
+            const num = parseInt(val);
+            if (!isNaN(num) && num >= 1 && num <= 296) {
+                showOverviewPage(num);
+            }
+        }
+
+        async function toggleOverviewFlagPage() {
+            if (!currentOverviewPage) return;
+            try {
+                const res = await fetch(`/api/flag_page/${currentOverviewPage}`, { method: 'POST' });
+                const data = await res.json();
+                if (data.flagged) {
+                    flaggedPages.add(currentOverviewPage);
+                } else {
+                    flaggedPages.delete(currentOverviewPage);
+                }
+                updateOverviewFlagButton();
+                updateStats();
+            } catch (err) {
+                console.error("Failed to toggle overview flag", err);
+            }
+        }
+
+        function updateOverviewFlagButton() {
+            const btn = document.getElementById('btnOverviewFlagPage');
+            if (!btn) return;
+            const isFlagged = flaggedPages.has(currentOverviewPage);
+            btn.classList.toggle('active', isFlagged);
+            btn.innerHTML = isFlagged ? '🚩 Flagged for Missed' : 'Flag Page for Missed (M)';
+        }
+
+        function setupOverviewEvents() {
+            overviewCanvas.addEventListener('mousemove', (e) => {
+                const r = overviewCanvas.getBoundingClientRect();
+                const cx = (e.clientX - r.left) * (overviewCanvas.width / r.width);
+                const cy = (e.clientY - r.top) * (overviewCanvas.height / r.height);
+
+                const s = 150.0 / 300.0;
+                const pageFigs = figures.filter(f => f.page === currentOverviewPage && f.review_status !== 'deleted');
+                
+                const found = pageFigs.find(f => {
+                    const bx = f.box[0] * s;
+                    const by = f.box[1] * s;
+                    const bw = f.box[2] * s;
+                    const bh = f.box[3] * s;
+                    return (cx >= bx && cx <= bx + bw && cy >= by && cy <= by + bh);
+                });
+
+                const tip = document.getElementById('overviewTooltip');
+
+                if (found) {
+                    overviewCanvas.style.cursor = 'pointer';
+                    if (overviewHoveredFigId !== found.id) {
+                        overviewHoveredFigId = found.id;
+                        drawOverviewCanvas();
+                        document.querySelectorAll('.overview-card').forEach(c => c.classList.remove('highlighted'));
+                        const card = document.getElementById(`overview-card-${found.id}`);
+                        if (card) {
+                            card.classList.add('highlighted');
+                            card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                        }
+                    }
+
+                    document.getElementById('overviewTipTitle').innerText = `Fig. ${found.fig_num}`;
+                    const spEl = document.getElementById('overviewTipSpecies');
+                    if (found.species_name) {
+                        spEl.style.display = 'block';
+                        spEl.innerText = found.species_name;
+                    } else {
+                        spEl.style.display = 'none';
+                    }
+                    document.getElementById('overviewTipCaption').innerText = found.caption || '(No caption)';
+                    const badgeEl = document.getElementById('overviewTipBadge');
+                    badgeEl.className = `badge-minimal ${found.review_status || 'ok'}`;
+                    badgeEl.innerText = (found.review_status || 'OK').toUpperCase();
+
+                    let tipX = e.clientX + 14;
+                    let tipY = e.clientY + 14;
+                    if (tipX + 330 > window.innerWidth) tipX = e.clientX - 336;
+                    if (tipY + 180 > window.innerHeight) tipY = e.clientY - 180;
+                    tip.style.left = `${tipX}px`;
+                    tip.style.top = `${tipY}px`;
+                    tip.style.display = 'block';
+                } else {
+                    overviewCanvas.style.cursor = 'default';
+                    if (overviewHoveredFigId !== null) {
+                        overviewHoveredFigId = null;
+                        drawOverviewCanvas();
+                        document.querySelectorAll('.overview-card').forEach(c => c.classList.remove('highlighted'));
+                    }
+                    if (tip) tip.style.display = 'none';
+                }
+            });
+
+            overviewCanvas.addEventListener('mouseleave', () => {
+                overviewHoveredFigId = null;
+                drawOverviewCanvas();
+                document.querySelectorAll('.overview-card').forEach(c => c.classList.remove('highlighted'));
+                const tip = document.getElementById('overviewTooltip');
+                if (tip) tip.style.display = 'none';
+            });
+
+            overviewCanvas.addEventListener('click', () => {
+                if (overviewHoveredFigId !== null) {
+                    inspectFigureInReview(overviewHoveredFigId);
+                }
+            });
+
+            overviewViewport.addEventListener('wheel', (e) => {
+                if (e.ctrlKey || e.metaKey) {
+                    e.preventDefault();
+                    const delta = e.deltaY < 0 ? 0.1 : -0.1;
+                    adjustOverviewZoom(delta);
+                }
+            }, { passive: false });
+        }
+
+        init();
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+[
+  {
+    "page": 51,
+    "figures": [
+      {
+        "id": 68,
+        "fig_num": "92",
+        "original_caption": "Fig. 92. Robust branches of Acropora sp.",
+        "cleaned_caption": "Fig. 92. Robust branches of Acropora sp.",
+        "species_name": "Acropora sp.",
+        "has_changes": false,
+        "change_summary": "Caption is already accurate and clean.",
+        "confidence": "high"
+      },
+      {
+        "id": 69,
+        "fig_num": "93",
+        "original_caption": "Fig.,. 93. Colony of Acropora aspera",
+        "cleaned_caption": "Fig. 93. Colony of Acropora aspera",
+        "species_name": "Acropora aspera",
+        "has_changes": true,
+        "change_summary": "Fixed OCR punctuation errors in 'Fig.,.' to 'Fig.'",
+        "confidence": "high"
+      },
+      {
+        "id": 70,
+        "fig_num": "94",
+        "original_caption": "Fig. 94. Acropora sp. overgrowing on Acropora hyacinthus",
+        "cleaned_caption": "Fig. 94. Acropora sp. overgrowing on Acropora hyacinthus",
+        "species_name": "Acropora hyacinthus",
+        "has_changes": true,
+        "change_summary": "Fixed OCR typos and garbled text in the scientific names and description.",
+        "confidence": "high"
+      }
+    ]
+  }
+]

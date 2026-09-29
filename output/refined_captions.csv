@@ -1,0 +1,4 @@
+﻿page,figure_id,fig_num,species_name,has_changes,change_summary,original_caption,cleaned_caption,confidence
+63,68,92,Acropora sp.,False,Caption is already accurate and clean.,Fig. 92. Robust branches of Acropora sp.,Fig. 92. Robust branches of Acropora sp.,high
+63,69,93,Acropora aspera,True,"Fixed OCR punctuation errors in 'Fig.,.' to 'Fig.'","Fig.,. 93. Colony of Acropora aspera",Fig. 93. Colony of Acropora aspera,high
+63,70,94,Acropora hyacinthus,True,Fixed OCR typos and garbled text in the scientific names and description.,Fig. 94. Acropora sp. overgrowing on Acropora hyacinthus,Fig. 94. Acropora sp. overgrowing on Acropora hyacinthus,high

@@ -1,0 +1,22 @@
+# Environment & secrets
+.env
+*.env
+*.key
+*.pem
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.pytest_cache/
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
