@@ -1,0 +1,16 @@
+# Web Application Backend
+fastapi>=0.110.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.0.0
+
+# PDF & Computer Vision Processing
+pymupdf>=1.24.0
+pillow>=10.0.0
+opencv-python>=4.8.0
+numpy>=1.26.0
+
+# LLM Refinement & Dataset Export
+openai>=1.40.0
+pandas>=2.0.0
+tqdm>=4.66.0
+python-dotenv>=1.0.0
