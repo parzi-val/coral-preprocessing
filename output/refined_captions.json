@@ -1,35 +1,65 @@
 [
   {
-    "page": 51,
+    "page": 88,
     "figures": [
       {
-        "id": 68,
-        "fig_num": "92",
-        "original_caption": "Fig. 92. Robust branches of Acropora sp.",
-        "cleaned_caption": "Fig. 92. Robust branches of Acropora sp.",
-        "species_name": "Acropora sp.",
+        "id": 136,
+        "fig_num": "187",
+        "original_caption": "Fig. 187. Common reef crab, Pilodius pugil",
+        "cleaned_caption": "Fig. 187. Common reef crab, Pilodius pugil",
+        "species_name": "Pilodius pugil",
         "has_changes": false,
-        "change_summary": "Caption is already accurate and clean.",
+        "change_summary": "Caption is already accurate and complete.",
         "confidence": "high"
       },
       {
-        "id": 69,
-        "fig_num": "93",
-        "original_caption": "Fig.,. 93. Colony of Acropora aspera",
-        "cleaned_caption": "Fig. 93. Colony of Acropora aspera",
-        "species_name": "Acropora aspera",
+        "id": 137,
+        "fig_num": "189",
+        "original_caption": "Fig. 189. Pelagic crab of rocky reefs, Grapsus grapsus",
+        "cleaned_caption": "Fig. 189. Pelagic crab of rocky reefs, Grapsus grapsus",
+        "species_name": "Grapsus grapsus",
         "has_changes": true,
-        "change_summary": "Fixed OCR punctuation errors in 'Fig.,.' to 'Fig.'",
+        "change_summary": "Fixed OCR typo in 'rocky' (was 'ocky reefs').",
         "confidence": "high"
       },
       {
-        "id": 70,
-        "fig_num": "94",
-        "original_caption": "Fig. 94. Acropora sp. overgrowing on Acropora hyacinthus",
-        "cleaned_caption": "Fig. 94. Acropora sp. overgrowing on Acropora hyacinthus",
-        "species_name": "Acropora hyacinthus",
+        "id": 138,
+        "fig_num": "190",
+        "original_caption": "Fig. 190. Shallow reef crab, Leptodius exaratus",
+        "cleaned_caption": "Fig. 190. Shallow reef crab, Leptodius exaratus",
+        "species_name": "Leptodius exaratus",
         "has_changes": true,
-        "change_summary": "Fixed OCR typos and garbled text in the scientific names and description.",
+        "change_summary": "Corrected figure number from 'Fig. 90' to 'Fig. 190' and fixed spacing in 'Leptodius exaratus'.",
+        "confidence": "high"
+      },
+      {
+        "id": 139,
+        "fig_num": "191",
+        "original_caption": "Fig. 191. Matuta planipes found in weedy areas",
+        "cleaned_caption": "Fig. 191. Matuta planipes found in weedy areas",
+        "species_name": "Matuta planipes",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and complete based on the text stream.",
+        "confidence": "high"
+      },
+      {
+        "id": 140,
+        "fig_num": "192",
+        "original_caption": "Fig. 192. Common reef crab, Matuta lunaris",
+        "cleaned_caption": "Fig. 192. Common reef crab, Matuta lunaris",
+        "species_name": "Matuta lunaris",
+        "has_changes": true,
+        "change_summary": "Corrected figure number from 'Fig. 92' to 'Fig. 192'.",
+        "confidence": "high"
+      },
+      {
+        "id": 490,
+        "fig_num": "188",
+        "original_caption": "Pelagic crab, Graspus albolineatus",
+        "cleaned_caption": "Fig. 188. Pelagic crab, Grapsus albolineatus",
+        "species_name": "Grapsus albolineatus",
+        "has_changes": true,
+        "change_summary": "Added missing 'Fig. 188' prefix and corrected misspelled binomial genus name 'Graspus' to 'Grapsus'.",
         "confidence": "high"
       }
     ]

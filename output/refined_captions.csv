@@ -1,4 +1,7 @@
 ﻿page,figure_id,fig_num,species_name,has_changes,change_summary,original_caption,cleaned_caption,confidence
-63,68,92,Acropora sp.,False,Caption is already accurate and clean.,Fig. 92. Robust branches of Acropora sp.,Fig. 92. Robust branches of Acropora sp.,high
-63,69,93,Acropora aspera,True,"Fixed OCR punctuation errors in 'Fig.,.' to 'Fig.'","Fig.,. 93. Colony of Acropora aspera",Fig. 93. Colony of Acropora aspera,high
-63,70,94,Acropora hyacinthus,True,Fixed OCR typos and garbled text in the scientific names and description.,Fig. 94. Acropora sp. overgrowing on Acropora hyacinthus,Fig. 94. Acropora sp. overgrowing on Acropora hyacinthus,high
+100,136,187,Pilodius pugil,False,Caption is already accurate and complete.,"Fig. 187. Common reef crab, Pilodius pugil","Fig. 187. Common reef crab, Pilodius pugil",high
+100,137,189,Grapsus grapsus,True,Fixed OCR typo in 'rocky' (was 'ocky reefs').,"Fig. 189. Pelagic crab of rocky reefs, Grapsus grapsus","Fig. 189. Pelagic crab of rocky reefs, Grapsus grapsus",high
+100,138,190,Leptodius exaratus,True,Corrected figure number from 'Fig. 90' to 'Fig. 190' and fixed spacing in 'Leptodius exaratus'.,"Fig. 190. Shallow reef crab, Leptodius exaratus","Fig. 190. Shallow reef crab, Leptodius exaratus",high
+100,139,191,Matuta planipes,False,Caption is accurate and complete based on the text stream.,Fig. 191. Matuta planipes found in weedy areas,Fig. 191. Matuta planipes found in weedy areas,high
+100,140,192,Matuta lunaris,True,Corrected figure number from 'Fig. 92' to 'Fig. 192'.,"Fig. 192. Common reef crab, Matuta lunaris","Fig. 192. Common reef crab, Matuta lunaris",high
+100,490,188,Grapsus albolineatus,True,Added missing 'Fig. 188' prefix and corrected misspelled binomial genus name 'Graspus' to 'Grapsus'.,"Pelagic crab, Graspus albolineatus","Fig. 188. Pelagic crab, Grapsus albolineatus",high

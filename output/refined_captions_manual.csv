@@ -1,0 +1,203 @@
+﻿page,figure_id,fig_num,species_name,has_changes,change_summary,original_caption,cleaned_caption,confidence
+26,458,12,,False,Caption is accurate and free of OCR errors.,Fig. 12. Panoramic aerial view of Little Andaman.,Fig. 12. Panoramic aerial view of Little Andaman.,high
+26,459,13,,True,"Corrected OCR typos ('f'ig.', 'South'ern nlost', 'Indir.a') to standard formatting.","Fig. 13. Southernmost point of island chain, Indira Point (Great Nicobar).","Fig. 13. Southernmost point of island chain, Indira Point (Great Nicobar).",high
+59,58,80,Seriatopora hystrix,True,Fixed OCR typo in species name ('hysrix' to 'hystrix').,"Fig. 80. Common shallow coral, Seriatopora hystrix","Fig. 80. Common shallow coral, Seriatopora hystrix",high
+59,59,81,Acropora digitifera,False,Caption is already accurate.,Fig. 81. Acropora digitifera in shallow waters,Fig. 81. Acropora digitifera in shallow waters,high
+59,500,82,Acropora gemmifera,True,Added missing figure prefix 'Fig. 82.' and corrected spelling from 'digitale' to 'digitate'.,"A digitale coral, Acropora gemmifera","Fig. 82. A digitate coral, Acropora gemmifera",medium
+60,60,83,Acropora humilis,False,Caption is already accurate and complete.,Fig. 83. Small colony of Acropora humilis,Fig. 83. Small colony of Acropora humilis,high
+60,61,84,Acropora granulosa,False,Caption is accurate (correcting for OCR artifacts in the raw text stream).,"Fig. 84. Plate coral, Acropora granulosa","Fig. 84. Plate coral, Acropora granulosa",high
+60,499,85,Acropora hyacinthus,True,Added missing figure number prefix and corrected capitalization of the species epithet.,"Plate coral, Acropora Hyacinthus on shallow reef","Fig. 85. Plate coral, Acropora hyacinthus on shallow reef",high
+64,498,95,Acropora clathrata,True,"Fixed OCR errors in figure number and text ('95- Plate 'e,oraI, Ac~opora ciathrata' to 'Plate coral, Acropora clathrata').","Plate coral, Acropora clathrata","Plate coral, Acropora clathrata",high
+64,71,96,Acropora austera,True,Corrected spelling of species name from 'austrea' to 'austera'.,Fig. 96. Reef fish hovering on Acropora austera.,Fig. 96. Reef fish hovering on Acropora austera.,high
+64,72,97,Acropora sp.,True,"Fixed OCR punctuation error in figure number ('97,.' to '97.').",Fig. 97. Colonies of diverse Acropora species.,Fig. 97. Colonies of diverse Acropora species.,high
+66,76,101,Montipora aequituberculata,False,Caption is already clean and accurate.,"Fig. 101. Foliaceous coral, Montipora aequituberculata","Fig. 101. Foliaceous coral, Montipora aequituberculata",high
+66,77,103,Favia matthaii,True,Fixed OCR typo in species name ('m.atthaii' to 'matthaii').,"Fig. 103. Massive coral, Favia matthaii","Fig. 103. Massive coral, Favia matthaii",high
+66,497,102,Porites sp.,True,Added missing figure number prefix and standardized species name punctuation.,Young colony of encrusted Porites sp,Fig. 102. Young colony of encrusted Porites sp.,high
+67,78,104,Favia favus,True,"Fixed OCR typos in raw text ('Fi,g. 104. Massive ,coral, FtlVia favus')","Fig. 104. Massive coral, Favia favus","Fig. 104. Massive coral, Favia favus",high
+67,79,105,Favia halicora,True,Fixed OCR punctuation and quotation marks in raw text,"Fig. 105. Massive coral, Favia halicora","Fig. 105. Massive coral, Favia halicora",high
+67,496,106,Fungia echinata,True,Added missing 'Fig. 106.' prefix and fixed OCR typos in scientific name ('Fungia echjn~1ta'),"Mushroom coral, Fungia echinata","Fig. 106. Mushroom coral, Fungia echinata",high
+77,99,134,Leptoseris sp.,True,Fixed OCR misspelling 'Leptoseries' to 'Leptoseris',"Fig. 134. Encrusted coral, Leptoseris sp.","Fig. 134. Encrusted coral, Leptoseris sp.",high
+77,100,136,Symphyllia radians,True,Fixed OCR typo 'SymphyJlia' to 'Symphyllia',"Fig. 136. Brain coral, Symphyllia radians","Fig. 136. Brain coral, Symphyllia radians",high
+77,495,135,Porites lobata,True,Added standard 'Fig. 135.' prefix to match document style,"Huge massive coral, Porites lobata","Fig. 135. Huge massive coral, Porites lobata",high
+82,107,143,Sinularia sp.,False,Caption is already accurate and complete.,Fig. 143. Sinularia sp. on coral rocks,Fig. 143. Sinularia sp. on coral rocks,high
+82,494,144,Lobophytum sp.,True,Added standard 'Fig. 144.' prefix to match the numbering sequence and style of adjacent figures.,Lobophytum sp. grown like propeller blades,Fig. 144. Lobophytum sp. grown like propeller blades,high
+82,108,145,Lobophytum crassum,False,Caption is already accurate and complete.,Fig. 145. Invasion of Lobophytum crassum in shallow waters,Fig. 145. Invasion of Lobophytum crassum in shallow waters,high
+87,117,157,,False,Caption is accurate as is based on the text.,Fig. 157. A gorgonian colony on reef slope.,Fig. 157. A gorgonian colony on reef slope.,high
+87,493,158,Gorgonia sp.,False,Caption is accurate as is.,"Seafan, Gorgonia sp.","Seafan, Gorgonia sp.",high
+89,120,161,,False,Caption is accurate and clean.,Fig. 161. A deep-water gorgonian species.,Fig. 161. A deep-water gorgonian species.,high
+89,492,162,,False,Caption is accurate.,Whip coral colony,Whip coral colony,medium
+98,131,179,Area septemspinosa,True,Fixed OCR errors and spacing in species name.,"Fig. 179. Small reef crab, Area septemspinosa","Fig. 179. Small reef crab, Area septemspinosa.",high
+98,491,180,Aulacolambrus sp.,True,Added missing 'Fig. 180.' prefix and fixed OCR fragmentation.,"Shallow reef crab, Aulacolambrus sp.","Fig. 180. Shallow reef crab, Aulacolambrus sp.",high
+100,136,187,Pilodius pugil,False,Caption is already accurate and complete.,"Fig. 187. Common reef crab, Pilodius pugil","Fig. 187. Common reef crab, Pilodius pugil",high
+100,490,188,Grapsus albolineatus,True,Added missing 'Fig. 188.' prefix and corrected typo in genus name 'Graspus' to 'Grapsus'.,"Pelagic crab, Graspus albolineatus","Fig. 188. Pelagic crab, Grapsus albolineatus",high
+100,137,189,Grapsus grapsus,True,Corrected OCR spacing/typo in figure number ('Fig. 1.89.' to 'Fig. 189.').,"Fig. 189. Pelagic crab of rocky reefs, Grapsus grapsus","Fig. 189. Pelagic crab of rocky reefs, Grapsus grapsus",high
+100,138,190,Leptodius exaratus,True,"Corrected figure number from '190' (which was 'Fig. 90.') and fixed spacing in 'Leptodiusexara,tus' to 'Leptodius exaratus'.","Fig. 190. Shallow reef crab, Leptodius exaratus","Fig. 190. Shallow reef crab, Leptodius exaratus",high
+100,139,191,Matuta planipes,False,Caption is accurate and complete based on the text stream.,Fig. 191. Matuta planipes found in weedy areas,Fig. 191. Matuta planipes found in weedy areas,high
+100,140,192,Matuta lunaris,True,Corrected figure number from '192' (which was 'Fig. 92.') to match standard sequential numbering.,"Fig. 192. Common reef crab, Matuta lunaris","Fig. 192. Common reef crab, Matuta lunaris",high
+101,141,93,Scylla serrata,True,Corrected 'Mudcrab' to 'Mud crab' and fixed OCR typo in specific epithet from raw text ('serrato' to 'serrata').,"Fig. 93. Mudcrab, Scylla serrata","Fig. 93. Mud crab, Scylla serrata",high
+101,142,194,Ocypode ceratophthalma,False,Caption is accurate and complete based on the text stream.,"Fig. 194. Ghost crab of muddy reef areas, Ocypode ceratophthalma","Fig. 194. Ghost crab of muddy reef areas, Ocypode ceratophthalma",high
+101,143,195,Ocypode macrocera,True,Combined split lines from raw OCR text into a single unified caption.,"Fig. 195. Crab of sandy-mud reefs, Ocypode macrocera","Fig. 195. Crab of sandy-mud reefs, Ocypode macrocera",high
+101,144,196,Ocypode sp.,False,Caption is accurate and complete.,"Fig. 196. Ocypode crab, Ocypode sp.","Fig. 196. Ocypode crab, Ocypode sp.",high
+101,489,197,Portunus pelagicus,True,Added missing figure prefix 'Fig. 197.' present in the source text stream.,"Pelagic reef crab, Portunus pelagicus","Fig. 197. Pelagic reef crab, Portunus pelagicus",high
+101,145,198,Portunus sanguinolentus,True,"Fixed broken and interleaved OCR layout ('Sha low pela,gic crab, Portunus... sanguinolentus').","Fig. 198. Shallow pelagic crab, Portunus sanguinolentus","Fig. 198. Shallow pelagic crab, Portunus sanguinolentus",high
+101,146,199,Charybdis feriatus,False,Caption is accurate and complete.,"Fig. 199. Swimmer crab, Charybdis feriatus","Fig. 199. Swimmer crab, Charybdis feriatus",high
+104,155,208,Dardanus megistos,True,Corrected spelling of species name from OCR typo 'nlagistos' to 'megistos',"Fig. 208. Hermit crab out of shell, Dardanus megistos","Fig. 208. Hermit crab out of shell, Dardanus megistos",high
+104,156,209,Clibanarius sp.,False,Caption is accurate and clean,"Fig. 209. Hermit crab, Clibanarius sp.","Fig. 209. Hermit crab, Clibanarius sp.",high
+104,157,210,Heterosquilla spinosa,False,Caption is accurate and clean,"Fig. 210. Mantid shrimp, Heterosquilla spinosa","Fig. 210. Mantid shrimp, Heterosquilla spinosa",high
+104,488,211,Harpiosquilla sp.,True,Added missing figure prefix 'Fig. 211.',"Common mantis shrimp, Harpiosquilla sp.","Fig. 211. Common mantis shrimp, Harpiosquilla sp.",high
+104,158,212,Oratosquilla sp.,False,Caption is accurate and clean,"Fig. 212. Mantis shrimp, Oratosquilla sp.","Fig. 212. Mantis shrimp, Oratosquilla sp.",high
+104,159,213,Squilla sp.,True,"Corrected OCR typo 'Gr,een squil a' to 'Green squilla'","Fig. 213. Green squilla, Squilla sp.","Fig. 213. Green squilla, Squilla sp.",high
+105,160,214,Squilla sp.,True,Cleaned OCR artifact punctuation in figure numbering.,"Fig. 214. Mantis shrimp of coral rubble, Squilla sp.","Fig. 214. Mantis shrimp of coral rubble, Squilla sp.",high
+105,161,215,Lysiosquilla maculata,True,Fixed OCR typo in scientific name (Lysosquilla -> Lysiosquilla) and corrected punctuation.,"Fig. 215. Banded mantis shrimp, Lysiosquilla maculata","Fig. 215. Banded mantis shrimp, Lysiosquilla maculata",high
+105,162,217,Tetraclita sp.,False,None,"Fig. 217. Acorn barnacles, Tetraclita sp.","Fig. 217. Acorn barnacles, Tetraclita sp.",high
+105,163,218,Lepas sp.,False,None,"Fig. 218. Gooseneck barnacles, Lepas sp.","Fig. 218. Gooseneck barnacles, Lepas sp.",high
+105,164,219,,True,"Fixed OCR typos ('associat'e', 'scorn brid fish').",Fig. 219. Parasitic isopods on reef associate scombrid fish.,Fig. 219. Parasitic isopods on reef associate scombrid fish.,high
+105,487,216,Tetraclita sp.,True,"Fixed missing 'Fig. 216.' prefix and corrected OCR typo in genus name ('Tewa,clita' -> 'Tetraclita').","Barnacles, Tetraclita sp.","Fig. 216. Barnacles, Tetraclita sp.",high
+108,486,229,Cypraea sp.,True,Added missing 'Fig. 229.' prefix based on the extracted text.,"Cowry, Cypraea sp. on reef","Fig. 229. Cowry, Cypraea sp. on reef",high
+108,174,230,,False,Caption is accurate and matches text.,Fig. 230. Variety of cowries on reef,Fig. 230. Variety of cowries on reef,high
+108,175,231,Conus sp.,False,Caption is accurate and complete.,"Fig. 231. Coneshell on dead coral rock, Conus sp.","Fig. 231. Coneshell on dead coral rock, Conus sp.",high
+108,176,232,Cypraea sp.,False,Caption is accurate and matches text.,"Fig. 232. Cowry shell, Cypraea sp.","Fig. 232. Cowry shell, Cypraea sp.",high
+108,177,234,Cypraea sp.,True,"Corrected OCR typo in the species name from 'Cypri,a sp.' to 'Cypraea sp.'","Fig. 234. Cowry, Cypraea sp.","Fig. 234. Cowry, Cypraea sp.",high
+108,178,235,Haliotis asinina,True,Corrected OCR spacing/typo from 'Haliotisasinine' to 'Haliotis asinina'.,"Fig. 235. Reef abalone shell, Haliotis asinina","Fig. 235. Reef abalone shell, Haliotis asinina",high
+108,179,236,Lambis chiragra,False,Caption is accurate and complete.,"Fig. 236. Scorpion shells, Lambis chiragra","Fig. 236. Scorpion shells, Lambis chiragra",high
+108,180,237,Lambis truncata,True,Corrected OCR typo from 'spidor' to 'spider'.,"Fig. 237. Common spider shell, Lambis truncata","Fig. 237. Common spider shell, Lambis truncata",high
+117,221,288,Spondylus sp.,False,Caption is already accurate and complete.,"Fig. 288. Spiny bivalve of reefs, Spondylus sp.","Fig. 288. Spiny bivalve of reefs, Spondylus sp.",high
+117,222,289,Spondylus hystrix,True,Fixed species name spelling from 'hysrix' to 'hystrix' and added a period at the end.,"Fig. 289. Spiny bivalve, Spondylus hystrix","Fig. 289. Spiny bivalve, Spondylus hystrix.",high
+117,223,290,Pinctada margaritifera,True,Fixed OCR errors in the binomial name ('Pinetada Tttargaritifera' -> 'Pinctada margaritifera') and formatted as a complete caption.,"Fig. 290. Pearl oyster, Pinctada margaritifera","Fig. 290. Pearl oyster, Pinctada margaritifera.",high
+117,224,291,Pinna bicolor,True,Added a period at the end of the caption.,"Fig. 291. Penshell, Pinna bicolor","Fig. 291. Penshell, Pinna bicolor.",high
+117,485,292,Atrina vexillum,True,Added the missing 'Fig. 292.' prefix and a period at the end based on page layout.,"Penshell, Atrina vexillum among corals","Fig. 292. Penshell, Atrina vexillum among corals.",high
+118,225,2.93,Acanthopleura spiniger,False,Caption is accurate and clean.,"Fig. 2.93. A spiny chiton, Acanthopleura spiniger.","Fig. 2.93. A spiny chiton, Acanthopleura spiniger.",high
+118,484,2.94,Acanthopleura sp.,True,Added missing figure prefix 'Fig. 2.94.' and standardized punctuation.,Chiton Acanthopleura sp. on coral rocks,Fig. 2.94. Chiton Acanthopleura sp. on coral rocks.,high
+123,230,302,Culcita schmideliana,False,Caption is already accurate and complete.,"Fig. 302. Cushion star, Culcita schmideliana","Fig. 302. Cushion star, Culcita schmideliana",high
+123,231,303,Linckia laevigata,True,Corrected minor OCR artifacts in text stream for the scientific name.,"Fig. 303. Pink Seastar, Linckia laevigata","Fig. 303. Pink Seastar, Linckia laevigata",high
+123,232,304,Culcita schmideliana,True,"Corrected OCR comma typo in 'w,aters'.","Fig. 304. Cushion star in deep waters, Culcita schmideliana","Fig. 304. Cushion star in deep waters, Culcita schmideliana",high
+123,233,305,Fromia indica,True,"Corrected OCR comma typo in 'indic,a'.","Fig. 305. Sea star, Fromia indica","Fig. 305. Sea star, Fromia indica",high
+123,234,306,Leiaster glaber,True,Added comma after Seastar for consistency with format.,"Fig. 306. Seastar, Leiaster glaber","Fig. 306. Seastar, Leiaster glaber",high
+123,483,307,,True,Added missing figure number prefix and standardized format.,Sea star of coral reef areas,Fig. 307. Sea star of coral reef areas,high
+123,235,308,Fromia sp.,True,"Corrected OCR comma typo in 'Fr,omia'.","Fig. 308. Sea star, Fromia sp., oral side","Fig. 308. Sea star, Fromia sp., oral side",high
+123,236,309,Asterina lorioli,True,Removed OCR comma artifact from figure prefix.,"Fig. 309. A small seastar, Asterina lorioli","Fig. 309. A small seastar, Asterina lorioli",high
+123,237,310,Fromia monilis,True,Corrected OCR typo in species name 'Fromia mQniUs' to 'Fromia monilis'.,"Fig. 310. Seastar, Fromia monilis","Fig. 310. Seastar, Fromia monilis",high
+125,241,314,Ophiocoma scolopendrina,True,Fixed spelling of scientific name (from scolpendrina to scolopendrina) and added hyphen to 'Long-armed'.,"Fig. 314. Long armed brittlestar, Ophiocoma scolopendrina","Fig. 314. Long-armed brittlestar, Ophiocoma scolopendrina",high
+125,242,315,Macrophiothrix sp.,False,None,"Fig. 315. Brittle star, Macrophiothrix sp.","Fig. 315. Brittle star, Macrophiothrix sp.",high
+125,482,316,Ophiomastrix annulosa,True,Added missing figure prefix 'Fig. 316.' and capitalized genus name 'Ophiomastrix'.,"Brittlestar, ophiomastrix annulosa","Fig. 316. Brittlestar, Ophiomastrix annulosa",high
+125,243,317,Ophiarthrum pictum,False,None,"Fig. 317. Reef ophiuroid, Ophiarthrum pictum","Fig. 317. Reef ophiuroid, Ophiarthrum pictum",high
+126,244,319,Comatula sp.,False,Caption is already accurate based on the text.,"Fig. 319. Feather star, Comatula sp.","Fig. 319. Feather star, Comatula sp.",high
+126,245,320,Comaster sp.,False,Caption is already accurate based on the text.,"Fig. 320. Feather star of shallow waters, Comaster sp.","Fig. 320. Feather star of shallow waters, Comaster sp.",high
+126,246,321,Lamprometra sp.,False,Caption is already accurate based on the text.,"Fig. 321. Common feather star, Lamprometra sp.","Fig. 321. Common feather star, Lamprometra sp.",high
+126,247,322,Heterometra sp.,False,Caption is already accurate based on the text.,"Fig. 322. Feather star, Heterometra sp.","Fig. 322. Feather star, Heterometra sp.",high
+126,248,323,Himerometra magnipinna,False,Caption is already accurate based on the text.,"Fig. 323. Bright yellow featherstar, Himerometra magnipinna","Fig. 323. Bright yellow featherstar, Himerometra magnipinna",high
+126,249,324,Himerometra sp.,False,Caption is already accurate based on the text.,"Fig. 324. Featherstar, Himerometra sp. on zoanthid mats","Fig. 324. Featherstar, Himerometra sp. on zoanthid mats",high
+126,250,325,Oxycomanthus bennetti,False,Caption is already accurate based on the text.,"Fig. 325. Featherstar, Oxycomanthus bennetti","Fig. 325. Featherstar, Oxycomanthus bennetti",high
+126,481,318,Himerometra sp.,True,Corrected figure number from OCR error 'S18' to '318' and added prefix 'Fig. ',"Feather star of coral reefs, Himerometra sp.","Fig. 318. Feather star of coral reefs, Himerometra sp.",high
+128,251,326,Diadema setosum,True,Corrected 'Seaurchin' to 'Sea urchin',"Fig. 326. Longspine Seaurchin, Diadema setosum","Fig. 326. Longspine Sea urchin, Diadema setosum",high
+128,252,327,Echinostrephus molaris,False,Caption is accurate,"Fig. 327. Sea urchin, Echinostrephus molaris","Fig. 327. Sea urchin, Echinostrephus molaris",high
+128,253,328,Mespilia globulus,True,Fixed OCR error in species name from 'MespiUa globules' to 'Mespilia globulus',"Fig. 328. A beautiful globe urchin, Mespilia globulus","Fig. 328. A beautiful globe urchin, Mespilia globulus",high
+128,254,329,Diadema savignyi,False,Caption is accurate,"Fig. 329. Large spined-sea urchin, Diadema savignyi","Fig. 329. Large spined-sea urchin, Diadema savignyi",high
+128,255,330,Echinothrix calamaris,True,Corrected 'Seaurchin' to 'Sea urchin' and fixed OCR numbering error,"Fig. 330. Hatpin Seaurchin, Echinothrix calamaris","Fig. 330. Hatpin Sea urchin, Echinothrix calamaris",high
+128,480,330,Echinometra mathaei,True,"Added missing figure prefix, fixed spelling from 'Echinomera tnaiJulPl' to 'Echinometra mathaei'","Rock boring sea urchin, Echinomera mathaei","Fig. 330. Rock boring sea urchin, Echinometra mathaei",high
+141,290,373,,False,Caption is accurate and clean.,Fig. 373. A school of grunts,Fig. 373. A school of grunts,high
+141,291,374,Diagramma pictum,True,Fixed OCR artifacts in scientific name.,"Fig. 374. A school of sweetlips, Diagramma pictum","Fig. 374. A school of sweetlips, Diagramma pictum",high
+141,479,375,Dascyllus reticulatus,True,Added missing figure prefix 'Fig. 375.' and fixed OCR typos in scientific name.,"A school of damsels, Dascyllus reticulatus on coral colony","Fig. 375. A school of damsels, Dascyllus reticulatus on coral colony",high
+141,292,376,Lutjanus kasmira,False,Caption is accurate and clean.,"Fig. 376. School of snappers, Lutjanus kasmira","Fig. 376. School of snappers, Lutjanus kasmira",high
+141,293,377,Heniochus acuminatus,True,Fixed OCR typo in 'Longfin' and combined split text lines.,"Fig. 377. Longfin bannerfishes, Heniochus acuminatus","Fig. 377. Longfin bannerfishes, Heniochus acuminatus",high
+141,294,378,Chaetodon auriga,True,Fixed OCR typo in 'butterflyfish'.,"Fig. 378. Threadfin butterflyfish, Chaetodon auriga","Fig. 378. Threadfin butterflyfish, Chaetodon auriga",high
+141,295,379,Chaetodon melannotus,True,Fixed OCR typos in 'butterflyfish' and 'Chaetodon melannotus'.,"Fig. 379. Black-back butterflyfish, Chaetodon melannotus","Fig. 379. Black-back butterflyfish, Chaetodon melannotus",high
+141,296,380,Chaetodon trifascialis,True,Fixed OCR typo in 'Chevroned' and scientific name spelling.,"Fig. 380. Chevroned butterflyfish, Chaetodon trifascialis","Fig. 380. Chevroned butterflyfish, Chaetodon trifascialis",high
+146,321,413,Bodianus axillaris,False,Caption is accurate and follows standard format.,"Fig. 413. Black axil hogfish, Bodianus axillaris","Fig. 413. Black axil hogfish, Bodianus axillaris",high
+146,478,414,Epibulus insidiator,True,Added missing figure prefix 'Fig. 414.' and corrected spelling of 'Slingjaw'.,"Sling jaw wrasse, Epibulus insidiator (Black phase)","Fig. 414. Slingjaw wrasse, Epibulus insidiator (Black phase)",high
+146,322,415,Halichoeres marginatus,False,Caption is accurate.,"Fig. 415. Dusky wrasse, Halichoeres marginatus","Fig. 415. Dusky wrasse, Halichoeres marginatus",high
+146,323,416,Halichoeres margaritaceus,True,Corrected OCR typo in scientific name 'margaritaceous' to 'margaritaceus'.,"Fig. 416. Pinkbelly wrasse, Halichoeres margaritaceus","Fig. 416. Pinkbelly wrasse, Halichoeres margaritaceus",high
+146,324,417,Cheilinus fasciatus,True,Corrected garbled OCR characters in figure number and species name.,"Fig. 417. Red-breasted wrasse, Cheilinus fasciatus","Fig. 417. Red-breasted wrasse, Cheilinus fasciatus",high
+146,325,418,Gomphosus caeruleus,False,Caption is accurate.,"Fig. 418. Bird wrasse, Gomphosus caeruleus (Dark phase)","Fig. 418. Bird wrasse, Gomphosus caeruleus (Dark phase)",high
+146,326,419,Gomphosus caeruleus,False,Caption is accurate.,"Fig. 419. Bird wrasse, Gomphosus caeruleus (Green phase)","Fig. 419. Bird wrasse, Gomphosus caeruleus (Green phase)",high
+146,327,420,Halichoeres argus,True,Added hyphen to 'Red-spotted' for consistency.,"Fig. 420. Red spotted wrasse, Halichoeres argus","Fig. 420. Red-spotted wrasse, Halichoeres argus",high
+146,328,421,Hemigymnus melapterus,True,"Corrected comma typo in scientific name 'm,elapterus' to 'melapterus'.","Fig. 421. Thick-lipped wrasse, Hemigymnus melapterus","Fig. 421. Thick-lipped wrasse, Hemigymnus melapterus",high
+146,329,422,Stethojulis trilineata,True,Corrected OCR typo 'triIineata' to 'trilineata'.,"Fig. 422. Three-ribbon wrasse, Stethojulis trilineata","Fig. 422. Three-ribbon wrasse, Stethojulis trilineata",high
+147,330,423,Thalassoma jansenii,True,"Fixed OCR comma/spelling errors in scientific name from raw text 'Thal,assoma jansenii'","Fig. 423. Jansen's wrasse, Thalassoma jansenii","Fig. 423. Jansen's wrasse, Thalassoma jansenii",high
+147,477,424,Platax orbicularis,True,Added missing 'Fig. 424.' prefix based on page context.,"Young of batfish, Platax orbicularis","Fig. 424. Young of batfish, Platax orbicularis",high
+147,332,425,Platax pinnatus,True,Fixed OCR typo in raw text 'Batfisf' to 'Batfish'.,"Fig. 425. Batfish, Platax pinnatus","Fig. 425. Batfish, Platax pinnatus",high
+147,331,426,Plectorhinchus orientalis,True,Fixed OCR typos 'F· g.' and 'Plectorhichus orientalis' to correct spelling and format.,"Fig. 426. Oriental sweetlip, Plectorhinchus orientalis","Fig. 426. Oriental sweetlip, Plectorhinchus orientalis",high
+147,333,427,Plectorhinchus chaetodonoides,True,Fixed OCR spelling error in specific epithet 'chaetodonaides' to 'chaetodonoides'.,"Fig. 427. Spotted sweetlip, Plectorhinchus chaetodonoides (Adult)","Fig. 427. Spotted sweetlip, Plectorhinchus chaetodonoides (Adult)",high
+147,334,428,Cheilinus chlorourus,True,"Fixed comma typo in raw text 'Fig. 42,8.' to 'Fig. 428.'.","Fig. 428. Floral wrasse, Cheilinus chlorourus","Fig. 428. Floral wrasse, Cheilinus chlorourus",high
+147,335,429,Acanthurus xanthopterus,False,Caption is accurate and complete.,"Fig. 429. Yellowfin surgeon, Acanthurus xanthopterus","Fig. 429. Yellowfin surgeon, Acanthurus xanthopterus",high
+147,336,430,Acanthurus xanthopterus,True,"Removed leading comma in raw text ',Acanthurus xanthopterus'.","Fig. 430. Yellowfin surgeon, Acanthurus xanthopterus","Fig. 430. Yellowfin surgeon, Acanthurus xanthopterus",high
+148,337,431,Acanthurus triostegus,False,No changes needed,"Fig. 431. Convict surgeon, Acanthurus triostegus","Fig. 431. Convict surgeon, Acanthurus triostegus",high
+148,338,432,Acanthurus dussumieri,True,Corrected species name spelling from 'dussumieria' to 'dussumieri' based on standard taxonomy,"Fig. 432. Eye-stripe surgeon, Acanthurus dussumieri","Fig. 432. Eye-stripe surgeon, Acanthurus dussumieri",high
+148,339,433,Acanthurus nigricauda,False,"Fixed OCR numbering typo from Fig. 43,3 to Fig. 433","Fig. 433. Back-streak surgeon, Acanthurus nigricauda","Fig. 433. Back-streak surgeon, Acanthurus nigricauda",high
+148,340,434,Acanthurus lineatus,False,Corrected OCR errors ('Blue- Ined surgeons') to standard caption text,"Fig. 434. Blue-lined surgeon, Acanthurus lineatus","Fig. 434. Blue-lined surgeon, Acanthurus lineatus",high
+148,341,435,Acanthurus leucosternon,False,Corrected OCR typo 'Acallthurus' to 'Acanthurus',"Fig. 435. Powder-blue surgeon, Acanthurus leucosternon","Fig. 435. Powder-blue surgeon, Acanthurus leucosternon",high
+148,342,436,Zebrasoma veliferum,False,"Corrected OCR typo 'Zebraso,rna' to 'Zebrasoma'","Fig. 436. Sailfin tang, Zebrasoma veliferum (Adult)","Fig. 436. Sailfin tang, Zebrasoma veliferum (Adult)",high
+148,475,437,Zebrasoma scopas,True,Added 'Fig. 437.' prefix and hyphenated 'Brush-tail',"Brush tail tang, Zebrasoma scopas","Fig. 437. Brush-tail tang, Zebrasoma scopas",high
+148,476,438,Myripristes murdjan,True,Added 'Fig. 438.' prefix and fixed OCR typo in genus name,"Blotch-eye soldierfish, Myripristes murdjan","Fig. 438. Blotch-eye soldierfish, Myripristes murdjan",high
+150,351,447,Gymnothorax javanicus,True,Fixed OCR typos in scientific name and species text.,"Fig. 447. Giant moray eel, Gymnothorax javanicus","Fig. 447. Giant moray eel, Gymnothorax javanicus",high
+150,352,448,Cetoscarus bicolor,False,Caption is accurate and complete.,"Fig. 448. Adult of bicolour parrotfish, Cetoscarus bicolor","Fig. 448. Adult of bicolour parrotfish, Cetoscarus bicolor",high
+150,353,449,Cetoscarus bicolor,True,Added missing scientific binomial based on companion adult figure and standard taxonomy.,"Fig. 449. Juvenile of bicolour parrotfish, Cetoscarus bicolor","Fig. 449. Juvenile of bicolour parrotfish, Cetoscarus bicolor",high
+150,354,450,Scarus sp.,False,Caption is accurate and complete.,"Fig. 450. Parrotfish, Scarus sp. among corals","Fig. 450. Parrotfish, Scarus sp. among corals",high
+150,355,451,Scarus frenatus,False,Caption is accurate and complete.,"Fig. 451. Bridled parrotfish, Scarus frenatus","Fig. 451. Bridled parrotfish, Scarus frenatus",high
+150,356,452,Scarus niger,False,Caption is accurate and complete.,"Fig. 452. Dusky-parrotfish, Scarus niger","Fig. 452. Dusky-parrotfish, Scarus niger",high
+150,357,453,Scarus rubroviolaceus,True,Fixed OCR typos in scientific name.,"Fig. 453. Ember-parrotfish, Scarus rubroviolaceus","Fig. 453. Ember-parrotfish, Scarus rubroviolaceus",high
+150,358,454,Scarus scaber,False,Caption is accurate and complete.,"Fig. 454. Saddled-parrotfish, Scarus scaber","Fig. 454. Saddled-parrotfish, Scarus scaber",high
+150,359,455,Hippocampus histrix,False,Caption is accurate and complete.,"Fig. 455. Thorny seahorse, Hippocampus histrix","Fig. 455. Thorny seahorse, Hippocampus histrix",high
+150,474,456,Hippocampus kuda,True,Added 'Fig. 456.' prefix and fixed OCR typo in genus name.,"Spotted seahorse, Hippocampus kuda","Fig. 456. Spotted seahorse, Hippocampus kuda",high
+155,472,495,Ptereleotris hanae,True,Added standard 'Fig. 495.' prefix and corrected 'dart fish' to 'dartfish'.,"Threadfin dart fish, Ptereleotris hanae","Fig. 495. Threadfin dartfish, Ptereleotris hanae",high
+155,395,496,Synodus sp.,False,Caption is accurate as written.,"Fig. 496. Lizardfish, Synodus sp.","Fig. 496. Lizardfish, Synodus sp.",high
+155,396,497,Gobiodon citrinus,False,Caption is accurate as written.,"Fig. 497. Coral goby, Gobiodon citrinus","Fig. 497. Coral goby, Gobiodon citrinus",high
+155,397,498,Ecsenius midas,True,Corrected OCR typo in specific epithet and genus spelling ('Escenius midas' -> 'Ecsenius midas').,"Fig. 498. Midas blenny, Ecsenius midas","Fig. 498. Midas blenny, Ecsenius midas",high
+155,398,499,Aetobatus narinari,True,"Fixed OCR artifacts in figure number and species name ('Aetobatos' -> 'Aetobatus', 'Eagleray' -> 'eagle ray').","Fig. 499. Spotted eagle ray, Aetobatus narinari","Fig. 499. Spotted eagle ray, Aetobatus narinari",high
+155,399,500,Hypolophus sephen,False,Caption is accurate as written.,"Fig. 500. Feather-tail stingray, Hypolophus sephen","Fig. 500. Feather-tail stingray, Hypolophus sephen",high
+155,473,501,Chiloscyllium punctatum,True,Added standard 'Fig. 501.' prefix and fixed hyphenation/typos from OCR.,"Brown-banded bambooshark, Chiloscyllium punctatum","Fig. 501. Brown-banded bambooshark, Chiloscyllium punctatum",high
+155,400,502,Stegostoma fasciatum,True,Corrected spaced-out word and line breaks ('Zebrashark' -> 'Zebra shark').,"Fig. 502. Zebra shark, Stegostoma fasciatum","Fig. 502. Zebra shark, Stegostoma fasciatum",high
+155,401,503,Carcharhinus amblyrhynchos,True,"Fixed line-break split words and OCR errors in scientific name ('Gr'cy' -> 'Grey', 'u111blyrhynchos' -> 'amblyrhynchos').","Fig. 503. Grey-reef shark, Carcharhinus amblyrhynchos","Fig. 503. Grey-reef shark, Carcharhinus amblyrhynchos",high
+155,402,504,Carcharhinus melanopterus,True,"Fixed OCR typos in common and scientific names ('Black-tip reefshark' -> 'Blacktip reef shark', 'Carchal'hinus 1neialloptertls' -> 'Carcharhinus melanopterus').","Fig. 504. Blacktip reef shark, Carcharhinus melanopterus","Fig. 504. Blacktip reef shark, Carcharhinus melanopterus",high
+156,403,505,Sphyrna lewini,False,Caption is already accurate.,"Fig. 505. Scalloped hammerhead shark, Sphyrna lewini","Fig. 505. Scalloped hammerhead shark, Sphyrna lewini",high
+156,404,506,Carcharhinus longimanus,False,Caption is already accurate.,"Fig. 506. Oceanic whitetip shark, Carcharhinus longimanus","Fig. 506. Oceanic whitetip shark, Carcharhinus longimanus",high
+156,405,507,Sphyrna zygaena,False,Caption is already accurate.,"Fig. 507. Smooth hammerhead shark, Sphyrna zygaena","Fig. 507. Smooth hammerhead shark, Sphyrna zygaena",high
+156,406,508,Caranx ignobilis,False,Caption is already accurate.,"Fig. 508. Giant trevally, Caranx ignobilis","Fig. 508. Giant trevally, Caranx ignobilis",high
+156,471,509,Gnathanodon speciosus,True,Added missing 'Fig. 509.' prefix and corrected spelling of 'trevalley' to 'trevally'.,"Golden trevalley, Gnathanodon speciosus","Fig. 509. Golden trevally, Gnathanodon speciosus",high
+156,407,510,Pempheris oualensis,False,Caption is already accurate.,"Fig. 510. Copper sweeper, Pempheris oualensis","Fig. 510. Copper sweeper, Pempheris oualensis",high
+156,408,511,Oxymonacanthus longirostris,False,Caption is already accurate.,"Fig. 511. Longnose leatherjacket, Oxymonacanthus longirostris","Fig. 511. Longnose leatherjacket, Oxymonacanthus longirostris",high
+156,409,512,Pseudobalistes fuscus,False,Caption is already accurate.,"Fig. 512. Yellow-spotted triggerfish, Pseudobalistes fuscus","Fig. 512. Yellow-spotted triggerfish, Pseudobalistes fuscus",high
+156,410,513,Balistoides conspicillum,False,Caption is already accurate.,"Fig. 513. Clown triggerfish, Balistoides conspicillum","Fig. 513. Clown triggerfish, Balistoides conspicillum",high
+156,411,514,Balistoides viridescens,False,Caption is already accurate.,"Fig. 514. Titan triggerfish, Balistoides viridescens","Fig. 514. Titan triggerfish, Balistoides viridescens",high
+158,470,523,Canthigaster bennetti,True,Added missing 'Fig. 523.' prefix and formatted species name/common name correctly based on raw text and page style.,"Bennett's Puffer, Canthigaster bennetti","Fig. 523. Bennett's puffer, Canthigaster bennetti",high
+158,420,524,Ostracion cubicus,True,Lowercased 'Juvenile' for stylistic consistency.,"Fig. 524. Yellow boxfish, Ostracion cubicus (Juvenile)","Fig. 524. Yellow boxfish, Ostracion cubicus (juvenile)",high
+158,421,525,Ostracion cubicus,False,Caption is accurate and clean.,Fig. 525. Adult of Ostracion cubicus,Fig. 525. Adult of Ostracion cubicus,high
+158,422,526,Ostracion meleagris,False,Caption is accurate and clean.,"Fig. 526. White-spotted boxfish, Ostracion meleagris","Fig. 526. White-spotted boxfish, Ostracion meleagris",high
+158,423,527,Lactoria cornuta,False,Caption is accurate and clean.,"Fig. 527. Long-horn cowfish, Lactoria cornuta","Fig. 527. Long-horn cowfish, Lactoria cornuta",high
+158,424,528,Arothron nigropunctatus,False,Caption is accurate and clean.,"Fig. 528. Brown phase of puffer, Arothron nigropunctatus","Fig. 528. Brown phase of puffer, Arothron nigropunctatus",high
+158,425,529,Diodon holocanthus,False,Caption is accurate and clean.,"Fig. 529. Balloon porcupinefish, Diodon holocanthus","Fig. 529. Balloon porcupinefish, Diodon holocanthus",high
+158,426,530,Siganus magnificus,False,Caption is accurate and clean.,"Fig. 530. Foxface rabbitfish, Siganus magnificus","Fig. 530. Foxface rabbitfish, Siganus magnificus",high
+160,429,534,Chelonia mydas,True,Corrected fig_num and separated combined caption to isolate Fig. 534.,,Fig. 534. Hatchlings of Green sea turtle.,high
+160,430,536,Eretmochelys imbricata squamata,True,Corrected OCR errors in spelling from 'Erytmochelys imbricata squamata' to 'Eretmochelys imbricata squamata'.,,"Fig. 536. Hawksbill sea turtle, Eretmochelys imbricata squamata",high
+160,431,537,Lepidochelys olivacea,True,"Fixed OCR comma typo in scientific name ('oliva,cea' to 'olivacea').",,"Fig. 537. Olive ridley turtle, Lepidochelys olivacea",high
+160,432,538,Lepidochelys olivacea,True,Fixed OCR period/space typo in 'layin.g'.,,Fig. 538. Olive ridley laying eggs,high
+160,468,535,Dermochelys coriacea,True,Added missing figure prefix and number format.,,Fig. 535. Hatchling of leatherback turtle,high
+160,469,534,Dermochelys coriacea,True,Added missing figure prefix and corrected hyphenation/line break in scientific name 'coriace·a'.,,"Fig. 534. Leatherback turtle, Dermochelys coriacea",high
+161,433,539,Laticauda colubrina,True,Fixed OCR split and typo in species name from 'Latioauda c.lubrina',"Fig. 539. Amphibious sea snakes, Laticauda colubrina","Fig. 539. Amphibious sea snakes, Laticauda colubrina",high
+161,467,540,Laticauda laticauda,True,"Added standard 'Fig. 540.' prefix and cleaned OCR text from 'Laticauda lati,cauda'","Sea snake among corals, Laticauda laticauda","Fig. 540. Sea snake among corals, Laticauda laticauda",high
+161,434,541,Laticauda laticauda,True,Corrected misspelled species name from 'Laticauda laticaudata' to 'Laticauda laticauda' to match text,Fig. 541. Laticauda laticaudata on rocky shore for egg laying,Fig. 541. Laticauda laticauda on rocky shore for egg laying,high
+162,435,542,Egretta sacra,True,Added missing period at the end of the caption.,"Fig. 542. Reef heron, Egretta sacra","Fig. 542. Reef heron, Egretta sacra.",high
+162,466,543,Pluvialis sp.,True,Added 'Fig. 543.' prefix and terminal period to match standard caption format.,"Plovers, Pluvialis sp. on muddy shore","Fig. 543. Plovers, Pluvialis sp. on muddy shore.",high
+163,436,544,Egretta garzetta,False,Caption is accurate as presented in the text.,"Fig. 544. Little egret, Egretta garzetta","Fig. 544. Little egret, Egretta garzetta",high
+163,437,547,Ardeola grayii,False,Caption is accurate as presented in the text.,"Fig. 547. Indian Pond heron, Ardeola grayii (Breeding phase)","Fig. 547. Indian Pond heron, Ardeola grayii (Breeding phase)",high
+163,438,548,Todiramphus chloris,False,Caption is accurate as presented in the text.,"Fig. 548. White-collared kingfisher, Todiramphus chloris","Fig. 548. White-collared kingfisher, Todiramphus chloris",high
+163,439,549,Halcyon smyrnensis,False,Caption is accurate as presented in the text.,"Fig. 549. White-breasted kingfisher, Halcyon smyrnensis","Fig. 549. White-breasted kingfisher, Halcyon smyrnensis",high
+163,440,550,Charadrius dubius,False,Caption is accurate as presented in the text.,"Fig. 550. Little ringed plover, Charadrius dubius (Non-breeding phase)","Fig. 550. Little ringed plover, Charadrius dubius (Non-breeding phase)",high
+163,441,551,Sterna sumatrana,False,Caption is accurate as presented in the text.,"Fig. 551. Black-napped tern, Sterna sumatrana","Fig. 551. Black-napped tern, Sterna sumatrana",high
+163,442,552,Sterna sumatrana,False,Caption is accurate as presented in the text.,"Fig. 552. Tern eggs, Sterna sumatrana","Fig. 552. Tern eggs, Sterna sumatrana",high
+163,443,553,Haliaeetus leucogaster,False,Caption is accurate as presented in the text.,"Fig. 553. White-bellied sea eagle, Haliaeetus leucogaster","Fig. 553. White-bellied sea eagle, Haliaeetus leucogaster",high
+163,464,545,Mesophoyx intermedia,True,"Added figure number prefix, corrected spelling of genus name from 'Mesophoxy' to 'Mesophoyx', and standardized punctuation.",Median egret- Mesophoxy intermedia,"Fig. 545. Median egret, Mesophoyx intermedia",high
+163,465,546,Ardeola grayii,True,Added missing figure number prefix to match the page text (Fig. 546).,"Pond heron, Ardeola grayii (Non-breeding phase)","Fig. 546. Pond heron, Ardeola grayii (Non-breeding phase)",high
+164,463,554,Dugong dugon,True,Verified figure caption and corrected species name spelling to Dugong dugon based on taxonomic standards.,"Sea cow, Dugong dugon washed ashore","Sea cow, Dugong dugon washed ashore",high
+168,445,556,,True,Fixed line-break formatting from OCR text to form a complete and continuous caption.,Fig. 556. Reef exposed due to 26th Dec. 2004 earthquake.,Fig. 556. Reef exposed due to 26th Dec. 2004 earthquake.,high
+168,446,557,,True,Fixed line-break formatting from OCR text to form a complete and continuous caption.,Fig. 557. Extensive damage of corals at Interview Island after tsunami.,Fig. 557. Extensive damage of corals at Interview Island after tsunami.,high
+168,461,558,,True,Added missing figure prefix 'Fig. 558.' and terminal punctuation based on layout and standard style.,Massive death of corals at Anderson Island,Fig. 558. Massive death of corals at Anderson Island.,high
+168,462,559,,True,Added missing figure prefix 'Fig. 559.' and terminal punctuation based on layout and standard style.,Mass destruction of corals at North Reef Island,Fig. 559. Mass destruction of corals at North Reef Island.,high
+169,447,560,,False,Caption is accurate as per text.,Fig. 560. Permanent exposure of reef around the islands,Fig. 560. Permanent exposure of reef around the islands,high
+169,448,562,,True,Fixed OCR typo in 'Island' (missing 'I').,Fig. 562. Permanently exposed intertidal reef at East Island,Fig. 562. Permanently exposed intertidal reef at East Island,high
+169,449,563,,True,Capitalized 'Earthquake & Tsunami' to match source text capitalization.,Fig. 563. Partially submerged island due to earthquake & tsunami,Fig. 563. Partially submerged island due to Earthquake & Tsunami,high
+169,450,564,,True,Fixed OCR hyphen/dash and missing 'I' in 'Island'.,Fig. 564. Devastated north end coastal belt of Car Nicobar Island,Fig. 564. Devastated north end coastal belt of Car Nicobar Island,high
+169,451,565,,True,Capitalized 'Tsunami' to match source text.,Fig. 565. Huge coral blocks washed ashore due to tsunami,Fig. 565. Huge coral blocks washed ashore due to Tsunami,high
+169,452,566,Tubipora musica,True,Fixed OCR errors in 'Tubipora rnucica' to proper binomial 'Tubipora musica'.,Fig. 566. Large chunk of red coral Tubipora musica on shore,Fig. 566. Large chunk of red coral Tubipora musica on shore,high
+169,453,567,Porites sp.,True,Fixed OCR typo in figure number and 'block'.,Fig. 567. Huge Porites coral block washed ashore during tsunami,Fig. 567. Huge Porites coral block washed ashore during tsunami,high
+169,460,561,,True,Added missing figure number 'Fig. 561.' and fixed text.,Damaged littoral forest due to natural calamity,Fig. 561. Damaged littoral forest due to natural calamity,high

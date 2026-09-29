@@ -57,10 +57,10 @@ coral_fig_055,images/coral_fig_055_p057.jpg,57,75,Pocillopora eydouxi,Pocillopor
 coral_fig_056,images/coral_fig_056_p057.jpg,57,76,Acropora sp.,Acropora,sp.,False,Fig. 76. Irregularly grown Acropora sp.,1586,947,cv_layout,ok
 coral_fig_057,images/coral_fig_057_p059.jpg,59,80,Seriatopora hystrix,Seriatopora,hystrix,True,"Fig. 80. Common shallow coral, Seriatopora hystrix",1571,927,manual_recrop,ok
 coral_fig_058,images/coral_fig_058_p059.jpg,59,81,Acropora digitifera,Acropora,digitifera,True,Fig. 81. Acropora digitifera in shallow waters,1575,904,manual_recrop,ok
-coral_fig_059,images/coral_fig_059_p059.jpg,59,82,,,,False,"A digitale coral, Acropora gemmifera",1570,911,manual_added,ok
+coral_fig_059,images/coral_fig_059_p059.jpg,59,82,Acropora gemmifera,Acropora,gemmifera,True,"Fig. 82. A digitate coral, Acropora gemmifera",1570,911,manual_added,ok
 coral_fig_060,images/coral_fig_060_p060.jpg,60,83,Acropora humilis,Acropora,humilis,True,Fig. 83. Small colony of Acropora humilis,1597,929,manual_recrop,ok
 coral_fig_061,images/coral_fig_061_p060.jpg,60,84,Acropora granulosa,Acropora,granulosa,True,"Fig. 84. Plate coral, Acropora granulosa",1600,929,manual_recrop,ok
-coral_fig_062,images/coral_fig_062_p060.jpg,60,85,,,,False,"Plate coral, Acropora Hyacinthus on shallow reef",1599,915,manual_added,ok
+coral_fig_062,images/coral_fig_062_p060.jpg,60,85,Acropora hyacinthus,Acropora,hyacinthus,True,"Fig. 85. Plate coral, Acropora hyacinthus on shallow reef",1599,915,manual_added,ok
 coral_fig_063,images/coral_fig_063_p061.jpg,61,86,Acropora nasuta,Acropora,nasuta,True,"Fig. 86. Digitate coral plate, Acropora nasuta",1586,934,cv_layout,ok
 coral_fig_064,images/coral_fig_064_p061.jpg,61,87,Acropora sp.,Acropora,sp.,False,"Fig. 87. Branching coral, Acropora sp.",1585,913,cv_layout,ok
 coral_fig_065,images/coral_fig_065_p061.jpg,61,88,Acropora palifera,Acropora,palifera,True,"Fig. 88. Robust branched coral, Acropora palifera",1582,939,cv_layout,ok
@@ -70,18 +70,18 @@ coral_fig_068,images/coral_fig_068_p062.jpg,62,91,Acropora samoensis,Acropora,sa
 coral_fig_069,images/coral_fig_069_p063.jpg,63,92,Acropora sp.,Acropora,sp.,False,Fig. 92. Robust branches of Acropora sp.,1585,929,cv_layout,ok
 coral_fig_070,images/coral_fig_070_p063.jpg,63,93,Acropora aspera,Acropora,aspera,True,Fig. 93. Colony of Acropora aspera,1585,920,cv_layout,ok
 coral_fig_071,images/coral_fig_071_p063.jpg,63,94,Acropora hyacinthus,Acropora,hyacinthus,True,Fig. 94. Acropora sp. overgrowing on Acropora hyacinthus,1581,918,cv_layout,ok
-coral_fig_072,images/coral_fig_072_p064.jpg,64,95,,,,False,"Plate coral, Acropora clathrata",1607,929,manual_added,ok
+coral_fig_072,images/coral_fig_072_p064.jpg,64,95,Acropora clathrata,Acropora,clathrata,True,"Plate coral, Acropora clathrata",1607,929,manual_added,ok
 coral_fig_073,images/coral_fig_073_p064.jpg,64,96,Acropora austera,Acropora,austera,True,Fig. 96. Reef fish hovering on Acropora austera.,1603,932,manual_recrop,ok
 coral_fig_074,images/coral_fig_074_p064.jpg,64,97,Acropora sp.,Acropora,sp.,False,Fig. 97. Colonies of diverse Acropora species.,1600,935,manual_recrop,ok
 coral_fig_075,images/coral_fig_075_p065.jpg,65,98,Oulophyllia crispa,Oulophyllia,crispa,True,Fig. 98. Massive Oulophyllia crispa (Lamarck) and Leptoria phrygia,1584,924,cv_layout,ok
 coral_fig_076,images/coral_fig_076_p065.jpg,65,99,Echinopora lamellosa,Echinopora,lamellosa,True,Fig. 99. Encrusted form of Echinopora lamellosa,1586,888,cv_layout,ok
 coral_fig_077,images/coral_fig_077_p065.jpg,65,100,Acropora sp.,Acropora,sp.,False,Fig. 100. Acropora sp. and Porites sp. colonies,1586,930,cv_layout,ok
 coral_fig_078,images/coral_fig_078_p066.jpg,66,101,Montipora aequituberculata,Montipora,aequituberculata,True,"Fig. 101. Foliaceous coral, Montipora aequituberculata",1632,932,manual_recrop,ok
-coral_fig_079,images/coral_fig_079_p066.jpg,66,102,,,,False,Young colony of encrusted Porites sp,1620,918,manual_added,ok
+coral_fig_079,images/coral_fig_079_p066.jpg,66,102,Porites sp.,Porites,sp.,False,Fig. 102. Young colony of encrusted Porites sp.,1620,918,manual_added,ok
 coral_fig_080,images/coral_fig_080_p066.jpg,66,103,Favia matthaii,Favia,matthaii,True,"Fig. 103. Massive coral, Favia matthaii",1624,991,manual_recrop,ok
 coral_fig_081,images/coral_fig_081_p067.jpg,67,104,Favia favus,Favia,favus,True,"Fig. 104. Massive coral, Favia favus",1581,918,manual_recrop,ok
 coral_fig_082,images/coral_fig_082_p067.jpg,67,105,Favia halicora,Favia,halicora,True,"Fig. 105. Massive coral, Favia halicora",1570,902,manual_recrop,ok
-coral_fig_083,images/coral_fig_083_p067.jpg,67,106,,,,False,"Mushroom coral, Fungia echinata",1580,919,manual_added,ok
+coral_fig_083,images/coral_fig_083_p067.jpg,67,106,Fungia echinata,Fungia,echinata,True,"Fig. 106. Mushroom coral, Fungia echinata",1580,919,manual_added,ok
 coral_fig_084,images/coral_fig_084_p070.jpg,70,113,Leptoria phrygia,Leptoria,phrygia,True,Fig. 113. Massive colony of Leptoria phrygia,1608,939,cv_layout,ok
 coral_fig_085,images/coral_fig_085_p070.jpg,70,114,Lobophyllia corymbosa,Lobophyllia,corymbosa,True,"Fig. 114. Brain coral, Lobophyllia corymbosa",1611,947,cv_layout,ok
 coral_fig_086,images/coral_fig_086_p070.jpg,70,115,Merulina ampliata,Merulina,ampliata,True,"Fig. 115. Beautiful, encrusted coral, Merulina ampliata",1603,938,cv_layout,ok
@@ -102,7 +102,7 @@ coral_fig_100,images/coral_fig_100_p076.jpg,76,131,Pavona decussata,Pavona,decus
 coral_fig_101,images/coral_fig_101_p076.jpg,76,132,Porites murrayensis,Porites,murrayensis,True,"Fig. 132. Shallow massive coral, Porites murrayensis",1614,956,cv_layout,ok
 coral_fig_102,images/coral_fig_102_p076.jpg,76,133,Stylophora pistillata,Stylophora,pistillata,True,Fig. 133. Stylophora pistillata,1611,959,cv_layout,ok
 coral_fig_103,images/coral_fig_103_p077.jpg,77,134,Leptoseris sp.,Leptoseris,sp.,False,"Fig. 134. Encrusted coral, Leptoseris sp.",1573,928,manual_recrop,ok
-coral_fig_104,images/coral_fig_104_p077.jpg,77,135,,,,False,"Huge massive coral, Porites lobata",1569,910,manual_added,ok
+coral_fig_104,images/coral_fig_104_p077.jpg,77,135,Porites lobata,Porites,lobata,True,"Fig. 135. Huge massive coral, Porites lobata",1569,910,manual_added,ok
 coral_fig_105,images/coral_fig_105_p077.jpg,77,136,Symphyllia radians,Symphyllia,radians,True,"Fig. 136. Brain coral, Symphyllia radians",1568,902,manual_recrop,ok
 coral_fig_106,images/coral_fig_106_p078.jpg,78,137,Symphyllia recta,Symphyllia,recta,True,Fig. 137. Colony of Symphyllia recta,2117,1279,cv_layout,ok
 coral_fig_107,images/coral_fig_107_p078.jpg,78,138,Tubastrea aurea,Tubastrea,aurea,True,Fig. 138. Colony of Tubastrea aurea,2118,1559,cv_layout,ok
@@ -111,7 +111,7 @@ coral_fig_109,images/coral_fig_109_p081.jpg,81,140,Sarcophyton sp.,Sarcophyton,s
 coral_fig_110,images/coral_fig_110_p081.jpg,81,141,Sarcophyton ehrenbergi,Sarcophyton,ehrenbergi,True,Fig. 141. Sarcophyton ehrenbergi colonies on reef slope,1582,938,cv_layout,ok
 coral_fig_111,images/coral_fig_111_p081.jpg,81,142,Sinularia gibberosa,Sinularia,gibberosa,True,Fig. 142. Extensive patches of Sinularia gibberosa,1583,914,cv_layout,ok
 coral_fig_112,images/coral_fig_112_p082.jpg,82,143,Sinularia sp.,Sinularia,sp.,False,Fig. 143. Sinularia sp. on coral rocks,1598,922,manual_recrop,ok
-coral_fig_113,images/coral_fig_113_p082.jpg,82,144,,,,False,Lobophytum sp. grown like propeller blades,1597,934,manual_added,ok
+coral_fig_113,images/coral_fig_113_p082.jpg,82,144,Lobophytum sp.,Lobophytum,sp.,False,Fig. 144. Lobophytum sp. grown like propeller blades,1597,934,manual_added,ok
 coral_fig_114,images/coral_fig_114_p082.jpg,82,145,Lobophytum crassum,Lobophytum,crassum,True,Fig. 145. Invasion of Lobophytum crassum in shallow waters,1593,933,manual_recrop,ok
 coral_fig_115,images/coral_fig_115_p083.jpg,83,46,Sarcophyton infundibuliforme,Sarcophyton,infundibuliforme,True,Fig. 46. Prolific growth of Sarcophyton infundibuliforme.,1590,948,cv_layout,ok
 coral_fig_116,images/coral_fig_116_p083.jpg,83,147,Sinularia sp.,Sinularia,sp.,False,Fig. 147. Encrusted form of Sinularia sp.,1587,932,cv_layout,ok
@@ -122,7 +122,7 @@ coral_fig_120,images/coral_fig_120_p085.jpg,85,154,Dendronephthya sp.,Dendroneph
 coral_fig_121,images/coral_fig_121_p086.jpg,86,155,Nephthea sp.,Nephthea,sp.,False,Fig. 155. Nephthea sp. on reef slope.,2071,949,cv_layout,ok
 coral_fig_122,images/coral_fig_122_p086.jpg,86,156,Nephthea sp.,Nephthea,sp.,False,Fig. 156. Brilliant red Nephthea sp.,1189,1872,cv_layout,ok
 coral_fig_123,images/coral_fig_123_p087.jpg,87,157,,,,False,Fig. 157. A gorgonian colony on reef slope.,2034,1218,manual_recrop,ok
-coral_fig_124,images/coral_fig_124_p087.jpg,87,158,,,,False,"Seafan, Gorgonia sp.",2057,1590,manual_added,ok
+coral_fig_124,images/coral_fig_124_p087.jpg,87,158,Gorgonia sp.,Gorgonia,sp.,False,"Seafan, Gorgonia sp.",2057,1590,manual_added,ok
 coral_fig_125,images/coral_fig_125_p088.jpg,88,159,Plexauridae sp.,Plexauridae,sp.,False,"Fig. 159. Seafan, species of Plexauridae.",1306,1739,cv_layout,ok
 coral_fig_126,images/coral_fig_126_p088.jpg,88,160,Subergorgia sp.,Subergorgia,sp.,False,"Fig. 160. Seafan, species of Subergorgia.",1612,1170,cv_layout,ok
 coral_fig_127,images/coral_fig_127_p089.jpg,89,161,,,,False,Fig. 161. A deep-water gorgonian species.,1568,1100,manual_recrop,ok
@@ -138,12 +138,12 @@ coral_fig_136,images/coral_fig_136_p096.jpg,96,174,Panulirus versicolor,Panuliru
 coral_fig_137,images/coral_fig_137_p097.jpg,97,175,Panulirus sp.,Panulirus,sp.,False,"Fig. 175. Reef lobster, Panulirus sp.",1012,651,manual_recrop,ok
 coral_fig_138,images/coral_fig_138_p097.jpg,97,176,Thenus orientalis,Thenus,orientalis,True,"Fig. 176. Slipper lobster, Thenus orientalis",1004,656,manual_recrop,ok
 coral_fig_139,images/coral_fig_139_p098.jpg,98,179,Area septemspinosa,Area,septemspinosa,True,"Fig. 179. Small reef crab, Area septemspinosa",1010,661,manual_recrop,ok
-coral_fig_140,images/coral_fig_140_p098.jpg,98,180,,,,False,"Shallow reef crab, Aulacolambrus sp.",1034,673,manual_added,ok
+coral_fig_140,images/coral_fig_140_p098.jpg,98,180,Aulacolambrus sp.,Aulacolambrus,sp.,False,"Fig. 180. Shallow reef crab, Aulacolambrus sp.",1034,673,manual_added,ok
 coral_fig_141,images/coral_fig_141_p099.jpg,99,182,Carpilus convexus,Carpilus,convexus,True,"Fig. 182. Reef crab, Carpilus convexus",1018,671,manual_recrop,ok
 coral_fig_142,images/coral_fig_142_p099.jpg,99,183,Carpilus maculatus,Carpilus,maculatus,True,"Fig. 183. Poisonous reef crab, Carpilus maculatus",986,610,manual_recrop,ok
 coral_fig_143,images/coral_fig_143_p099.jpg,99,84,Charybdis sp.,Charybdis,sp.,False,"Fig. 184. Swimmer crab, Charybdis sp.",1017,593,manual_recrop,ok
 coral_fig_144,images/coral_fig_144_p099.jpg,99,186,Atergatis floridus,Atergatis,floridus,True,"Fig. 186. Shallow reef crab, Atergatis floridus",989,685,manual_recrop,ok
-coral_fig_145,images/coral_fig_145_p100.jpg,100,188,,,,False,"Pelagic crab, Graspus albolineatus",1020,755,manual_added,ok
+coral_fig_145,images/coral_fig_145_p100.jpg,100,188,Grapsus albolineatus,Grapsus,albolineatus,True,"Fig. 188. Pelagic crab, Grapsus albolineatus",1020,755,manual_added,ok
 coral_fig_146,images/coral_fig_146_p100.jpg,100,187,Pilodius pugil,Pilodius,pugil,True,"Fig. 187. Common reef crab, Pilodius pugil",1025,740,manual_recrop,ok
 coral_fig_147,images/coral_fig_147_p100.jpg,100,189,Grapsus grapsus,Grapsus,grapsus,True,"Fig. 189. Pelagic crab of rocky reefs, Grapsus grapsus",1029,679,manual_recrop,ok
 coral_fig_148,images/coral_fig_148_p100.jpg,100,190,Leptodius exaratus,Leptodius,exaratus,True,"Fig. 190. Shallow reef crab, Leptodius exaratus",916,640,manual_recrop,ok
@@ -153,7 +153,7 @@ coral_fig_151,images/coral_fig_151_p101.jpg,101,93,Scylla serrata,Scylla,serrata
 coral_fig_152,images/coral_fig_152_p101.jpg,101,194,Ocypode ceratophthalma,Ocypode,ceratophthalma,True,"Fig. 194. Ghost crab of muddy reef areas, Ocypode ceratophthalma",1006,558,manual_recrop,ok
 coral_fig_153,images/coral_fig_153_p101.jpg,101,196,Ocypode sp.,Ocypode,sp.,False,"Fig. 196. Ocypode crab, Ocypode sp.",1013,811,manual_recrop,ok
 coral_fig_154,images/coral_fig_154_p101.jpg,101,195,Ocypode macrocera,Ocypode,macrocera,True,"Fig. 195. Crab of sandy-mud reefs, Ocypode macrocera",980,639,manual_recrop,ok
-coral_fig_155,images/coral_fig_155_p101.jpg,101,197,,,,False,"Pelagic reef crab, Portunus pelagicus",1008,646,manual_added,ok
+coral_fig_155,images/coral_fig_155_p101.jpg,101,197,Portunus pelagicus,Portunus,pelagicus,True,"Fig. 197. Pelagic reef crab, Portunus pelagicus",1008,646,manual_added,ok
 coral_fig_156,images/coral_fig_156_p101.jpg,101,198,Portunus sanguinolentus,Portunus,sanguinolentus,True,"Fig. 198. Shallow pelagic crab, Portunus sanguinolentus",998,916,manual_recrop,ok
 coral_fig_157,images/coral_fig_157_p101.jpg,101,199,Charybdis feriatus,Charybdis,feriatus,True,"Fig. 199. Swimmer crab, Charybdis feriatus",1008,567,manual_recrop,ok
 coral_fig_158,images/coral_fig_158_p102.jpg,102,201,Thalamita sp.,Thalamita,sp.,False,"Fig. 201. Reef crab, Thalamita sp.",1035,639,cv_layout,ok
@@ -166,14 +166,14 @@ coral_fig_164,images/coral_fig_164_p102.jpg,102,207,Etisus sp.,Etisus,sp.,False,
 coral_fig_165,images/coral_fig_165_p102.jpg,102,206,Etisus dentatus,Etisus,dentatus,True,"Fig. 206. Common coral crab, Etisus dentatus",892,629,cv_layout,ok
 coral_fig_166,images/coral_fig_166_p104.jpg,104,208,Dardanus megistos,Dardanus,megistos,True,"Fig. 208. Hermit crab out of shell, Dardanus megistos",980,1224,manual_recrop,ok
 coral_fig_167,images/coral_fig_167_p104.jpg,104,209,Clibanarius sp.,Clibanarius,sp.,False,"Fig. 209. Hermit crab, Clibanarius sp.",900,512,manual_recrop,ok
-coral_fig_168,images/coral_fig_168_p104.jpg,104,211,,,,False,"Common mantis shrimp, Harpiosquilla sp.",1025,724,manual_added,ok
+coral_fig_168,images/coral_fig_168_p104.jpg,104,211,Harpiosquilla sp.,Harpiosquilla,sp.,False,"Fig. 211. Common mantis shrimp, Harpiosquilla sp.",1025,724,manual_added,ok
 coral_fig_169,images/coral_fig_169_p104.jpg,104,210,Heterosquilla spinosa,Heterosquilla,spinosa,True,"Fig. 210. Mantid shrimp, Heterosquilla spinosa",594,1100,manual_recrop,ok
 coral_fig_170,images/coral_fig_170_p104.jpg,104,212,Oratosquilla sp.,Oratosquilla,sp.,False,"Fig. 212. Mantis shrimp, Oratosquilla sp.",1210,506,manual_recrop,ok
 coral_fig_171,images/coral_fig_171_p104.jpg,104,213,Squilla sp.,Squilla,sp.,False,"Fig. 213. Green squilla, Squilla sp.",1157,404,manual_recrop,recropped
 coral_fig_172,images/coral_fig_172_p105.jpg,105,214,Squilla sp.,Squilla,sp.,False,"Fig. 214. Mantis shrimp of coral rubble, Squilla sp.",861,1286,manual_recrop,ok
 coral_fig_173,images/coral_fig_173_p105.jpg,105,215,Lysiosquilla maculata,Lysiosquilla,maculata,True,"Fig. 215. Banded mantis shrimp, Lysiosquilla maculata",855,1288,manual_recrop,ok
 coral_fig_174,images/coral_fig_174_p105.jpg,105,217,Tetraclita sp.,Tetraclita,sp.,False,"Fig. 217. Acorn barnacles, Tetraclita sp.",1005,640,manual_recrop,ok
-coral_fig_175,images/coral_fig_175_p105.jpg,105,216,,,,False,"Barnacles, Tetraclita sp.",1014,644,manual_added,ok
+coral_fig_175,images/coral_fig_175_p105.jpg,105,216,Tetraclita sp.,Tetraclita,sp.,False,"Fig. 216. Barnacles, Tetraclita sp.",1014,644,manual_added,ok
 coral_fig_176,images/coral_fig_176_p105.jpg,105,218,Lepas sp.,Lepas,sp.,False,"Fig. 218. Gooseneck barnacles, Lepas sp.",1014,611,manual_recrop,ok
 coral_fig_177,images/coral_fig_177_p105.jpg,105,219,,,,False,Fig. 219. Parasitic isopods on reef associate scombrid fish.,1000,600,manual_recrop,ok
 coral_fig_178,images/coral_fig_178_p107.jpg,107,220,Turbo marmoratus,Turbo,marmoratus,True,"Fig. 220. Turban shell, Turbo marmoratus",555,730,manual_recrop,ok
@@ -185,7 +185,7 @@ coral_fig_183,images/coral_fig_183_p107.jpg,107,225,Cypraea carneola,Cypraea,car
 coral_fig_184,images/coral_fig_184_p107.jpg,107,226,Cypraea arabica,Cypraea,arabica,True,"Fig. 226. Arabic Cowry, Cypraea arabica",989,586,manual_recrop,ok
 coral_fig_185,images/coral_fig_185_p107.jpg,107,227,Cypraea annulus,Cypraea,annulus,True,"Fig. 227. Money cowry, Cypraea annulus",1000,562,manual_recrop,ok
 coral_fig_186,images/coral_fig_186_p107.jpg,107,228,Cypraea talpa,Cypraea,talpa,True,"Fig. 228. Money cowry, Cypraea talpa",944,555,manual_recrop,ok
-coral_fig_187,images/coral_fig_187_p108.jpg,108,229,,,,False,"Cowry, Cypraea sp. on reef",1025,606,manual_added,ok
+coral_fig_187,images/coral_fig_187_p108.jpg,108,229,Cypraea sp.,Cypraea,sp.,False,"Fig. 229. Cowry, Cypraea sp. on reef",1025,606,manual_added,ok
 coral_fig_188,images/coral_fig_188_p108.jpg,108,230,,,,False,Fig. 230. Variety of cowries on reef,1033,610,manual_recrop,ok
 coral_fig_189,images/coral_fig_189_p108.jpg,108,232,Cypraea sp.,Cypraea,sp.,False,"Fig. 232. Cowry shell, Cypraea sp.",1000,626,manual_recrop,ok
 coral_fig_190,images/coral_fig_190_p108.jpg,108,231,Conus sp.,Conus,sp.,False,"Fig. 231. Coneshell on dead coral rock, Conus sp.",1007,623,manual_recrop,ok
@@ -237,8 +237,8 @@ coral_fig_235,images/coral_fig_235_p117.jpg,117,288,Spondylus sp.,Spondylus,sp.,
 coral_fig_236,images/coral_fig_236_p117.jpg,117,289,Spondylus hystrix,Spondylus,hystrix,True,"Fig. 289. Spiny bivalve, Spondylus hystrix",1013,730,manual_recrop,ok
 coral_fig_237,images/coral_fig_237_p117.jpg,117,290,Pinctada margaritifera,Pinctada,margaritifera,True,"Fig. 290. Pearl oyster, Pinctada margaritifera",1013,1038,manual_recrop,ok
 coral_fig_238,images/coral_fig_238_p117.jpg,117,291,Pinna bicolor,Pinna,bicolor,True,"Fig. 291. Penshell, Pinna bicolor",1003,1775,manual_recrop,ok
-coral_fig_239,images/coral_fig_239_p117.jpg,117,292,,,,False,"Penshell, Atrina vexillum among corals",1023,747,manual_added,ok
-coral_fig_240,images/coral_fig_240_p118.jpg,118,294,,,,False,Chiton Acanthopleura sp. on coral rocks,1022,769,manual_added,ok
+coral_fig_239,images/coral_fig_239_p117.jpg,117,292,Atrina vexillum,Atrina,vexillum,True,"Fig. 292. Penshell, Atrina vexillum among corals.",1023,747,manual_added,ok
+coral_fig_240,images/coral_fig_240_p118.jpg,118,2.94,Acanthopleura sp.,Acanthopleura,sp.,False,Fig. 2.94. Chiton Acanthopleura sp. on coral rocks.,1022,769,manual_added,ok
 coral_fig_241,images/coral_fig_241_p118.jpg,118,2.93,Acanthopleura spiniger,Acanthopleura,spiniger,True,"Fig. 2.93. A spiny chiton, Acanthopleura spiniger.",1017,764,manual_recrop,ok
 coral_fig_242,images/coral_fig_242_p120.jpg,120,296,,,,False,Fig. 296. Octopus species of shallow reef areas,879,1198,cv_layout,ok
 coral_fig_243,images/coral_fig_243_p120.jpg,120,295,Nautilus pompilius,Nautilus,pompilius,True,"Fig. 295. Chambered Nautilus, Nautilus pompilius",1106,1205,cv_layout,ok
@@ -248,7 +248,7 @@ coral_fig_246,images/coral_fig_246_p123.jpg,123,302,Culcita schmideliana,Culcita
 coral_fig_247,images/coral_fig_247_p123.jpg,123,303,Linckia laevigata,Linckia,laevigata,True,"Fig. 303. Pink Seastar, Linckia laevigata",1011,649,manual_recrop,ok
 coral_fig_248,images/coral_fig_248_p123.jpg,123,304,Culcita schmideliana,Culcita,schmideliana,True,"Fig. 304. Cushion star in deep waters, Culcita schmideliana",1009,577,manual_recrop,ok
 coral_fig_249,images/coral_fig_249_p123.jpg,123,305,Fromia indica,Fromia,indica,True,"Fig. 305. Sea star, Fromia indica",1008,576,manual_recrop,ok
-coral_fig_250,images/coral_fig_250_p123.jpg,123,307,,,,False,Sea star of coral reef areas,1007,676,manual_added,ok
+coral_fig_250,images/coral_fig_250_p123.jpg,123,307,,,,False,Fig. 307. Sea star of coral reef areas,1007,676,manual_added,ok
 coral_fig_251,images/coral_fig_251_p123.jpg,123,306,Leiaster glaber,Leiaster,glaber,True,"Fig. 306. Seastar, Leiaster glaber",1009,673,manual_recrop,ok
 coral_fig_252,images/coral_fig_252_p123.jpg,123,309,Asterina lorioli,Asterina,lorioli,True,"Fig. 309. A small seastar, Asterina lorioli",672,591,manual_recrop,ok
 coral_fig_253,images/coral_fig_253_p123.jpg,123,310,Fromia monilis,Fromia,monilis,True,"Fig. 310. Seastar, Fromia monilis",669,577,manual_recrop,ok
@@ -258,10 +258,10 @@ coral_fig_256,images/coral_fig_256_p124.jpg,124,313,Ophiocoma erinaceus,Ophiocom
 coral_fig_257,images/coral_fig_257_p124.jpg,124,312,Ophiarthrum elegans,Ophiarthrum,elegans,True,"Fig. 312. Brittle star, Ophiarthrum elegans",1014,667,manual_recrop,ok
 coral_fig_258,images/coral_fig_258_p125.jpg,125,314,Ophiocoma scolopendrina,Ophiocoma,scolopendrina,True,"Fig. 314. Long armed brittlestar, Ophiocoma scolopendrina",1006,713,manual_recrop,recropped
 coral_fig_259,images/coral_fig_259_p125.jpg,125,315,Macrophiothrix sp.,Macrophiothrix,sp.,False,"Fig. 315. Brittle star, Macrophiothrix sp.",1009,718,manual_recrop,ok
-coral_fig_260,images/coral_fig_260_p125.jpg,125,316,,,,False,"Brittlestar, ophiomastrix annulosa",1028,644,manual_added,ok
+coral_fig_260,images/coral_fig_260_p125.jpg,125,316,Ophiomastrix annulosa,Ophiomastrix,annulosa,True,"Fig. 316. Brittlestar, Ophiomastrix annulosa",1028,644,manual_added,ok
 coral_fig_261,images/coral_fig_261_p125.jpg,125,317,Ophiarthrum pictum,Ophiarthrum,pictum,True,"Fig. 317. Reef ophiuroid, Ophiarthrum pictum",1003,620,manual_recrop,ok
 coral_fig_262,images/coral_fig_262_p126.jpg,126,319,Comatula sp.,Comatula,sp.,False,"Fig. 319. Feather star, Comatula sp.",1032,633,manual_recrop,ok
-coral_fig_263,images/coral_fig_263_p126.jpg,126,418,,,,False,"Feather star of coral reefs, Himerometra sp.",1032,630,manual_added,ok
+coral_fig_263,images/coral_fig_263_p126.jpg,126,318,Himerometra sp.,Himerometra,sp.,False,"Fig. 318. Feather star of coral reefs, Himerometra sp.",1032,630,manual_added,ok
 coral_fig_264,images/coral_fig_264_p126.jpg,126,320,Comaster sp.,Comaster,sp.,False,"Fig. 320. Feather star of shallow waters, Comaster sp.",1005,637,manual_recrop,ok
 coral_fig_265,images/coral_fig_265_p126.jpg,126,321,Lamprometra sp.,Lamprometra,sp.,False,"Fig. 321. Common feather star, Lamprometra sp.",1037,639,manual_recrop,ok
 coral_fig_266,images/coral_fig_266_p126.jpg,126,322,Heterometra sp.,Heterometra,sp.,False,"Fig. 322. Feather star, Heterometra sp.",1031,646,manual_recrop,ok
@@ -272,7 +272,7 @@ coral_fig_270,images/coral_fig_270_p128.jpg,128,326,Diadema setosum,Diadema,seto
 coral_fig_271,images/coral_fig_271_p128.jpg,128,327,Echinostrephus molaris,Echinostrephus,molaris,True,"Fig. 327. Sea urchin, Echinostrephus molaris",1037,693,manual_recrop,ok
 coral_fig_272,images/coral_fig_272_p128.jpg,128,328,Mespilia globulus,Mespilia,globulus,True,"Fig. 328. A beautiful globe urchin, Mespilia globulus",1017,596,manual_recrop,ok
 coral_fig_273,images/coral_fig_273_p128.jpg,128,329,Diadema savignyi,Diadema,savignyi,True,"Fig. 329. Large spined-sea urchin, Diadema savignyi",1026,594,manual_recrop,ok
-coral_fig_274,images/coral_fig_274_p128.jpg,128,330,,,,False,"Rock boring sea urchin, Echinomera mathaei",1022,708,manual_added,ok
+coral_fig_274,images/coral_fig_274_p128.jpg,128,330,Echinometra mathaei,Echinometra,mathaei,True,"Fig. 330. Rock boring sea urchin, Echinometra mathaei",1022,708,manual_added,ok
 coral_fig_275,images/coral_fig_275_p128.jpg,128,330,Echinothrix calamaris,Echinothrix,calamaris,True,"Fig. 330. Hatpin Seaurchin, Echinothrix calamaris",1026,716,manual_recrop,ok
 coral_fig_276,images/coral_fig_276_p129.jpg,129,332,Heterocentrotus trigonarius,Heterocentrotus,trigonarius,True,"Fig. 332. Blunt-spined sea urchin, Heterocentrotus trigonarius",1020,732,cv_layout,ok
 coral_fig_277,images/coral_fig_277_p129.jpg,129,333,Phyllacanthus imperialis,Phyllacanthus,imperialis,True,"Fig. 333. Rare pencil sea urchin, Phyllacanthus imperialis",1025,735,cv_layout,ok
@@ -309,7 +309,7 @@ coral_fig_307,images/coral_fig_307_p140.jpg,140,372,Chromis viridis,Chromis,viri
 coral_fig_308,images/coral_fig_308_p141.jpg,141,374,Diagramma pictum,Diagramma,pictum,True,"Fig. 374. A school of sweetlips, Diagramma pictum",1011,639,manual_recrop,ok
 coral_fig_309,images/coral_fig_309_p141.jpg,141,373,,,,False,Fig. 373. A school of grunts,1013,637,manual_recrop,ok
 coral_fig_310,images/coral_fig_310_p141.jpg,141,376,Lutjanus kasmira,Lutjanus,kasmira,True,"Fig. 376. School of snappers, Lutjanus kasmira",1006,605,manual_recrop,ok
-coral_fig_311,images/coral_fig_311_p141.jpg,141,375,,,,False,"A school of damsels, Dascyllus reticulatus on coral colony",1014,612,manual_added,ok
+coral_fig_311,images/coral_fig_311_p141.jpg,141,375,Dascyllus reticulatus,Dascyllus,reticulatus,True,"Fig. 375. A school of damsels, Dascyllus reticulatus on coral colony",1014,612,manual_added,ok
 coral_fig_312,images/coral_fig_312_p141.jpg,141,378,Chaetodon auriga,Chaetodon,auriga,True,"Fig. 378. Threadfin butterflyfish, Chaetodon auriga",1006,580,manual_recrop,ok
 coral_fig_313,images/coral_fig_313_p141.jpg,141,377,Heniochus acuminatus,Heniochus,acuminatus,True,"Fig. 377. Longfin bannerfishes, Heniochus acuminatus",1003,574,manual_recrop,ok
 coral_fig_314,images/coral_fig_314_p141.jpg,141,379,Chaetodon melannotus,Chaetodon,melannotus,True,"Fig. 379. Black-back butterflyfish, Chaetodon melannotus",1006,609,manual_recrop,ok
@@ -338,7 +338,7 @@ coral_fig_336,images/coral_fig_336_p145.jpg,145,409,Pygoplites diacanthus,Pygopl
 coral_fig_337,images/coral_fig_337_p145.jpg,145,410,Pomacanthus imperator,Pomacanthus,imperator,True,"Fig. 410. Emperor angelfish, Pomacanthus imperator",1008,571,cv_layout,ok
 coral_fig_338,images/coral_fig_338_p145.jpg,145,412,Halichoeres hortulanus,Halichoeres,hortulanus,True,"Fig. 412. Checkered wrasse, Halichoeres hortulanus",1014,667,cv_layout,ok
 coral_fig_339,images/coral_fig_339_p145.jpg,145,411,Heniochus varius,Heniochus,varius,True,"Fig. 411. Humphead bannerfish, Heniochus varius",1021,659,cv_layout,ok
-coral_fig_340,images/coral_fig_340_p146.jpg,146,414,,,,False,"Sling jaw wrasse, Epibulus insidiator (Black phase)",1022,518,manual_added,ok
+coral_fig_340,images/coral_fig_340_p146.jpg,146,414,Epibulus insidiator,Epibulus,insidiator,True,"Fig. 414. Slingjaw wrasse, Epibulus insidiator (Black phase)",1022,518,manual_added,ok
 coral_fig_341,images/coral_fig_341_p146.jpg,146,413,Bodianus axillaris,Bodianus,axillaris,True,"Fig. 413. Black axil hogfish, Bodianus axillaris",1016,523,manual_recrop,ok
 coral_fig_342,images/coral_fig_342_p146.jpg,146,416,Halichoeres margaritaceus,Halichoeres,margaritaceus,True,"Fig. 416. Pinkbelly wrasse, Halichoeres margaritaceus",1019,436,manual_recrop,ok
 coral_fig_343,images/coral_fig_343_p146.jpg,146,415,Halichoeres marginatus,Halichoeres,marginatus,True,"Fig. 415. Dusky wrasse, Halichoeres marginatus",1014,455,manual_recrop,ok
@@ -350,7 +350,7 @@ coral_fig_348,images/coral_fig_348_p146.jpg,146,421,Hemigymnus melapterus,Hemigy
 coral_fig_349,images/coral_fig_349_p146.jpg,146,422,Stethojulis trilineata,Stethojulis,trilineata,True,"Fig. 422. Three-ribbon wrasse, Stethojulis trilineata",1044,387,manual_recrop,ok
 coral_fig_350,images/coral_fig_350_p147.jpg,147,426,Plectorhinchus orientalis,Plectorhinchus,orientalis,True,"Fig. 426. Oriental sweetlip, Plectorhinchus orientalis",1008,400,manual_recrop,ok
 coral_fig_351,images/coral_fig_351_p147.jpg,147,423,Thalassoma jansenii,Thalassoma,jansenii,True,"Fig. 423. Jansen's wrasse, Thalassoma jansenii",999,393,manual_recrop,ok
-coral_fig_352,images/coral_fig_352_p147.jpg,147,424,,,,False,"Young of batfish, Platax orbicularis",1011,721,manual_added,ok
+coral_fig_352,images/coral_fig_352_p147.jpg,147,424,Platax orbicularis,Platax,orbicularis,True,"Fig. 424. Young of batfish, Platax orbicularis",1011,721,manual_added,ok
 coral_fig_353,images/coral_fig_353_p147.jpg,147,425,Platax pinnatus,Platax,pinnatus,True,"Fig. 425. Batfish, Platax pinnatus",995,710,manual_recrop,ok
 coral_fig_354,images/coral_fig_354_p147.jpg,147,427,Plectorhinchus chaetodonoides,Plectorhinchus,chaetodonoides,True,"Fig. 427. Spotted sweetlip, Plectorhinchus chaetodonoides (Adult)",1014,617,manual_recrop,ok
 coral_fig_355,images/coral_fig_355_p147.jpg,147,428,Cheilinus chlorourus,Cheilinus,chlorourus,True,"Fig. 428. Floral wrasse, Cheilinus chlorourus",1002,609,manual_recrop,ok
@@ -360,9 +360,9 @@ coral_fig_358,images/coral_fig_358_p148.jpg,148,432,Acanthurus dussumieri,Acanth
 coral_fig_359,images/coral_fig_359_p148.jpg,148,431,Acanthurus triostegus,Acanthurus,triostegus,True,"Fig. 431. Convict surgeon, Acanthurus triostegus",1021,461,manual_recrop,ok
 coral_fig_360,images/coral_fig_360_p148.jpg,148,434,Acanthurus lineatus,Acanthurus,lineatus,True,"Fig. 434. Blue-lined surgeon, Acanthurus lineatus",1030,668,manual_recrop,ok
 coral_fig_361,images/coral_fig_361_p148.jpg,148,433,Acanthurus nigricauda,Acanthurus,nigricauda,True,"Fig. 433. Back-streak surgeon, Acanthurus nigricauda",1031,651,manual_recrop,ok
-coral_fig_362,images/coral_fig_362_p148.jpg,148,437,,,,False,"Brush tail tang, Zebrasoma scopas",1072,751,manual_added,ok
+coral_fig_362,images/coral_fig_362_p148.jpg,148,437,Zebrasoma scopas,Zebrasoma,scopas,True,"Fig. 437. Brush-tail tang, Zebrasoma scopas",1072,751,manual_added,ok
 coral_fig_363,images/coral_fig_363_p148.jpg,148,436,Zebrasoma veliferum,Zebrasoma,veliferum,True,"Fig. 436. Sailfin tang, Zebrasoma veliferum (Adult)",782,742,manual_recrop,ok
-coral_fig_364,images/coral_fig_364_p148.jpg,148,438,,,,False,"Blotch-eye soldierfish, Myripristes murdjan",1023,594,manual_added,ok
+coral_fig_364,images/coral_fig_364_p148.jpg,148,438,Myripristes murdjan,Myripristes,murdjan,True,"Fig. 438. Blotch-eye soldierfish, Myripristes murdjan",1023,594,manual_added,ok
 coral_fig_365,images/coral_fig_365_p148.jpg,148,435,Acanthurus leucosternon,Acanthurus,leucosternon,True,"Fig. 435. Powder-blue surgeon, Acanthurus leucosternon",1023,574,manual_recrop,ok
 coral_fig_366,images/coral_fig_366_p149.jpg,149,439,Sargocentron praslin,Sargocentron,praslin,True,"Fig. 439. Dark-striped squirrelfish, Sargocentron praslin",1023,507,cv_layout,ok
 coral_fig_367,images/coral_fig_367_p149.jpg,149,440,Sargocentron diadema,Sargocentron,diadema,True,"Fig. 440. Crown squirrelfish, Sargocentron diadema",922,499,cv_layout,ok
@@ -380,7 +380,7 @@ coral_fig_378,images/coral_fig_378_p150.jpg,150,451,Scarus frenatus,Scarus,frena
 coral_fig_379,images/coral_fig_379_p150.jpg,150,452,Scarus niger,Scarus,niger,True,"Fig. 452. Dusky-parrotfish, Scarus niger",1017,460,manual_recrop,ok
 coral_fig_380,images/coral_fig_380_p150.jpg,150,453,Scarus rubroviolaceus,Scarus,rubroviolaceus,True,"Fig. 453. Ember-parrotfish, Scarus rubroviolaceus",963,392,manual_recrop,ok
 coral_fig_381,images/coral_fig_381_p150.jpg,150,454,Scarus scaber,Scarus,scaber,True,"Fig. 454. Saddled-parrotfish, Scarus scaber",1026,409,manual_recrop,ok
-coral_fig_382,images/coral_fig_382_p150.jpg,150,456,,,,False,"Spotted seahorse, Hippocampus kuda",1029,413,manual_added,ok
+coral_fig_382,images/coral_fig_382_p150.jpg,150,456,Hippocampus kuda,Hippocampus,kuda,True,"Fig. 456. Spotted seahorse, Hippocampus kuda",1029,413,manual_added,ok
 coral_fig_383,images/coral_fig_383_p150.jpg,150,455,Hippocampus histrix,Hippocampus,histrix,True,"Fig. 455. Thorny seahorse, Hippocampus histrix",997,372,manual_recrop,ok
 coral_fig_384,images/coral_fig_384_p151.jpg,151,457,Syngnathoides biaculeatus,Syngnathoides,biaculeatus,True,"Fig. 457. Alligator-pipefish, Syngnathoides biaculeatus",1015,366,cv_layout,ok
 coral_fig_385,images/coral_fig_385_p151.jpg,151,458,Doryramphus excisus,Doryramphus,excisus,True,"Fig. 458. Blue-striped pipefish, Doryramphus excisus",1019,360,cv_layout,ok
@@ -417,21 +417,21 @@ coral_fig_415,images/coral_fig_415_p154.jpg,154,491,Lutjanus rivulatus,Lutjanus,
 coral_fig_416,images/coral_fig_416_p154.jpg,154,492,Lutjanus sebae,Lutjanus,sebae,True,"Fig. 492. Emperor red snapper, Lutjanus sebae",829,491,cv_layout,ok
 coral_fig_417,images/coral_fig_417_p154.jpg,154,494,Pardachirus marmoratus,Pardachirus,marmoratus,True,"Fig. 494. Speckled sole, Pardachirus marmoratus",879,409,cv_layout,ok
 coral_fig_418,images/coral_fig_418_p154.jpg,154,493,Aesopia cornuta,Aesopia,cornuta,True,"Fig. 493. Horned sole, Aesopia cornuta",765,384,cv_layout,ok
-coral_fig_419,images/coral_fig_419_p155.jpg,155,495,,,,False,"Threadfin dart fish, Ptereleotris hanae",1010,425,manual_added,ok
+coral_fig_419,images/coral_fig_419_p155.jpg,155,495,Ptereleotris hanae,Ptereleotris,hanae,True,"Fig. 495. Threadfin dartfish, Ptereleotris hanae",1010,425,manual_added,ok
 coral_fig_420,images/coral_fig_420_p155.jpg,155,496,Synodus sp.,Synodus,sp.,False,"Fig. 496. Lizardfish, Synodus sp.",1008,404,manual_recrop,ok
 coral_fig_421,images/coral_fig_421_p155.jpg,155,497,Gobiodon citrinus,Gobiodon,citrinus,True,"Fig. 497. Coral goby, Gobiodon citrinus",942,404,manual_recrop,ok
 coral_fig_422,images/coral_fig_422_p155.jpg,155,498,Ecsenius midas,Ecsenius,midas,True,"Fig. 498. Midas blenny, Ecsenius midas",1001,405,manual_recrop,ok
 coral_fig_423,images/coral_fig_423_p155.jpg,155,499,Aetobatus narinari,Aetobatus,narinari,True,"Fig. 499. Spotted eagle ray, Aetobatus narinari",1053,642,manual_recrop,ok
 coral_fig_424,images/coral_fig_424_p155.jpg,155,500,Hypolophus sephen,Hypolophus,sephen,True,"Fig. 500. Feather-tail stingray, Hypolophus sephen",970,653,manual_recrop,ok
 coral_fig_425,images/coral_fig_425_p155.jpg,155,502,Stegostoma fasciatum,Stegostoma,fasciatum,True,"Fig. 502. Zebra shark, Stegostoma fasciatum",1007,367,manual_recrop,ok
-coral_fig_426,images/coral_fig_426_p155.jpg,155,501,,,,False,"Brown-banded bambooshark, Chiloscyllium punctatum",1010,496,manual_added,ok
+coral_fig_426,images/coral_fig_426_p155.jpg,155,501,Chiloscyllium punctatum,Chiloscyllium,punctatum,True,"Fig. 501. Brown-banded bambooshark, Chiloscyllium punctatum",1010,496,manual_added,ok
 coral_fig_427,images/coral_fig_427_p155.jpg,155,504,Carcharhinus melanopterus,Carcharhinus,melanopterus,True,"Fig. 504. Blacktip reef shark, Carcharhinus melanopterus",1004,367,manual_recrop,ok
 coral_fig_428,images/coral_fig_428_p155.jpg,155,503,Carcharhinus amblyrhynchos,Carcharhinus,amblyrhynchos,True,"Fig. 503. Grey-reef shark, Carcharhinus amblyrhynchos",999,362,manual_recrop,ok
 coral_fig_429,images/coral_fig_429_p156.jpg,156,506,Carcharhinus longimanus,Carcharhinus,longimanus,True,"Fig. 506. Oceanic whitetip shark, Carcharhinus longimanus",1030,391,manual_recrop,recropped
 coral_fig_430,images/coral_fig_430_p156.jpg,156,505,Sphyrna lewini,Sphyrna,lewini,True,"Fig. 505. Scalloped hammerhead shark, Sphyrna lewini",1013,374,manual_recrop,ok
 coral_fig_431,images/coral_fig_431_p156.jpg,156,507,Sphyrna zygaena,Sphyrna,zygaena,True,"Fig. 507. Smooth hammerhead shark, Sphyrna zygaena",1030,474,manual_recrop,ok
 coral_fig_432,images/coral_fig_432_p156.jpg,156,508,Caranx ignobilis,Caranx,ignobilis,True,"Fig. 508. Giant trevally, Caranx ignobilis",1030,479,manual_recrop,ok
-coral_fig_433,images/coral_fig_433_p156.jpg,156,509,,,,False,"Golden trevalley, Gnathanodon speciosus",1028,440,manual_added,ok
+coral_fig_433,images/coral_fig_433_p156.jpg,156,509,Gnathanodon speciosus,Gnathanodon,speciosus,True,"Fig. 509. Golden trevally, Gnathanodon speciosus",1028,440,manual_added,ok
 coral_fig_434,images/coral_fig_434_p156.jpg,156,510,Pempheris oualensis,Pempheris,oualensis,True,"Fig. 510. Copper sweeper, Pempheris oualensis",1033,449,manual_recrop,ok
 coral_fig_435,images/coral_fig_435_p156.jpg,156,512,Pseudobalistes fuscus,Pseudobalistes,fuscus,True,"Fig. 512. Yellow-spotted triggerfish, Pseudobalistes fuscus",1031,483,manual_recrop,ok
 coral_fig_436,images/coral_fig_436_p156.jpg,156,511,Oxymonacanthus longirostris,Oxymonacanthus,longirostris,True,"Fig. 511. Longnose leatherjacket, Oxymonacanthus longirostris",1028,474,manual_recrop,ok
@@ -446,7 +446,7 @@ coral_fig_444,images/coral_fig_444_p157.jpg,157,519,Arothron nigropunctatus,Arot
 coral_fig_445,images/coral_fig_445_p157.jpg,157,522,Arothron sp.,Arothron,sp.,False,"Fig. 522. A pufferfish inflated with air, Arothron sp.",1021,589,cv_layout,ok
 coral_fig_446,images/coral_fig_446_p157.jpg,157,521,Arothron nigropunctatus,Arothron,nigropunctatus,True,"Fig. 521. Black-spotted puffer, Arothron nigropunctatus",1023,602,cv_layout,ok
 coral_fig_447,images/coral_fig_447_p158.jpg,158,524,Ostracion cubicus,Ostracion,cubicus,True,"Fig. 524. Yellow boxfish, Ostracion cubicus (Juvenile)",1026,537,manual_recrop,ok
-coral_fig_448,images/coral_fig_448_p158.jpg,158,523,,,,False,"Bennett's Puffer, Canthigaster bennetti",1028,536,manual_added,ok
+coral_fig_448,images/coral_fig_448_p158.jpg,158,523,Canthigaster bennetti,Canthigaster,bennetti,True,"Fig. 523. Bennett's puffer, Canthigaster bennetti",1028,536,manual_added,ok
 coral_fig_449,images/coral_fig_449_p158.jpg,158,525,Ostracion cubicus,Ostracion,cubicus,True,Fig. 525. Adult of Ostracion cubicus,1009,454,manual_recrop,ok
 coral_fig_450,images/coral_fig_450_p158.jpg,158,526,Ostracion meleagris,Ostracion,meleagris,True,"Fig. 526. White-spotted boxfish, Ostracion meleagris",1034,446,manual_recrop,ok
 coral_fig_451,images/coral_fig_451_p158.jpg,158,527,Lactoria cornuta,Lactoria,cornuta,True,"Fig. 527. Long-horn cowfish, Lactoria cornuta",958,419,manual_recrop,ok
@@ -455,20 +455,20 @@ coral_fig_453,images/coral_fig_453_p158.jpg,158,529,Diodon holocanthus,Diodon,ho
 coral_fig_454,images/coral_fig_454_p158.jpg,158,530,Siganus magnificus,Siganus,magnificus,True,"Fig. 530. Foxface rabbitfish, Siganus magnificus",1029,454,manual_recrop,ok
 coral_fig_455,images/coral_fig_455_p159.jpg,159,531,Chelonia mydas,Chelonia,mydas,True,"Fig. 531. Green Sea turtle, Chelonia mydas.",1282,679,cv_layout,ok
 coral_fig_456,images/coral_fig_456_p159.jpg,159,532,Chelonia mydas,Chelonia,mydas,True,Fig. 532. Eggs of Green Sea turtle.,787,620,cv_layout,ok
-coral_fig_457,images/coral_fig_457_p160.jpg,160,535,,,,False,Hatchling of leatherback turtle,1036,657,manual_added,ok
+coral_fig_457,images/coral_fig_457_p160.jpg,160,535,Dermochelys coriacea,Dermochelys,coriacea,True,Fig. 535. Hatchling of leatherback turtle,1036,657,manual_added,ok
 coral_fig_458,images/coral_fig_458_p160.jpg,160,535,,,,False,Fig. 534. Hatchlings of Green sea turtle. Fig. 535. Hatchling of leatherback turtle,1018,658,manual_recrop,ok
 coral_fig_459,images/coral_fig_459_p160.jpg,160,536,Eretmochelys imbricata,Eretmochelys,imbricata,True,"Fig. 536. Hawksbill sea turtle, Eretmochelys imbricata squamata",1030,676,manual_recrop,ok
-coral_fig_460,images/coral_fig_460_p160.jpg,160,534,,,,False,"Leatherback turtle, Dermochelys coriacea",1028,672,manual_added,ok
+coral_fig_460,images/coral_fig_460_p160.jpg,160,534,Dermochelys coriacea,Dermochelys,coriacea,True,"Fig. 534. Leatherback turtle, Dermochelys coriacea",1028,672,manual_added,ok
 coral_fig_461,images/coral_fig_461_p160.jpg,160,537,Lepidochelys olivacea,Lepidochelys,olivacea,True,"Fig. 537. Olive ridley turtle, Lepidochelys olivacea",2083,1257,manual_recrop,ok
 coral_fig_462,images/coral_fig_462_p160.jpg,160,538,Lepidochelys olivacea,Lepidochelys,olivacea,True,Fig. 538. Olive ridley laying eggs,807,522,manual_recrop,ok
-coral_fig_463,images/coral_fig_463_p161.jpg,161,540,,,,False,"Sea snake among corals, Laticauda laticauda",1000,541,manual_added,ok
+coral_fig_463,images/coral_fig_463_p161.jpg,161,540,Laticauda laticauda,Laticauda,laticauda,True,"Fig. 540. Sea snake among corals, Laticauda laticauda",1000,541,manual_added,ok
 coral_fig_464,images/coral_fig_464_p161.jpg,161,539,Laticauda colubrina,Laticauda,colubrina,True,"Fig. 539. Amphibious sea snakes, Laticauda colubrina",1014,541,manual_recrop,ok
 coral_fig_465,images/coral_fig_465_p161.jpg,161,541,Laticauda laticaudata,Laticauda,laticaudata,True,Fig. 541. Laticauda laticaudata on rocky shore for egg laying,1352,860,manual_recrop,ok
-coral_fig_466,images/coral_fig_466_p162.jpg,162,543,,,,False,"Plovers, Pluvialis sp. on muddy shore",1057,728,manual_added,ok
+coral_fig_466,images/coral_fig_466_p162.jpg,162,543,Pluvialis sp.,Pluvialis,sp.,False,"Fig. 543. Plovers, Pluvialis sp. on muddy shore.",1057,728,manual_added,ok
 coral_fig_467,images/coral_fig_467_p162.jpg,162,542,Egretta sacra,Egretta,sacra,True,"Fig. 542. Reef heron, Egretta sacra",1028,713,manual_recrop,ok
-coral_fig_468,images/coral_fig_468_p163.jpg,163,545,,,,False,Median egret- Mesophoxy intermedia,1009,528,manual_added,ok
+coral_fig_468,images/coral_fig_468_p163.jpg,163,545,Mesophoyx intermedia,Mesophoyx,intermedia,True,"Fig. 545. Median egret, Mesophoyx intermedia",1009,528,manual_added,ok
 coral_fig_469,images/coral_fig_469_p163.jpg,163,544,Egretta garzetta,Egretta,garzetta,True,"Fig. 544. Little egret, Egretta garzetta",1013,572,manual_recrop,ok
-coral_fig_470,images/coral_fig_470_p163.jpg,163,546,,,,False,"Pond heron, Ardeola grayii (Non-breeding phase)",1018,541,manual_added,ok
+coral_fig_470,images/coral_fig_470_p163.jpg,163,546,Ardeola grayii,Ardeola,grayii,True,"Fig. 546. Pond heron, Ardeola grayii (Non-breeding phase)",1018,541,manual_added,ok
 coral_fig_471,images/coral_fig_471_p163.jpg,163,547,Ardeola grayii,Ardeola,grayii,True,"Fig. 547. Indian Pond heron, Ardeola grayii (Breeding phase)",1009,527,manual_recrop,ok
 coral_fig_472,images/coral_fig_472_p163.jpg,163,549,Halcyon smyrnensis,Halcyon,smyrnensis,True,"Fig. 549. White-breasted kingfisher, Halcyon smyrnensis",1009,546,manual_recrop,ok
 coral_fig_473,images/coral_fig_473_p163.jpg,163,548,Todiramphus chloris,Todiramphus,chloris,True,"Fig. 548. White-collared kingfisher, Todiramphus chloris",1009,540,manual_recrop,ok
@@ -476,14 +476,14 @@ coral_fig_474,images/coral_fig_474_p163.jpg,163,550,Charadrius dubius,Charadrius
 coral_fig_475,images/coral_fig_475_p163.jpg,163,551,Sterna sumatrana,Sterna,sumatrana,True,"Fig. 551. Black-napped tern, Sterna sumatrana",519,465,manual_recrop,ok
 coral_fig_476,images/coral_fig_476_p163.jpg,163,552,Sterna sumatrana,Sterna,sumatrana,True,"Fig. 552. Tern eggs, Sterna sumatrana",476,459,manual_recrop,ok
 coral_fig_477,images/coral_fig_477_p163.jpg,163,553,Haliaeetus leucogaster,Haliaeetus,leucogaster,True,"Fig. 553. White-bellied sea eagle, Haliaeetus leucogaster",1163,594,manual_recrop,ok
-coral_fig_478,images/coral_fig_478_p164.jpg,164,554,,,,False,"Sea cow, Dugong dugon washed ashore",2115,1249,manual_added,ok
+coral_fig_478,images/coral_fig_478_p164.jpg,164,554,Dugong dugon,Dugong,dugon,True,"Sea cow, Dugong dugon washed ashore",2115,1249,manual_added,ok
 coral_fig_479,images/coral_fig_479_p165.jpg,165,555,Delphinus delphis,Delphinus,delphis,True,Fig. 555. Common Dolphin near reefs.,2077,1108,cv_layout,ok
 coral_fig_480,images/coral_fig_480_p168.jpg,168,557,,,,False,Fig. 557. Extensive damage of corals at Interview Island after tsunami.,1029,639,manual_recrop,ok
 coral_fig_481,images/coral_fig_481_p168.jpg,168,556,,,,False,Fig. 556. Reef exposed due to 26th Dec. 2004 earthquake.,1031,629,manual_recrop,ok
-coral_fig_482,images/coral_fig_482_p168.jpg,168,559,,,,False,Mass destruction of corals at North Reef Island,1022,856,manual_added,ok
-coral_fig_483,images/coral_fig_483_p168.jpg,168,558,,,,False,Massive death of corals at Anderson Island,1036,854,manual_added,ok
+coral_fig_482,images/coral_fig_482_p168.jpg,168,559,,,,False,Fig. 559. Mass destruction of corals at North Reef Island.,1022,856,manual_added,ok
+coral_fig_483,images/coral_fig_483_p168.jpg,168,558,,,,False,Fig. 558. Massive death of corals at Anderson Island.,1036,854,manual_added,ok
 coral_fig_484,images/coral_fig_484_p169.jpg,169,560,,,,False,Fig. 560. Permanent exposure of reef around the islands,1009,636,manual_recrop,ok
-coral_fig_485,images/coral_fig_485_p169.jpg,169,561,,,,False,Damaged littoral forest due to natural calamity,1017,619,manual_added,ok
+coral_fig_485,images/coral_fig_485_p169.jpg,169,561,,,,False,Fig. 561. Damaged littoral forest due to natural calamity,1017,619,manual_added,ok
 coral_fig_486,images/coral_fig_486_p169.jpg,169,562,,,,False,Fig. 562. Permanently exposed intertidal reef at East Island,1011,614,manual_recrop,ok
 coral_fig_487,images/coral_fig_487_p169.jpg,169,563,,,,False,Fig. 563. Partially submerged island due to earthquake & tsunami,1002,612,manual_recrop,ok
 coral_fig_488,images/coral_fig_488_p169.jpg,169,564,,,,False,Fig. 564. Devastated north end coastal belt of Car Nicobar Island,1007,603,manual_recrop,ok

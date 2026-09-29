@@ -1,0 +1,2207 @@
+[
+  {
+    "page": 14,
+    "figures": [
+      {
+        "id": 458,
+        "fig_num": "12",
+        "original_caption": "Fig. 12. Panoramic aerial view of Little Andaman.",
+        "cleaned_caption": "Fig. 12. Panoramic aerial view of Little Andaman.",
+        "species_name": null,
+        "has_changes": false,
+        "change_summary": "Caption is accurate and free of OCR errors.",
+        "confidence": "high"
+      },
+      {
+        "id": 459,
+        "fig_num": "13",
+        "original_caption": "Fig. 13. Southernmost point of island chain, Indira Point (Great Nicobar).",
+        "cleaned_caption": "Fig. 13. Southernmost point of island chain, Indira Point (Great Nicobar).",
+        "species_name": null,
+        "has_changes": true,
+        "change_summary": "Corrected OCR typos ('f'ig.', 'South'ern nlost', 'Indir.a') to standard formatting.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 59,
+    "figures": [
+      {
+        "id": 58,
+        "fig_num": "80",
+        "original_caption": "Fig. 80. Common shallow coral, Seriatopora hystrix",
+        "cleaned_caption": "Fig. 80. Common shallow coral, Seriatopora hystrix",
+        "species_name": "Seriatopora hystrix",
+        "has_changes": true,
+        "change_summary": "Fixed OCR typo in species name ('hysrix' to 'hystrix').",
+        "confidence": "high"
+      },
+      {
+        "id": 59,
+        "fig_num": "81",
+        "original_caption": "Fig. 81. Acropora digitifera in shallow waters",
+        "cleaned_caption": "Fig. 81. Acropora digitifera in shallow waters",
+        "species_name": "Acropora digitifera",
+        "has_changes": false,
+        "change_summary": "Caption is already accurate.",
+        "confidence": "high"
+      },
+      {
+        "id": 500,
+        "fig_num": "82",
+        "original_caption": "A digitale coral, Acropora gemmifera",
+        "cleaned_caption": "Fig. 82. A digitate coral, Acropora gemmifera",
+        "species_name": "Acropora gemmifera",
+        "has_changes": true,
+        "change_summary": "Added missing figure prefix 'Fig. 82.' and corrected spelling from 'digitale' to 'digitate'.",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "page": 48,
+    "figures": [
+      {
+        "id": 60,
+        "fig_num": "83",
+        "original_caption": "Fig. 83. Small colony of Acropora humilis",
+        "cleaned_caption": "Fig. 83. Small colony of Acropora humilis",
+        "species_name": "Acropora humilis",
+        "has_changes": false,
+        "change_summary": "Caption is already accurate and complete.",
+        "confidence": "high"
+      },
+      {
+        "id": 61,
+        "fig_num": "84",
+        "original_caption": "Fig. 84. Plate coral, Acropora granulosa",
+        "cleaned_caption": "Fig. 84. Plate coral, Acropora granulosa",
+        "species_name": "Acropora granulosa",
+        "has_changes": false,
+        "change_summary": "Caption is accurate (correcting for OCR artifacts in the raw text stream).",
+        "confidence": "high"
+      },
+      {
+        "id": 499,
+        "fig_num": "85",
+        "original_caption": "Plate coral, Acropora Hyacinthus on shallow reef",
+        "cleaned_caption": "Fig. 85. Plate coral, Acropora hyacinthus on shallow reef",
+        "species_name": "Acropora hyacinthus",
+        "has_changes": true,
+        "change_summary": "Added missing figure number prefix and corrected capitalization of the species epithet.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 52,
+    "figures": [
+      {
+        "id": 498,
+        "fig_num": "95",
+        "original_caption": "Plate coral, Acropora clathrata",
+        "cleaned_caption": "Plate coral, Acropora clathrata",
+        "species_name": "Acropora clathrata",
+        "has_changes": true,
+        "change_summary": "Fixed OCR errors in figure number and text ('95- Plate 'e,oraI, Ac~opora ciathrata' to 'Plate coral, Acropora clathrata').",
+        "confidence": "high"
+      },
+      {
+        "id": 71,
+        "fig_num": "96",
+        "original_caption": "Fig. 96. Reef fish hovering on Acropora austera.",
+        "cleaned_caption": "Fig. 96. Reef fish hovering on Acropora austera.",
+        "species_name": "Acropora austera",
+        "has_changes": true,
+        "change_summary": "Corrected spelling of species name from 'austrea' to 'austera'.",
+        "confidence": "high"
+      },
+      {
+        "id": 72,
+        "fig_num": "97",
+        "original_caption": "Fig. 97. Colonies of diverse Acropora species.",
+        "cleaned_caption": "Fig. 97. Colonies of diverse Acropora species.",
+        "species_name": "Acropora sp.",
+        "has_changes": true,
+        "change_summary": "Fixed OCR punctuation error in figure number ('97,.' to '97.').",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 54,
+    "figures": [
+      {
+        "id": 76,
+        "fig_num": "101",
+        "original_caption": "Fig. 101. Foliaceous coral, Montipora aequituberculata",
+        "cleaned_caption": "Fig. 101. Foliaceous coral, Montipora aequituberculata",
+        "species_name": "Montipora aequituberculata",
+        "has_changes": false,
+        "change_summary": "Caption is already clean and accurate.",
+        "confidence": "high"
+      },
+      {
+        "id": 77,
+        "fig_num": "103",
+        "original_caption": "Fig. 103. Massive coral, Favia matthaii",
+        "cleaned_caption": "Fig. 103. Massive coral, Favia matthaii",
+        "species_name": "Favia matthaii",
+        "has_changes": true,
+        "change_summary": "Fixed OCR typo in species name ('m.atthaii' to 'matthaii').",
+        "confidence": "high"
+      },
+      {
+        "id": 497,
+        "fig_num": "102",
+        "original_caption": "Young colony of encrusted Porites sp",
+        "cleaned_caption": "Fig. 102. Young colony of encrusted Porites sp.",
+        "species_name": "Porites sp.",
+        "has_changes": true,
+        "change_summary": "Added missing figure number prefix and standardized species name punctuation.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 67,
+    "figures": [
+      {
+        "id": 78,
+        "fig_num": "104",
+        "original_caption": "Fig. 104. Massive coral, Favia favus",
+        "cleaned_caption": "Fig. 104. Massive coral, Favia favus",
+        "species_name": "Favia favus",
+        "has_changes": true,
+        "change_summary": "Fixed OCR typos in raw text ('Fi,g. 104. Massive ,coral, FtlVia favus')",
+        "confidence": "high"
+      },
+      {
+        "id": 79,
+        "fig_num": "105",
+        "original_caption": "Fig. 105. Massive coral, Favia halicora",
+        "cleaned_caption": "Fig. 105. Massive coral, Favia halicora",
+        "species_name": "Favia halicora",
+        "has_changes": true,
+        "change_summary": "Fixed OCR punctuation and quotation marks in raw text",
+        "confidence": "high"
+      },
+      {
+        "id": 496,
+        "fig_num": "106",
+        "original_caption": "Mushroom coral, Fungia echinata",
+        "cleaned_caption": "Fig. 106. Mushroom coral, Fungia echinata",
+        "species_name": "Fungia echinata",
+        "has_changes": true,
+        "change_summary": "Added missing 'Fig. 106.' prefix and fixed OCR typos in scientific name ('Fungia echjn~1ta')",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 77,
+    "figures": [
+      {
+        "id": 99,
+        "fig_num": "134",
+        "original_caption": "Fig. 134. Encrusted coral, Leptoseris sp.",
+        "cleaned_caption": "Fig. 134. Encrusted coral, Leptoseris sp.",
+        "species_name": "Leptoseris sp.",
+        "has_changes": true,
+        "change_summary": "Fixed OCR misspelling 'Leptoseries' to 'Leptoseris'",
+        "confidence": "high"
+      },
+      {
+        "id": 100,
+        "fig_num": "136",
+        "original_caption": "Fig. 136. Brain coral, Symphyllia radians",
+        "cleaned_caption": "Fig. 136. Brain coral, Symphyllia radians",
+        "species_name": "Symphyllia radians",
+        "has_changes": true,
+        "change_summary": "Fixed OCR typo 'SymphyJlia' to 'Symphyllia'",
+        "confidence": "high"
+      },
+      {
+        "id": 495,
+        "fig_num": "135",
+        "original_caption": "Huge massive coral, Porites lobata",
+        "cleaned_caption": "Fig. 135. Huge massive coral, Porites lobata",
+        "species_name": "Porites lobata",
+        "has_changes": true,
+        "change_summary": "Added standard 'Fig. 135.' prefix to match document style",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 82,
+    "figures": [
+      {
+        "id": 107,
+        "fig_num": "143",
+        "original_caption": "Fig. 143. Sinularia sp. on coral rocks",
+        "cleaned_caption": "Fig. 143. Sinularia sp. on coral rocks",
+        "species_name": "Sinularia sp.",
+        "has_changes": false,
+        "change_summary": "Caption is already accurate and complete.",
+        "confidence": "high"
+      },
+      {
+        "id": 494,
+        "fig_num": "144",
+        "original_caption": "Lobophytum sp. grown like propeller blades",
+        "cleaned_caption": "Fig. 144. Lobophytum sp. grown like propeller blades",
+        "species_name": "Lobophytum sp.",
+        "has_changes": true,
+        "change_summary": "Added standard 'Fig. 144.' prefix to match the numbering sequence and style of adjacent figures.",
+        "confidence": "high"
+      },
+      {
+        "id": 108,
+        "fig_num": "145",
+        "original_caption": "Fig. 145. Invasion of Lobophytum crassum in shallow waters",
+        "cleaned_caption": "Fig. 145. Invasion of Lobophytum crassum in shallow waters",
+        "species_name": "Lobophytum crassum",
+        "has_changes": false,
+        "change_summary": "Caption is already accurate and complete.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 75,
+    "figures": [
+      {
+        "id": 117,
+        "fig_num": "157",
+        "original_caption": "Fig. 157. A gorgonian colony on reef slope.",
+        "cleaned_caption": "Fig. 157. A gorgonian colony on reef slope.",
+        "species_name": null,
+        "has_changes": false,
+        "change_summary": "Caption is accurate as is based on the text.",
+        "confidence": "high"
+      },
+      {
+        "id": 493,
+        "fig_num": "158",
+        "original_caption": "Seafan, Gorgonia sp.",
+        "cleaned_caption": "Seafan, Gorgonia sp.",
+        "species_name": "Gorgonia sp.",
+        "has_changes": false,
+        "change_summary": "Caption is accurate as is.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 77,
+    "figures": [
+      {
+        "id": 120,
+        "fig_num": "161",
+        "original_caption": "Fig. 161. A deep-water gorgonian species.",
+        "cleaned_caption": "Fig. 161. A deep-water gorgonian species.",
+        "species_name": null,
+        "has_changes": false,
+        "change_summary": "Caption is accurate and clean.",
+        "confidence": "high"
+      },
+      {
+        "id": 492,
+        "fig_num": "162",
+        "original_caption": "Whip coral colony",
+        "cleaned_caption": "Whip coral colony",
+        "species_name": null,
+        "has_changes": false,
+        "change_summary": "Caption is accurate.",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "page": 86,
+    "figures": [
+      {
+        "id": 131,
+        "fig_num": "179",
+        "original_caption": "Fig. 179. Small reef crab, Area septemspinosa",
+        "cleaned_caption": "Fig. 179. Small reef crab, Area septemspinosa.",
+        "species_name": "Area septemspinosa",
+        "has_changes": true,
+        "change_summary": "Fixed OCR errors and spacing in species name.",
+        "confidence": "high"
+      },
+      {
+        "id": 491,
+        "fig_num": "180",
+        "original_caption": "Shallow reef crab, Aulacolambrus sp.",
+        "cleaned_caption": "Fig. 180. Shallow reef crab, Aulacolambrus sp.",
+        "species_name": "Aulacolambrus sp.",
+        "has_changes": true,
+        "change_summary": "Added missing 'Fig. 180.' prefix and fixed OCR fragmentation.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 88,
+    "figures": [
+      {
+        "id": 136,
+        "fig_num": "187",
+        "original_caption": "Fig. 187. Common reef crab, Pilodius pugil",
+        "cleaned_caption": "Fig. 187. Common reef crab, Pilodius pugil",
+        "species_name": "Pilodius pugil",
+        "has_changes": false,
+        "change_summary": "Caption is already accurate and complete.",
+        "confidence": "high"
+      },
+      {
+        "id": 490,
+        "fig_num": "188",
+        "original_caption": "Pelagic crab, Graspus albolineatus",
+        "cleaned_caption": "Fig. 188. Pelagic crab, Grapsus albolineatus",
+        "species_name": "Grapsus albolineatus",
+        "has_changes": true,
+        "change_summary": "Added missing 'Fig. 188.' prefix and corrected typo in genus name 'Graspus' to 'Grapsus'.",
+        "confidence": "high"
+      },
+      {
+        "id": 137,
+        "fig_num": "189",
+        "original_caption": "Fig. 189. Pelagic crab of rocky reefs, Grapsus grapsus",
+        "cleaned_caption": "Fig. 189. Pelagic crab of rocky reefs, Grapsus grapsus",
+        "species_name": "Grapsus grapsus",
+        "has_changes": true,
+        "change_summary": "Corrected OCR spacing/typo in figure number ('Fig. 1.89.' to 'Fig. 189.').",
+        "confidence": "high"
+      },
+      {
+        "id": 138,
+        "fig_num": "190",
+        "original_caption": "Fig. 190. Shallow reef crab, Leptodius exaratus",
+        "cleaned_caption": "Fig. 190. Shallow reef crab, Leptodius exaratus",
+        "species_name": "Leptodius exaratus",
+        "has_changes": true,
+        "change_summary": "Corrected figure number from '190' (which was 'Fig. 90.') and fixed spacing in 'Leptodiusexara,tus' to 'Leptodius exaratus'.",
+        "confidence": "high"
+      },
+      {
+        "id": 139,
+        "fig_num": "191",
+        "original_caption": "Fig. 191. Matuta planipes found in weedy areas",
+        "cleaned_caption": "Fig. 191. Matuta planipes found in weedy areas",
+        "species_name": "Matuta planipes",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and complete based on the text stream.",
+        "confidence": "high"
+      },
+      {
+        "id": 140,
+        "fig_num": "192",
+        "original_caption": "Fig. 192. Common reef crab, Matuta lunaris",
+        "cleaned_caption": "Fig. 192. Common reef crab, Matuta lunaris",
+        "species_name": "Matuta lunaris",
+        "has_changes": true,
+        "change_summary": "Corrected figure number from '192' (which was 'Fig. 92.') to match standard sequential numbering.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 101,
+    "figures": [
+      {
+        "id": 141,
+        "fig_num": "93",
+        "original_caption": "Fig. 93. Mudcrab, Scylla serrata",
+        "cleaned_caption": "Fig. 93. Mud crab, Scylla serrata",
+        "species_name": "Scylla serrata",
+        "has_changes": true,
+        "change_summary": "Corrected 'Mudcrab' to 'Mud crab' and fixed OCR typo in specific epithet from raw text ('serrato' to 'serrata').",
+        "confidence": "high"
+      },
+      {
+        "id": 142,
+        "fig_num": "194",
+        "original_caption": "Fig. 194. Ghost crab of muddy reef areas, Ocypode ceratophthalma",
+        "cleaned_caption": "Fig. 194. Ghost crab of muddy reef areas, Ocypode ceratophthalma",
+        "species_name": "Ocypode ceratophthalma",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and complete based on the text stream.",
+        "confidence": "high"
+      },
+      {
+        "id": 143,
+        "fig_num": "195",
+        "original_caption": "Fig. 195. Crab of sandy-mud reefs, Ocypode macrocera",
+        "cleaned_caption": "Fig. 195. Crab of sandy-mud reefs, Ocypode macrocera",
+        "species_name": "Ocypode macrocera",
+        "has_changes": true,
+        "change_summary": "Combined split lines from raw OCR text into a single unified caption.",
+        "confidence": "high"
+      },
+      {
+        "id": 144,
+        "fig_num": "196",
+        "original_caption": "Fig. 196. Ocypode crab, Ocypode sp.",
+        "cleaned_caption": "Fig. 196. Ocypode crab, Ocypode sp.",
+        "species_name": "Ocypode sp.",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and complete.",
+        "confidence": "high"
+      },
+      {
+        "id": 489,
+        "fig_num": "197",
+        "original_caption": "Pelagic reef crab, Portunus pelagicus",
+        "cleaned_caption": "Fig. 197. Pelagic reef crab, Portunus pelagicus",
+        "species_name": "Portunus pelagicus",
+        "has_changes": true,
+        "change_summary": "Added missing figure prefix 'Fig. 197.' present in the source text stream.",
+        "confidence": "high"
+      },
+      {
+        "id": 145,
+        "fig_num": "198",
+        "original_caption": "Fig. 198. Shallow pelagic crab, Portunus sanguinolentus",
+        "cleaned_caption": "Fig. 198. Shallow pelagic crab, Portunus sanguinolentus",
+        "species_name": "Portunus sanguinolentus",
+        "has_changes": true,
+        "change_summary": "Fixed broken and interleaved OCR layout ('Sha low pela,gic crab, Portunus... sanguinolentus').",
+        "confidence": "high"
+      },
+      {
+        "id": 146,
+        "fig_num": "199",
+        "original_caption": "Fig. 199. Swimmer crab, Charybdis feriatus",
+        "cleaned_caption": "Fig. 199. Swimmer crab, Charybdis feriatus",
+        "species_name": "Charybdis feriatus",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and complete.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 92,
+    "figures": [
+      {
+        "id": 155,
+        "fig_num": "208",
+        "original_caption": "Fig. 208. Hermit crab out of shell, Dardanus megistos",
+        "cleaned_caption": "Fig. 208. Hermit crab out of shell, Dardanus megistos",
+        "species_name": "Dardanus megistos",
+        "has_changes": true,
+        "change_summary": "Corrected spelling of species name from OCR typo 'nlagistos' to 'megistos'",
+        "confidence": "high"
+      },
+      {
+        "id": 156,
+        "fig_num": "209",
+        "original_caption": "Fig. 209. Hermit crab, Clibanarius sp.",
+        "cleaned_caption": "Fig. 209. Hermit crab, Clibanarius sp.",
+        "species_name": "Clibanarius sp.",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and clean",
+        "confidence": "high"
+      },
+      {
+        "id": 157,
+        "fig_num": "210",
+        "original_caption": "Fig. 210. Mantid shrimp, Heterosquilla spinosa",
+        "cleaned_caption": "Fig. 210. Mantid shrimp, Heterosquilla spinosa",
+        "species_name": "Heterosquilla spinosa",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and clean",
+        "confidence": "high"
+      },
+      {
+        "id": 488,
+        "fig_num": "211",
+        "original_caption": "Common mantis shrimp, Harpiosquilla sp.",
+        "cleaned_caption": "Fig. 211. Common mantis shrimp, Harpiosquilla sp.",
+        "species_name": "Harpiosquilla sp.",
+        "has_changes": true,
+        "change_summary": "Added missing figure prefix 'Fig. 211.'",
+        "confidence": "high"
+      },
+      {
+        "id": 158,
+        "fig_num": "212",
+        "original_caption": "Fig. 212. Mantis shrimp, Oratosquilla sp.",
+        "cleaned_caption": "Fig. 212. Mantis shrimp, Oratosquilla sp.",
+        "species_name": "Oratosquilla sp.",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and clean",
+        "confidence": "high"
+      },
+      {
+        "id": 159,
+        "fig_num": "213",
+        "original_caption": "Fig. 213. Green squilla, Squilla sp.",
+        "cleaned_caption": "Fig. 213. Green squilla, Squilla sp.",
+        "species_name": "Squilla sp.",
+        "has_changes": true,
+        "change_summary": "Corrected OCR typo 'Gr,een squil a' to 'Green squilla'",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 105,
+    "figures": [
+      {
+        "id": 160,
+        "fig_num": "214",
+        "original_caption": "Fig. 214. Mantis shrimp of coral rubble, Squilla sp.",
+        "cleaned_caption": "Fig. 214. Mantis shrimp of coral rubble, Squilla sp.",
+        "species_name": "Squilla sp.",
+        "has_changes": true,
+        "change_summary": "Cleaned OCR artifact punctuation in figure numbering.",
+        "confidence": "high"
+      },
+      {
+        "id": 161,
+        "fig_num": "215",
+        "original_caption": "Fig. 215. Banded mantis shrimp, Lysiosquilla maculata",
+        "cleaned_caption": "Fig. 215. Banded mantis shrimp, Lysiosquilla maculata",
+        "species_name": "Lysiosquilla maculata",
+        "has_changes": true,
+        "change_summary": "Fixed OCR typo in scientific name (Lysosquilla -> Lysiosquilla) and corrected punctuation.",
+        "confidence": "high"
+      },
+      {
+        "id": 162,
+        "fig_num": "217",
+        "original_caption": "Fig. 217. Acorn barnacles, Tetraclita sp.",
+        "cleaned_caption": "Fig. 217. Acorn barnacles, Tetraclita sp.",
+        "species_name": "Tetraclita sp.",
+        "has_changes": false,
+        "change_summary": "None",
+        "confidence": "high"
+      },
+      {
+        "id": 163,
+        "fig_num": "218",
+        "original_caption": "Fig. 218. Gooseneck barnacles, Lepas sp.",
+        "cleaned_caption": "Fig. 218. Gooseneck barnacles, Lepas sp.",
+        "species_name": "Lepas sp.",
+        "has_changes": false,
+        "change_summary": "None",
+        "confidence": "high"
+      },
+      {
+        "id": 164,
+        "fig_num": "219",
+        "original_caption": "Fig. 219. Parasitic isopods on reef associate scombrid fish.",
+        "cleaned_caption": "Fig. 219. Parasitic isopods on reef associate scombrid fish.",
+        "species_name": null,
+        "has_changes": true,
+        "change_summary": "Fixed OCR typos ('associat'e', 'scorn brid fish').",
+        "confidence": "high"
+      },
+      {
+        "id": 487,
+        "fig_num": "216",
+        "original_caption": "Barnacles, Tetraclita sp.",
+        "cleaned_caption": "Fig. 216. Barnacles, Tetraclita sp.",
+        "species_name": "Tetraclita sp.",
+        "has_changes": true,
+        "change_summary": "Fixed missing 'Fig. 216.' prefix and corrected OCR typo in genus name ('Tewa,clita' -> 'Tetraclita').",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 96,
+    "figures": [
+      {
+        "id": 486,
+        "fig_num": "229",
+        "original_caption": "Cowry, Cypraea sp. on reef",
+        "cleaned_caption": "Fig. 229. Cowry, Cypraea sp. on reef",
+        "species_name": "Cypraea sp.",
+        "has_changes": true,
+        "change_summary": "Added missing 'Fig. 229.' prefix based on the extracted text.",
+        "confidence": "high"
+      },
+      {
+        "id": 174,
+        "fig_num": "230",
+        "original_caption": "Fig. 230. Variety of cowries on reef",
+        "cleaned_caption": "Fig. 230. Variety of cowries on reef",
+        "species_name": null,
+        "has_changes": false,
+        "change_summary": "Caption is accurate and matches text.",
+        "confidence": "high"
+      },
+      {
+        "id": 175,
+        "fig_num": "231",
+        "original_caption": "Fig. 231. Coneshell on dead coral rock, Conus sp.",
+        "cleaned_caption": "Fig. 231. Coneshell on dead coral rock, Conus sp.",
+        "species_name": "Conus sp.",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and complete.",
+        "confidence": "high"
+      },
+      {
+        "id": 176,
+        "fig_num": "232",
+        "original_caption": "Fig. 232. Cowry shell, Cypraea sp.",
+        "cleaned_caption": "Fig. 232. Cowry shell, Cypraea sp.",
+        "species_name": "Cypraea sp.",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and matches text.",
+        "confidence": "high"
+      },
+      {
+        "id": 177,
+        "fig_num": "234",
+        "original_caption": "Fig. 234. Cowry, Cypraea sp.",
+        "cleaned_caption": "Fig. 234. Cowry, Cypraea sp.",
+        "species_name": "Cypraea sp.",
+        "has_changes": true,
+        "change_summary": "Corrected OCR typo in the species name from 'Cypri,a sp.' to 'Cypraea sp.'",
+        "confidence": "high"
+      },
+      {
+        "id": 178,
+        "fig_num": "235",
+        "original_caption": "Fig. 235. Reef abalone shell, Haliotis asinina",
+        "cleaned_caption": "Fig. 235. Reef abalone shell, Haliotis asinina",
+        "species_name": "Haliotis asinina",
+        "has_changes": true,
+        "change_summary": "Corrected OCR spacing/typo from 'Haliotisasinine' to 'Haliotis asinina'.",
+        "confidence": "high"
+      },
+      {
+        "id": 179,
+        "fig_num": "236",
+        "original_caption": "Fig. 236. Scorpion shells, Lambis chiragra",
+        "cleaned_caption": "Fig. 236. Scorpion shells, Lambis chiragra",
+        "species_name": "Lambis chiragra",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and complete.",
+        "confidence": "high"
+      },
+      {
+        "id": 180,
+        "fig_num": "237",
+        "original_caption": "Fig. 237. Common spider shell, Lambis truncata",
+        "cleaned_caption": "Fig. 237. Common spider shell, Lambis truncata",
+        "species_name": "Lambis truncata",
+        "has_changes": true,
+        "change_summary": "Corrected OCR typo from 'spidor' to 'spider'.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 105,
+    "figures": [
+      {
+        "id": 221,
+        "fig_num": "288",
+        "original_caption": "Fig. 288. Spiny bivalve of reefs, Spondylus sp.",
+        "cleaned_caption": "Fig. 288. Spiny bivalve of reefs, Spondylus sp.",
+        "species_name": "Spondylus sp.",
+        "has_changes": false,
+        "change_summary": "Caption is already accurate and complete.",
+        "confidence": "high"
+      },
+      {
+        "id": 222,
+        "fig_num": "289",
+        "original_caption": "Fig. 289. Spiny bivalve, Spondylus hystrix",
+        "cleaned_caption": "Fig. 289. Spiny bivalve, Spondylus hystrix.",
+        "species_name": "Spondylus hystrix",
+        "has_changes": true,
+        "change_summary": "Fixed species name spelling from 'hysrix' to 'hystrix' and added a period at the end.",
+        "confidence": "high"
+      },
+      {
+        "id": 223,
+        "fig_num": "290",
+        "original_caption": "Fig. 290. Pearl oyster, Pinctada margaritifera",
+        "cleaned_caption": "Fig. 290. Pearl oyster, Pinctada margaritifera.",
+        "species_name": "Pinctada margaritifera",
+        "has_changes": true,
+        "change_summary": "Fixed OCR errors in the binomial name ('Pinetada Tttargaritifera' -> 'Pinctada margaritifera') and formatted as a complete caption.",
+        "confidence": "high"
+      },
+      {
+        "id": 224,
+        "fig_num": "291",
+        "original_caption": "Fig. 291. Penshell, Pinna bicolor",
+        "cleaned_caption": "Fig. 291. Penshell, Pinna bicolor.",
+        "species_name": "Pinna bicolor",
+        "has_changes": true,
+        "change_summary": "Added a period at the end of the caption.",
+        "confidence": "high"
+      },
+      {
+        "id": 485,
+        "fig_num": "292",
+        "original_caption": "Penshell, Atrina vexillum among corals",
+        "cleaned_caption": "Fig. 292. Penshell, Atrina vexillum among corals.",
+        "species_name": "Atrina vexillum",
+        "has_changes": true,
+        "change_summary": "Added the missing 'Fig. 292.' prefix and a period at the end based on page layout.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 106,
+    "figures": [
+      {
+        "id": 225,
+        "fig_num": "2.93",
+        "original_caption": "Fig. 2.93. A spiny chiton, Acanthopleura spiniger.",
+        "cleaned_caption": "Fig. 2.93. A spiny chiton, Acanthopleura spiniger.",
+        "species_name": "Acanthopleura spiniger",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and clean.",
+        "confidence": "high"
+      },
+      {
+        "id": 484,
+        "fig_num": "2.94",
+        "original_caption": "Chiton Acanthopleura sp. on coral rocks",
+        "cleaned_caption": "Fig. 2.94. Chiton Acanthopleura sp. on coral rocks.",
+        "species_name": "Acanthopleura sp.",
+        "has_changes": true,
+        "change_summary": "Added missing figure prefix 'Fig. 2.94.' and standardized punctuation.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 111,
+    "figures": [
+      {
+        "id": 230,
+        "fig_num": "302",
+        "original_caption": "Fig. 302. Cushion star, Culcita schmideliana",
+        "cleaned_caption": "Fig. 302. Cushion star, Culcita schmideliana",
+        "species_name": "Culcita schmideliana",
+        "has_changes": false,
+        "change_summary": "Caption is already accurate and complete.",
+        "confidence": "high"
+      },
+      {
+        "id": 231,
+        "fig_num": "303",
+        "original_caption": "Fig. 303. Pink Seastar, Linckia laevigata",
+        "cleaned_caption": "Fig. 303. Pink Seastar, Linckia laevigata",
+        "species_name": "Linckia laevigata",
+        "has_changes": true,
+        "change_summary": "Corrected minor OCR artifacts in text stream for the scientific name.",
+        "confidence": "high"
+      },
+      {
+        "id": 232,
+        "fig_num": "304",
+        "original_caption": "Fig. 304. Cushion star in deep waters, Culcita schmideliana",
+        "cleaned_caption": "Fig. 304. Cushion star in deep waters, Culcita schmideliana",
+        "species_name": "Culcita schmideliana",
+        "has_changes": true,
+        "change_summary": "Corrected OCR comma typo in 'w,aters'.",
+        "confidence": "high"
+      },
+      {
+        "id": 233,
+        "fig_num": "305",
+        "original_caption": "Fig. 305. Sea star, Fromia indica",
+        "cleaned_caption": "Fig. 305. Sea star, Fromia indica",
+        "species_name": "Fromia indica",
+        "has_changes": true,
+        "change_summary": "Corrected OCR comma typo in 'indic,a'.",
+        "confidence": "high"
+      },
+      {
+        "id": 234,
+        "fig_num": "306",
+        "original_caption": "Fig. 306. Seastar, Leiaster glaber",
+        "cleaned_caption": "Fig. 306. Seastar, Leiaster glaber",
+        "species_name": "Leiaster glaber",
+        "has_changes": true,
+        "change_summary": "Added comma after Seastar for consistency with format.",
+        "confidence": "high"
+      },
+      {
+        "id": 483,
+        "fig_num": "307",
+        "original_caption": "Sea star of coral reef areas",
+        "cleaned_caption": "Fig. 307. Sea star of coral reef areas",
+        "species_name": null,
+        "has_changes": true,
+        "change_summary": "Added missing figure number prefix and standardized format.",
+        "confidence": "high"
+      },
+      {
+        "id": 235,
+        "fig_num": "308",
+        "original_caption": "Fig. 308. Sea star, Fromia sp., oral side",
+        "cleaned_caption": "Fig. 308. Sea star, Fromia sp., oral side",
+        "species_name": "Fromia sp.",
+        "has_changes": true,
+        "change_summary": "Corrected OCR comma typo in 'Fr,omia'.",
+        "confidence": "high"
+      },
+      {
+        "id": 236,
+        "fig_num": "309",
+        "original_caption": "Fig. 309. A small seastar, Asterina lorioli",
+        "cleaned_caption": "Fig. 309. A small seastar, Asterina lorioli",
+        "species_name": "Asterina lorioli",
+        "has_changes": true,
+        "change_summary": "Removed OCR comma artifact from figure prefix.",
+        "confidence": "high"
+      },
+      {
+        "id": 237,
+        "fig_num": "310",
+        "original_caption": "Fig. 310. Seastar, Fromia monilis",
+        "cleaned_caption": "Fig. 310. Seastar, Fromia monilis",
+        "species_name": "Fromia monilis",
+        "has_changes": true,
+        "change_summary": "Corrected OCR typo in species name 'Fromia mQniUs' to 'Fromia monilis'.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 125,
+    "figures": [
+      {
+        "id": 241,
+        "fig_num": "314",
+        "original_caption": "Fig. 314. Long armed brittlestar, Ophiocoma scolopendrina",
+        "cleaned_caption": "Fig. 314. Long-armed brittlestar, Ophiocoma scolopendrina",
+        "species_name": "Ophiocoma scolopendrina",
+        "has_changes": true,
+        "change_summary": "Fixed spelling of scientific name (from scolpendrina to scolopendrina) and added hyphen to 'Long-armed'.",
+        "confidence": "high"
+      },
+      {
+        "id": 242,
+        "fig_num": "315",
+        "original_caption": "Fig. 315. Brittle star, Macrophiothrix sp.",
+        "cleaned_caption": "Fig. 315. Brittle star, Macrophiothrix sp.",
+        "species_name": "Macrophiothrix sp.",
+        "has_changes": false,
+        "change_summary": "None",
+        "confidence": "high"
+      },
+      {
+        "id": 482,
+        "fig_num": "316",
+        "original_caption": "Brittlestar, ophiomastrix annulosa",
+        "cleaned_caption": "Fig. 316. Brittlestar, Ophiomastrix annulosa",
+        "species_name": "Ophiomastrix annulosa",
+        "has_changes": true,
+        "change_summary": "Added missing figure prefix 'Fig. 316.' and capitalized genus name 'Ophiomastrix'.",
+        "confidence": "high"
+      },
+      {
+        "id": 243,
+        "fig_num": "317",
+        "original_caption": "Fig. 317. Reef ophiuroid, Ophiarthrum pictum",
+        "cleaned_caption": "Fig. 317. Reef ophiuroid, Ophiarthrum pictum",
+        "species_name": "Ophiarthrum pictum",
+        "has_changes": false,
+        "change_summary": "None",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 114,
+    "figures": [
+      {
+        "id": 244,
+        "fig_num": "319",
+        "original_caption": "Fig. 319. Feather star, Comatula sp.",
+        "cleaned_caption": "Fig. 319. Feather star, Comatula sp.",
+        "species_name": "Comatula sp.",
+        "has_changes": false,
+        "change_summary": "Caption is already accurate based on the text.",
+        "confidence": "high"
+      },
+      {
+        "id": 245,
+        "fig_num": "320",
+        "original_caption": "Fig. 320. Feather star of shallow waters, Comaster sp.",
+        "cleaned_caption": "Fig. 320. Feather star of shallow waters, Comaster sp.",
+        "species_name": "Comaster sp.",
+        "has_changes": false,
+        "change_summary": "Caption is already accurate based on the text.",
+        "confidence": "high"
+      },
+      {
+        "id": 246,
+        "fig_num": "321",
+        "original_caption": "Fig. 321. Common feather star, Lamprometra sp.",
+        "cleaned_caption": "Fig. 321. Common feather star, Lamprometra sp.",
+        "species_name": "Lamprometra sp.",
+        "has_changes": false,
+        "change_summary": "Caption is already accurate based on the text.",
+        "confidence": "high"
+      },
+      {
+        "id": 247,
+        "fig_num": "322",
+        "original_caption": "Fig. 322. Feather star, Heterometra sp.",
+        "cleaned_caption": "Fig. 322. Feather star, Heterometra sp.",
+        "species_name": "Heterometra sp.",
+        "has_changes": false,
+        "change_summary": "Caption is already accurate based on the text.",
+        "confidence": "high"
+      },
+      {
+        "id": 248,
+        "fig_num": "323",
+        "original_caption": "Fig. 323. Bright yellow featherstar, Himerometra magnipinna",
+        "cleaned_caption": "Fig. 323. Bright yellow featherstar, Himerometra magnipinna",
+        "species_name": "Himerometra magnipinna",
+        "has_changes": false,
+        "change_summary": "Caption is already accurate based on the text.",
+        "confidence": "high"
+      },
+      {
+        "id": 249,
+        "fig_num": "324",
+        "original_caption": "Fig. 324. Featherstar, Himerometra sp. on zoanthid mats",
+        "cleaned_caption": "Fig. 324. Featherstar, Himerometra sp. on zoanthid mats",
+        "species_name": "Himerometra sp.",
+        "has_changes": false,
+        "change_summary": "Caption is already accurate based on the text.",
+        "confidence": "high"
+      },
+      {
+        "id": 250,
+        "fig_num": "325",
+        "original_caption": "Fig. 325. Featherstar, Oxycomanthus bennetti",
+        "cleaned_caption": "Fig. 325. Featherstar, Oxycomanthus bennetti",
+        "species_name": "Oxycomanthus bennetti",
+        "has_changes": false,
+        "change_summary": "Caption is already accurate based on the text.",
+        "confidence": "high"
+      },
+      {
+        "id": 481,
+        "fig_num": "318",
+        "original_caption": "Feather star of coral reefs, Himerometra sp.",
+        "cleaned_caption": "Fig. 318. Feather star of coral reefs, Himerometra sp.",
+        "species_name": "Himerometra sp.",
+        "has_changes": true,
+        "change_summary": "Corrected figure number from OCR error 'S18' to '318' and added prefix 'Fig. '",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 116,
+    "figures": [
+      {
+        "id": 251,
+        "fig_num": "326",
+        "original_caption": "Fig. 326. Longspine Seaurchin, Diadema setosum",
+        "cleaned_caption": "Fig. 326. Longspine Sea urchin, Diadema setosum",
+        "species_name": "Diadema setosum",
+        "has_changes": true,
+        "change_summary": "Corrected 'Seaurchin' to 'Sea urchin'",
+        "confidence": "high"
+      },
+      {
+        "id": 252,
+        "fig_num": "327",
+        "original_caption": "Fig. 327. Sea urchin, Echinostrephus molaris",
+        "cleaned_caption": "Fig. 327. Sea urchin, Echinostrephus molaris",
+        "species_name": "Echinostrephus molaris",
+        "has_changes": false,
+        "change_summary": "Caption is accurate",
+        "confidence": "high"
+      },
+      {
+        "id": 253,
+        "fig_num": "328",
+        "original_caption": "Fig. 328. A beautiful globe urchin, Mespilia globulus",
+        "cleaned_caption": "Fig. 328. A beautiful globe urchin, Mespilia globulus",
+        "species_name": "Mespilia globulus",
+        "has_changes": true,
+        "change_summary": "Fixed OCR error in species name from 'MespiUa globules' to 'Mespilia globulus'",
+        "confidence": "high"
+      },
+      {
+        "id": 254,
+        "fig_num": "329",
+        "original_caption": "Fig. 329. Large spined-sea urchin, Diadema savignyi",
+        "cleaned_caption": "Fig. 329. Large spined-sea urchin, Diadema savignyi",
+        "species_name": "Diadema savignyi",
+        "has_changes": false,
+        "change_summary": "Caption is accurate",
+        "confidence": "high"
+      },
+      {
+        "id": 255,
+        "fig_num": "330",
+        "original_caption": "Fig. 330. Hatpin Seaurchin, Echinothrix calamaris",
+        "cleaned_caption": "Fig. 330. Hatpin Sea urchin, Echinothrix calamaris",
+        "species_name": "Echinothrix calamaris",
+        "has_changes": true,
+        "change_summary": "Corrected 'Seaurchin' to 'Sea urchin' and fixed OCR numbering error",
+        "confidence": "high"
+      },
+      {
+        "id": 480,
+        "fig_num": "330",
+        "original_caption": "Rock boring sea urchin, Echinomera mathaei",
+        "cleaned_caption": "Fig. 330. Rock boring sea urchin, Echinometra mathaei",
+        "species_name": "Echinometra mathaei",
+        "has_changes": true,
+        "change_summary": "Added missing figure prefix, fixed spelling from 'Echinomera tnaiJulPl' to 'Echinometra mathaei'",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 141,
+    "figures": [
+      {
+        "id": 290,
+        "fig_num": "373",
+        "original_caption": "Fig. 373. A school of grunts",
+        "cleaned_caption": "Fig. 373. A school of grunts",
+        "species_name": null,
+        "has_changes": false,
+        "change_summary": "Caption is accurate and clean.",
+        "confidence": "high"
+      },
+      {
+        "id": 291,
+        "fig_num": "374",
+        "original_caption": "Fig. 374. A school of sweetlips, Diagramma pictum",
+        "cleaned_caption": "Fig. 374. A school of sweetlips, Diagramma pictum",
+        "species_name": "Diagramma pictum",
+        "has_changes": true,
+        "change_summary": "Fixed OCR artifacts in scientific name.",
+        "confidence": "high"
+      },
+      {
+        "id": 479,
+        "fig_num": "375",
+        "original_caption": "A school of damsels, Dascyllus reticulatus on coral colony",
+        "cleaned_caption": "Fig. 375. A school of damsels, Dascyllus reticulatus on coral colony",
+        "species_name": "Dascyllus reticulatus",
+        "has_changes": true,
+        "change_summary": "Added missing figure prefix 'Fig. 375.' and fixed OCR typos in scientific name.",
+        "confidence": "high"
+      },
+      {
+        "id": 292,
+        "fig_num": "376",
+        "original_caption": "Fig. 376. School of snappers, Lutjanus kasmira",
+        "cleaned_caption": "Fig. 376. School of snappers, Lutjanus kasmira",
+        "species_name": "Lutjanus kasmira",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and clean.",
+        "confidence": "high"
+      },
+      {
+        "id": 293,
+        "fig_num": "377",
+        "original_caption": "Fig. 377. Longfin bannerfishes, Heniochus acuminatus",
+        "cleaned_caption": "Fig. 377. Longfin bannerfishes, Heniochus acuminatus",
+        "species_name": "Heniochus acuminatus",
+        "has_changes": true,
+        "change_summary": "Fixed OCR typo in 'Longfin' and combined split text lines.",
+        "confidence": "high"
+      },
+      {
+        "id": 294,
+        "fig_num": "378",
+        "original_caption": "Fig. 378. Threadfin butterflyfish, Chaetodon auriga",
+        "cleaned_caption": "Fig. 378. Threadfin butterflyfish, Chaetodon auriga",
+        "species_name": "Chaetodon auriga",
+        "has_changes": true,
+        "change_summary": "Fixed OCR typo in 'butterflyfish'.",
+        "confidence": "high"
+      },
+      {
+        "id": 295,
+        "fig_num": "379",
+        "original_caption": "Fig. 379. Black-back butterflyfish, Chaetodon melannotus",
+        "cleaned_caption": "Fig. 379. Black-back butterflyfish, Chaetodon melannotus",
+        "species_name": "Chaetodon melannotus",
+        "has_changes": true,
+        "change_summary": "Fixed OCR typos in 'butterflyfish' and 'Chaetodon melannotus'.",
+        "confidence": "high"
+      },
+      {
+        "id": 296,
+        "fig_num": "380",
+        "original_caption": "Fig. 380. Chevroned butterflyfish, Chaetodon trifascialis",
+        "cleaned_caption": "Fig. 380. Chevroned butterflyfish, Chaetodon trifascialis",
+        "species_name": "Chaetodon trifascialis",
+        "has_changes": true,
+        "change_summary": "Fixed OCR typo in 'Chevroned' and scientific name spelling.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 134,
+    "figures": [
+      {
+        "id": 321,
+        "fig_num": "413",
+        "original_caption": "Fig. 413. Black axil hogfish, Bodianus axillaris",
+        "cleaned_caption": "Fig. 413. Black axil hogfish, Bodianus axillaris",
+        "species_name": "Bodianus axillaris",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and follows standard format.",
+        "confidence": "high"
+      },
+      {
+        "id": 478,
+        "fig_num": "414",
+        "original_caption": "Sling jaw wrasse, Epibulus insidiator (Black phase)",
+        "cleaned_caption": "Fig. 414. Slingjaw wrasse, Epibulus insidiator (Black phase)",
+        "species_name": "Epibulus insidiator",
+        "has_changes": true,
+        "change_summary": "Added missing figure prefix 'Fig. 414.' and corrected spelling of 'Slingjaw'.",
+        "confidence": "high"
+      },
+      {
+        "id": 322,
+        "fig_num": "415",
+        "original_caption": "Fig. 415. Dusky wrasse, Halichoeres marginatus",
+        "cleaned_caption": "Fig. 415. Dusky wrasse, Halichoeres marginatus",
+        "species_name": "Halichoeres marginatus",
+        "has_changes": false,
+        "change_summary": "Caption is accurate.",
+        "confidence": "high"
+      },
+      {
+        "id": 323,
+        "fig_num": "416",
+        "original_caption": "Fig. 416. Pinkbelly wrasse, Halichoeres margaritaceus",
+        "cleaned_caption": "Fig. 416. Pinkbelly wrasse, Halichoeres margaritaceus",
+        "species_name": "Halichoeres margaritaceus",
+        "has_changes": true,
+        "change_summary": "Corrected OCR typo in scientific name 'margaritaceous' to 'margaritaceus'.",
+        "confidence": "high"
+      },
+      {
+        "id": 324,
+        "fig_num": "417",
+        "original_caption": "Fig. 417. Red-breasted wrasse, Cheilinus fasciatus",
+        "cleaned_caption": "Fig. 417. Red-breasted wrasse, Cheilinus fasciatus",
+        "species_name": "Cheilinus fasciatus",
+        "has_changes": true,
+        "change_summary": "Corrected garbled OCR characters in figure number and species name.",
+        "confidence": "high"
+      },
+      {
+        "id": 325,
+        "fig_num": "418",
+        "original_caption": "Fig. 418. Bird wrasse, Gomphosus caeruleus (Dark phase)",
+        "cleaned_caption": "Fig. 418. Bird wrasse, Gomphosus caeruleus (Dark phase)",
+        "species_name": "Gomphosus caeruleus",
+        "has_changes": false,
+        "change_summary": "Caption is accurate.",
+        "confidence": "high"
+      },
+      {
+        "id": 326,
+        "fig_num": "419",
+        "original_caption": "Fig. 419. Bird wrasse, Gomphosus caeruleus (Green phase)",
+        "cleaned_caption": "Fig. 419. Bird wrasse, Gomphosus caeruleus (Green phase)",
+        "species_name": "Gomphosus caeruleus",
+        "has_changes": false,
+        "change_summary": "Caption is accurate.",
+        "confidence": "high"
+      },
+      {
+        "id": 327,
+        "fig_num": "420",
+        "original_caption": "Fig. 420. Red spotted wrasse, Halichoeres argus",
+        "cleaned_caption": "Fig. 420. Red-spotted wrasse, Halichoeres argus",
+        "species_name": "Halichoeres argus",
+        "has_changes": true,
+        "change_summary": "Added hyphen to 'Red-spotted' for consistency.",
+        "confidence": "high"
+      },
+      {
+        "id": 328,
+        "fig_num": "421",
+        "original_caption": "Fig. 421. Thick-lipped wrasse, Hemigymnus melapterus",
+        "cleaned_caption": "Fig. 421. Thick-lipped wrasse, Hemigymnus melapterus",
+        "species_name": "Hemigymnus melapterus",
+        "has_changes": true,
+        "change_summary": "Corrected comma typo in scientific name 'm,elapterus' to 'melapterus'.",
+        "confidence": "high"
+      },
+      {
+        "id": 329,
+        "fig_num": "422",
+        "original_caption": "Fig. 422. Three-ribbon wrasse, Stethojulis trilineata",
+        "cleaned_caption": "Fig. 422. Three-ribbon wrasse, Stethojulis trilineata",
+        "species_name": "Stethojulis trilineata",
+        "has_changes": true,
+        "change_summary": "Corrected OCR typo 'triIineata' to 'trilineata'.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 135,
+    "figures": [
+      {
+        "id": 330,
+        "fig_num": "423",
+        "original_caption": "Fig. 423. Jansen's wrasse, Thalassoma jansenii",
+        "cleaned_caption": "Fig. 423. Jansen's wrasse, Thalassoma jansenii",
+        "species_name": "Thalassoma jansenii",
+        "has_changes": true,
+        "change_summary": "Fixed OCR comma/spelling errors in scientific name from raw text 'Thal,assoma jansenii'",
+        "confidence": "high"
+      },
+      {
+        "id": 477,
+        "fig_num": "424",
+        "original_caption": "Young of batfish, Platax orbicularis",
+        "cleaned_caption": "Fig. 424. Young of batfish, Platax orbicularis",
+        "species_name": "Platax orbicularis",
+        "has_changes": true,
+        "change_summary": "Added missing 'Fig. 424.' prefix based on page context.",
+        "confidence": "high"
+      },
+      {
+        "id": 332,
+        "fig_num": "425",
+        "original_caption": "Fig. 425. Batfish, Platax pinnatus",
+        "cleaned_caption": "Fig. 425. Batfish, Platax pinnatus",
+        "species_name": "Platax pinnatus",
+        "has_changes": true,
+        "change_summary": "Fixed OCR typo in raw text 'Batfisf' to 'Batfish'.",
+        "confidence": "high"
+      },
+      {
+        "id": 331,
+        "fig_num": "426",
+        "original_caption": "Fig. 426. Oriental sweetlip, Plectorhinchus orientalis",
+        "cleaned_caption": "Fig. 426. Oriental sweetlip, Plectorhinchus orientalis",
+        "species_name": "Plectorhinchus orientalis",
+        "has_changes": true,
+        "change_summary": "Fixed OCR typos 'F· g.' and 'Plectorhichus orientalis' to correct spelling and format.",
+        "confidence": "high"
+      },
+      {
+        "id": 333,
+        "fig_num": "427",
+        "original_caption": "Fig. 427. Spotted sweetlip, Plectorhinchus chaetodonoides (Adult)",
+        "cleaned_caption": "Fig. 427. Spotted sweetlip, Plectorhinchus chaetodonoides (Adult)",
+        "species_name": "Plectorhinchus chaetodonoides",
+        "has_changes": true,
+        "change_summary": "Fixed OCR spelling error in specific epithet 'chaetodonaides' to 'chaetodonoides'.",
+        "confidence": "high"
+      },
+      {
+        "id": 334,
+        "fig_num": "428",
+        "original_caption": "Fig. 428. Floral wrasse, Cheilinus chlorourus",
+        "cleaned_caption": "Fig. 428. Floral wrasse, Cheilinus chlorourus",
+        "species_name": "Cheilinus chlorourus",
+        "has_changes": true,
+        "change_summary": "Fixed comma typo in raw text 'Fig. 42,8.' to 'Fig. 428.'.",
+        "confidence": "high"
+      },
+      {
+        "id": 335,
+        "fig_num": "429",
+        "original_caption": "Fig. 429. Yellowfin surgeon, Acanthurus xanthopterus",
+        "cleaned_caption": "Fig. 429. Yellowfin surgeon, Acanthurus xanthopterus",
+        "species_name": "Acanthurus xanthopterus",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and complete.",
+        "confidence": "high"
+      },
+      {
+        "id": 336,
+        "fig_num": "430",
+        "original_caption": "Fig. 430. Yellowfin surgeon, Acanthurus xanthopterus",
+        "cleaned_caption": "Fig. 430. Yellowfin surgeon, Acanthurus xanthopterus",
+        "species_name": "Acanthurus xanthopterus",
+        "has_changes": true,
+        "change_summary": "Removed leading comma in raw text ',Acanthurus xanthopterus'.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 136,
+    "figures": [
+      {
+        "id": 337,
+        "fig_num": "431",
+        "original_caption": "Fig. 431. Convict surgeon, Acanthurus triostegus",
+        "cleaned_caption": "Fig. 431. Convict surgeon, Acanthurus triostegus",
+        "species_name": "Acanthurus triostegus",
+        "has_changes": false,
+        "change_summary": "No changes needed",
+        "confidence": "high"
+      },
+      {
+        "id": 338,
+        "fig_num": "432",
+        "original_caption": "Fig. 432. Eye-stripe surgeon, Acanthurus dussumieri",
+        "cleaned_caption": "Fig. 432. Eye-stripe surgeon, Acanthurus dussumieri",
+        "species_name": "Acanthurus dussumieri",
+        "has_changes": true,
+        "change_summary": "Corrected species name spelling from 'dussumieria' to 'dussumieri' based on standard taxonomy",
+        "confidence": "high"
+      },
+      {
+        "id": 339,
+        "fig_num": "433",
+        "original_caption": "Fig. 433. Back-streak surgeon, Acanthurus nigricauda",
+        "cleaned_caption": "Fig. 433. Back-streak surgeon, Acanthurus nigricauda",
+        "species_name": "Acanthurus nigricauda",
+        "has_changes": false,
+        "change_summary": "Fixed OCR numbering typo from Fig. 43,3 to Fig. 433",
+        "confidence": "high"
+      },
+      {
+        "id": 340,
+        "fig_num": "434",
+        "original_caption": "Fig. 434. Blue-lined surgeon, Acanthurus lineatus",
+        "cleaned_caption": "Fig. 434. Blue-lined surgeon, Acanthurus lineatus",
+        "species_name": "Acanthurus lineatus",
+        "has_changes": false,
+        "change_summary": "Corrected OCR errors ('Blue- Ined surgeons') to standard caption text",
+        "confidence": "high"
+      },
+      {
+        "id": 341,
+        "fig_num": "435",
+        "original_caption": "Fig. 435. Powder-blue surgeon, Acanthurus leucosternon",
+        "cleaned_caption": "Fig. 435. Powder-blue surgeon, Acanthurus leucosternon",
+        "species_name": "Acanthurus leucosternon",
+        "has_changes": false,
+        "change_summary": "Corrected OCR typo 'Acallthurus' to 'Acanthurus'",
+        "confidence": "high"
+      },
+      {
+        "id": 342,
+        "fig_num": "436",
+        "original_caption": "Fig. 436. Sailfin tang, Zebrasoma veliferum (Adult)",
+        "cleaned_caption": "Fig. 436. Sailfin tang, Zebrasoma veliferum (Adult)",
+        "species_name": "Zebrasoma veliferum",
+        "has_changes": false,
+        "change_summary": "Corrected OCR typo 'Zebraso,rna' to 'Zebrasoma'",
+        "confidence": "high"
+      },
+      {
+        "id": 475,
+        "fig_num": "437",
+        "original_caption": "Brush tail tang, Zebrasoma scopas",
+        "cleaned_caption": "Fig. 437. Brush-tail tang, Zebrasoma scopas",
+        "species_name": "Zebrasoma scopas",
+        "has_changes": true,
+        "change_summary": "Added 'Fig. 437.' prefix and hyphenated 'Brush-tail'",
+        "confidence": "high"
+      },
+      {
+        "id": 476,
+        "fig_num": "438",
+        "original_caption": "Blotch-eye soldierfish, Myripristes murdjan",
+        "cleaned_caption": "Fig. 438. Blotch-eye soldierfish, Myripristes murdjan",
+        "species_name": "Myripristes murdjan",
+        "has_changes": true,
+        "change_summary": "Added 'Fig. 438.' prefix and fixed OCR typo in genus name",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 138,
+    "figures": [
+      {
+        "id": 351,
+        "fig_num": "447",
+        "original_caption": "Fig. 447. Giant moray eel, Gymnothorax javanicus",
+        "cleaned_caption": "Fig. 447. Giant moray eel, Gymnothorax javanicus",
+        "species_name": "Gymnothorax javanicus",
+        "has_changes": true,
+        "change_summary": "Fixed OCR typos in scientific name and species text.",
+        "confidence": "high"
+      },
+      {
+        "id": 352,
+        "fig_num": "448",
+        "original_caption": "Fig. 448. Adult of bicolour parrotfish, Cetoscarus bicolor",
+        "cleaned_caption": "Fig. 448. Adult of bicolour parrotfish, Cetoscarus bicolor",
+        "species_name": "Cetoscarus bicolor",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and complete.",
+        "confidence": "high"
+      },
+      {
+        "id": 353,
+        "fig_num": "449",
+        "original_caption": "Fig. 449. Juvenile of bicolour parrotfish, Cetoscarus bicolor",
+        "cleaned_caption": "Fig. 449. Juvenile of bicolour parrotfish, Cetoscarus bicolor",
+        "species_name": "Cetoscarus bicolor",
+        "has_changes": true,
+        "change_summary": "Added missing scientific binomial based on companion adult figure and standard taxonomy.",
+        "confidence": "high"
+      },
+      {
+        "id": 354,
+        "fig_num": "450",
+        "original_caption": "Fig. 450. Parrotfish, Scarus sp. among corals",
+        "cleaned_caption": "Fig. 450. Parrotfish, Scarus sp. among corals",
+        "species_name": "Scarus sp.",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and complete.",
+        "confidence": "high"
+      },
+      {
+        "id": 355,
+        "fig_num": "451",
+        "original_caption": "Fig. 451. Bridled parrotfish, Scarus frenatus",
+        "cleaned_caption": "Fig. 451. Bridled parrotfish, Scarus frenatus",
+        "species_name": "Scarus frenatus",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and complete.",
+        "confidence": "high"
+      },
+      {
+        "id": 356,
+        "fig_num": "452",
+        "original_caption": "Fig. 452. Dusky-parrotfish, Scarus niger",
+        "cleaned_caption": "Fig. 452. Dusky-parrotfish, Scarus niger",
+        "species_name": "Scarus niger",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and complete.",
+        "confidence": "high"
+      },
+      {
+        "id": 357,
+        "fig_num": "453",
+        "original_caption": "Fig. 453. Ember-parrotfish, Scarus rubroviolaceus",
+        "cleaned_caption": "Fig. 453. Ember-parrotfish, Scarus rubroviolaceus",
+        "species_name": "Scarus rubroviolaceus",
+        "has_changes": true,
+        "change_summary": "Fixed OCR typos in scientific name.",
+        "confidence": "high"
+      },
+      {
+        "id": 358,
+        "fig_num": "454",
+        "original_caption": "Fig. 454. Saddled-parrotfish, Scarus scaber",
+        "cleaned_caption": "Fig. 454. Saddled-parrotfish, Scarus scaber",
+        "species_name": "Scarus scaber",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and complete.",
+        "confidence": "high"
+      },
+      {
+        "id": 359,
+        "fig_num": "455",
+        "original_caption": "Fig. 455. Thorny seahorse, Hippocampus histrix",
+        "cleaned_caption": "Fig. 455. Thorny seahorse, Hippocampus histrix",
+        "species_name": "Hippocampus histrix",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and complete.",
+        "confidence": "high"
+      },
+      {
+        "id": 474,
+        "fig_num": "456",
+        "original_caption": "Spotted seahorse, Hippocampus kuda",
+        "cleaned_caption": "Fig. 456. Spotted seahorse, Hippocampus kuda",
+        "species_name": "Hippocampus kuda",
+        "has_changes": true,
+        "change_summary": "Added 'Fig. 456.' prefix and fixed OCR typo in genus name.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 143,
+    "figures": [
+      {
+        "id": 472,
+        "fig_num": "495",
+        "original_caption": "Threadfin dart fish, Ptereleotris hanae",
+        "cleaned_caption": "Fig. 495. Threadfin dartfish, Ptereleotris hanae",
+        "species_name": "Ptereleotris hanae",
+        "has_changes": true,
+        "change_summary": "Added standard 'Fig. 495.' prefix and corrected 'dart fish' to 'dartfish'.",
+        "confidence": "high"
+      },
+      {
+        "id": 395,
+        "fig_num": "496",
+        "original_caption": "Fig. 496. Lizardfish, Synodus sp.",
+        "cleaned_caption": "Fig. 496. Lizardfish, Synodus sp.",
+        "species_name": "Synodus sp.",
+        "has_changes": false,
+        "change_summary": "Caption is accurate as written.",
+        "confidence": "high"
+      },
+      {
+        "id": 396,
+        "fig_num": "497",
+        "original_caption": "Fig. 497. Coral goby, Gobiodon citrinus",
+        "cleaned_caption": "Fig. 497. Coral goby, Gobiodon citrinus",
+        "species_name": "Gobiodon citrinus",
+        "has_changes": false,
+        "change_summary": "Caption is accurate as written.",
+        "confidence": "high"
+      },
+      {
+        "id": 397,
+        "fig_num": "498",
+        "original_caption": "Fig. 498. Midas blenny, Ecsenius midas",
+        "cleaned_caption": "Fig. 498. Midas blenny, Ecsenius midas",
+        "species_name": "Ecsenius midas",
+        "has_changes": true,
+        "change_summary": "Corrected OCR typo in specific epithet and genus spelling ('Escenius midas' -> 'Ecsenius midas').",
+        "confidence": "high"
+      },
+      {
+        "id": 398,
+        "fig_num": "499",
+        "original_caption": "Fig. 499. Spotted eagle ray, Aetobatus narinari",
+        "cleaned_caption": "Fig. 499. Spotted eagle ray, Aetobatus narinari",
+        "species_name": "Aetobatus narinari",
+        "has_changes": true,
+        "change_summary": "Fixed OCR artifacts in figure number and species name ('Aetobatos' -> 'Aetobatus', 'Eagleray' -> 'eagle ray').",
+        "confidence": "high"
+      },
+      {
+        "id": 399,
+        "fig_num": "500",
+        "original_caption": "Fig. 500. Feather-tail stingray, Hypolophus sephen",
+        "cleaned_caption": "Fig. 500. Feather-tail stingray, Hypolophus sephen",
+        "species_name": "Hypolophus sephen",
+        "has_changes": false,
+        "change_summary": "Caption is accurate as written.",
+        "confidence": "high"
+      },
+      {
+        "id": 473,
+        "fig_num": "501",
+        "original_caption": "Brown-banded bambooshark, Chiloscyllium punctatum",
+        "cleaned_caption": "Fig. 501. Brown-banded bambooshark, Chiloscyllium punctatum",
+        "species_name": "Chiloscyllium punctatum",
+        "has_changes": true,
+        "change_summary": "Added standard 'Fig. 501.' prefix and fixed hyphenation/typos from OCR.",
+        "confidence": "high"
+      },
+      {
+        "id": 400,
+        "fig_num": "502",
+        "original_caption": "Fig. 502. Zebra shark, Stegostoma fasciatum",
+        "cleaned_caption": "Fig. 502. Zebra shark, Stegostoma fasciatum",
+        "species_name": "Stegostoma fasciatum",
+        "has_changes": true,
+        "change_summary": "Corrected spaced-out word and line breaks ('Zebrashark' -> 'Zebra shark').",
+        "confidence": "high"
+      },
+      {
+        "id": 401,
+        "fig_num": "503",
+        "original_caption": "Fig. 503. Grey-reef shark, Carcharhinus amblyrhynchos",
+        "cleaned_caption": "Fig. 503. Grey-reef shark, Carcharhinus amblyrhynchos",
+        "species_name": "Carcharhinus amblyrhynchos",
+        "has_changes": true,
+        "change_summary": "Fixed line-break split words and OCR errors in scientific name ('Gr'cy' -> 'Grey', 'u111blyrhynchos' -> 'amblyrhynchos').",
+        "confidence": "high"
+      },
+      {
+        "id": 402,
+        "fig_num": "504",
+        "original_caption": "Fig. 504. Blacktip reef shark, Carcharhinus melanopterus",
+        "cleaned_caption": "Fig. 504. Blacktip reef shark, Carcharhinus melanopterus",
+        "species_name": "Carcharhinus melanopterus",
+        "has_changes": true,
+        "change_summary": "Fixed OCR typos in common and scientific names ('Black-tip reefshark' -> 'Blacktip reef shark', 'Carchal'hinus 1neialloptertls' -> 'Carcharhinus melanopterus').",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 144,
+    "figures": [
+      {
+        "id": 403,
+        "fig_num": "505",
+        "original_caption": "Fig. 505. Scalloped hammerhead shark, Sphyrna lewini",
+        "cleaned_caption": "Fig. 505. Scalloped hammerhead shark, Sphyrna lewini",
+        "species_name": "Sphyrna lewini",
+        "has_changes": false,
+        "change_summary": "Caption is already accurate.",
+        "confidence": "high"
+      },
+      {
+        "id": 404,
+        "fig_num": "506",
+        "original_caption": "Fig. 506. Oceanic whitetip shark, Carcharhinus longimanus",
+        "cleaned_caption": "Fig. 506. Oceanic whitetip shark, Carcharhinus longimanus",
+        "species_name": "Carcharhinus longimanus",
+        "has_changes": false,
+        "change_summary": "Caption is already accurate.",
+        "confidence": "high"
+      },
+      {
+        "id": 405,
+        "fig_num": "507",
+        "original_caption": "Fig. 507. Smooth hammerhead shark, Sphyrna zygaena",
+        "cleaned_caption": "Fig. 507. Smooth hammerhead shark, Sphyrna zygaena",
+        "species_name": "Sphyrna zygaena",
+        "has_changes": false,
+        "change_summary": "Caption is already accurate.",
+        "confidence": "high"
+      },
+      {
+        "id": 406,
+        "fig_num": "508",
+        "original_caption": "Fig. 508. Giant trevally, Caranx ignobilis",
+        "cleaned_caption": "Fig. 508. Giant trevally, Caranx ignobilis",
+        "species_name": "Caranx ignobilis",
+        "has_changes": false,
+        "change_summary": "Caption is already accurate.",
+        "confidence": "high"
+      },
+      {
+        "id": 471,
+        "fig_num": "509",
+        "original_caption": "Golden trevalley, Gnathanodon speciosus",
+        "cleaned_caption": "Fig. 509. Golden trevally, Gnathanodon speciosus",
+        "species_name": "Gnathanodon speciosus",
+        "has_changes": true,
+        "change_summary": "Added missing 'Fig. 509.' prefix and corrected spelling of 'trevalley' to 'trevally'.",
+        "confidence": "high"
+      },
+      {
+        "id": 407,
+        "fig_num": "510",
+        "original_caption": "Fig. 510. Copper sweeper, Pempheris oualensis",
+        "cleaned_caption": "Fig. 510. Copper sweeper, Pempheris oualensis",
+        "species_name": "Pempheris oualensis",
+        "has_changes": false,
+        "change_summary": "Caption is already accurate.",
+        "confidence": "high"
+      },
+      {
+        "id": 408,
+        "fig_num": "511",
+        "original_caption": "Fig. 511. Longnose leatherjacket, Oxymonacanthus longirostris",
+        "cleaned_caption": "Fig. 511. Longnose leatherjacket, Oxymonacanthus longirostris",
+        "species_name": "Oxymonacanthus longirostris",
+        "has_changes": false,
+        "change_summary": "Caption is already accurate.",
+        "confidence": "high"
+      },
+      {
+        "id": 409,
+        "fig_num": "512",
+        "original_caption": "Fig. 512. Yellow-spotted triggerfish, Pseudobalistes fuscus",
+        "cleaned_caption": "Fig. 512. Yellow-spotted triggerfish, Pseudobalistes fuscus",
+        "species_name": "Pseudobalistes fuscus",
+        "has_changes": false,
+        "change_summary": "Caption is already accurate.",
+        "confidence": "high"
+      },
+      {
+        "id": 410,
+        "fig_num": "513",
+        "original_caption": "Fig. 513. Clown triggerfish, Balistoides conspicillum",
+        "cleaned_caption": "Fig. 513. Clown triggerfish, Balistoides conspicillum",
+        "species_name": "Balistoides conspicillum",
+        "has_changes": false,
+        "change_summary": "Caption is already accurate.",
+        "confidence": "high"
+      },
+      {
+        "id": 411,
+        "fig_num": "514",
+        "original_caption": "Fig. 514. Titan triggerfish, Balistoides viridescens",
+        "cleaned_caption": "Fig. 514. Titan triggerfish, Balistoides viridescens",
+        "species_name": "Balistoides viridescens",
+        "has_changes": false,
+        "change_summary": "Caption is already accurate.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 158,
+    "figures": [
+      {
+        "id": 470,
+        "fig_num": "523",
+        "original_caption": "Bennett's Puffer, Canthigaster bennetti",
+        "cleaned_caption": "Fig. 523. Bennett's puffer, Canthigaster bennetti",
+        "species_name": "Canthigaster bennetti",
+        "has_changes": true,
+        "change_summary": "Added missing 'Fig. 523.' prefix and formatted species name/common name correctly based on raw text and page style.",
+        "confidence": "high"
+      },
+      {
+        "id": 420,
+        "fig_num": "524",
+        "original_caption": "Fig. 524. Yellow boxfish, Ostracion cubicus (Juvenile)",
+        "cleaned_caption": "Fig. 524. Yellow boxfish, Ostracion cubicus (juvenile)",
+        "species_name": "Ostracion cubicus",
+        "has_changes": true,
+        "change_summary": "Lowercased 'Juvenile' for stylistic consistency.",
+        "confidence": "high"
+      },
+      {
+        "id": 421,
+        "fig_num": "525",
+        "original_caption": "Fig. 525. Adult of Ostracion cubicus",
+        "cleaned_caption": "Fig. 525. Adult of Ostracion cubicus",
+        "species_name": "Ostracion cubicus",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and clean.",
+        "confidence": "high"
+      },
+      {
+        "id": 422,
+        "fig_num": "526",
+        "original_caption": "Fig. 526. White-spotted boxfish, Ostracion meleagris",
+        "cleaned_caption": "Fig. 526. White-spotted boxfish, Ostracion meleagris",
+        "species_name": "Ostracion meleagris",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and clean.",
+        "confidence": "high"
+      },
+      {
+        "id": 423,
+        "fig_num": "527",
+        "original_caption": "Fig. 527. Long-horn cowfish, Lactoria cornuta",
+        "cleaned_caption": "Fig. 527. Long-horn cowfish, Lactoria cornuta",
+        "species_name": "Lactoria cornuta",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and clean.",
+        "confidence": "high"
+      },
+      {
+        "id": 424,
+        "fig_num": "528",
+        "original_caption": "Fig. 528. Brown phase of puffer, Arothron nigropunctatus",
+        "cleaned_caption": "Fig. 528. Brown phase of puffer, Arothron nigropunctatus",
+        "species_name": "Arothron nigropunctatus",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and clean.",
+        "confidence": "high"
+      },
+      {
+        "id": 425,
+        "fig_num": "529",
+        "original_caption": "Fig. 529. Balloon porcupinefish, Diodon holocanthus",
+        "cleaned_caption": "Fig. 529. Balloon porcupinefish, Diodon holocanthus",
+        "species_name": "Diodon holocanthus",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and clean.",
+        "confidence": "high"
+      },
+      {
+        "id": 426,
+        "fig_num": "530",
+        "original_caption": "Fig. 530. Foxface rabbitfish, Siganus magnificus",
+        "cleaned_caption": "Fig. 530. Foxface rabbitfish, Siganus magnificus",
+        "species_name": "Siganus magnificus",
+        "has_changes": false,
+        "change_summary": "Caption is accurate and clean.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 148,
+    "figures": [
+      {
+        "id": 429,
+        "fig_num": "534",
+        "current_caption": "Fig. 534. Hatchlings of Green sea turtle. Fig. 535. Hatchling of leatherback turtle",
+        "cleaned_caption": "Fig. 534. Hatchlings of Green sea turtle.",
+        "species_name": "Chelonia mydas",
+        "has_changes": true,
+        "change_summary": "Corrected fig_num and separated combined caption to isolate Fig. 534.",
+        "confidence": "high"
+      },
+      {
+        "id": 430,
+        "fig_num": "536",
+        "current_caption": "Fig. 536. Hawksbill sea turtle, Eretmochelys imbricata squamata",
+        "cleaned_caption": "Fig. 536. Hawksbill sea turtle, Eretmochelys imbricata squamata",
+        "species_name": "Eretmochelys imbricata squamata",
+        "has_changes": true,
+        "change_summary": "Corrected OCR errors in spelling from 'Erytmochelys imbricata squamata' to 'Eretmochelys imbricata squamata'.",
+        "confidence": "high"
+      },
+      {
+        "id": 431,
+        "fig_num": "537",
+        "current_caption": "Fig. 537. Olive ridley turtle, Lepidochelys olivacea",
+        "cleaned_caption": "Fig. 537. Olive ridley turtle, Lepidochelys olivacea",
+        "species_name": "Lepidochelys olivacea",
+        "has_changes": true,
+        "change_summary": "Fixed OCR comma typo in scientific name ('oliva,cea' to 'olivacea').",
+        "confidence": "high"
+      },
+      {
+        "id": 432,
+        "fig_num": "538",
+        "current_caption": "Fig. 538. Olive ridley laying eggs",
+        "cleaned_caption": "Fig. 538. Olive ridley laying eggs",
+        "species_name": "Lepidochelys olivacea",
+        "has_changes": true,
+        "change_summary": "Fixed OCR period/space typo in 'layin.g'.",
+        "confidence": "high"
+      },
+      {
+        "id": 468,
+        "fig_num": "535",
+        "current_caption": "Hatchling of leatherback turtle",
+        "cleaned_caption": "Fig. 535. Hatchling of leatherback turtle",
+        "species_name": "Dermochelys coriacea",
+        "has_changes": true,
+        "change_summary": "Added missing figure prefix and number format.",
+        "confidence": "high"
+      },
+      {
+        "id": 469,
+        "fig_num": "534",
+        "current_caption": "Leatherback turtle, Dermochelys coriacea",
+        "cleaned_caption": "Fig. 534. Leatherback turtle, Dermochelys coriacea",
+        "species_name": "Dermochelys coriacea",
+        "has_changes": true,
+        "change_summary": "Added missing figure prefix and corrected hyphenation/line break in scientific name 'coriace·a'.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 149,
+    "figures": [
+      {
+        "id": 433,
+        "fig_num": "539",
+        "original_caption": "Fig. 539. Amphibious sea snakes, Laticauda colubrina",
+        "cleaned_caption": "Fig. 539. Amphibious sea snakes, Laticauda colubrina",
+        "species_name": "Laticauda colubrina",
+        "has_changes": true,
+        "change_summary": "Fixed OCR split and typo in species name from 'Latioauda c.lubrina'",
+        "confidence": "high"
+      },
+      {
+        "id": 467,
+        "fig_num": "540",
+        "original_caption": "Sea snake among corals, Laticauda laticauda",
+        "cleaned_caption": "Fig. 540. Sea snake among corals, Laticauda laticauda",
+        "species_name": "Laticauda laticauda",
+        "has_changes": true,
+        "change_summary": "Added standard 'Fig. 540.' prefix and cleaned OCR text from 'Laticauda lati,cauda'",
+        "confidence": "high"
+      },
+      {
+        "id": 434,
+        "fig_num": "541",
+        "original_caption": "Fig. 541. Laticauda laticaudata on rocky shore for egg laying",
+        "cleaned_caption": "Fig. 541. Laticauda laticauda on rocky shore for egg laying",
+        "species_name": "Laticauda laticauda",
+        "has_changes": true,
+        "change_summary": "Corrected misspelled species name from 'Laticauda laticaudata' to 'Laticauda laticauda' to match text",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 150,
+    "figures": [
+      {
+        "id": 435,
+        "fig_num": "542",
+        "original_caption": "Fig. 542. Reef heron, Egretta sacra",
+        "cleaned_caption": "Fig. 542. Reef heron, Egretta sacra.",
+        "species_name": "Egretta sacra",
+        "has_changes": true,
+        "change_summary": "Added missing period at the end of the caption.",
+        "confidence": "high"
+      },
+      {
+        "id": 466,
+        "fig_num": "543",
+        "original_caption": "Plovers, Pluvialis sp. on muddy shore",
+        "cleaned_caption": "Fig. 543. Plovers, Pluvialis sp. on muddy shore.",
+        "species_name": "Pluvialis sp.",
+        "has_changes": true,
+        "change_summary": "Added 'Fig. 543.' prefix and terminal period to match standard caption format.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 151,
+    "figures": [
+      {
+        "id": 436,
+        "fig_num": "544",
+        "original_caption": "Fig. 544. Little egret, Egretta garzetta",
+        "cleaned_caption": "Fig. 544. Little egret, Egretta garzetta",
+        "species_name": "Egretta garzetta",
+        "has_changes": false,
+        "change_summary": "Caption is accurate as presented in the text.",
+        "confidence": "high"
+      },
+      {
+        "id": 437,
+        "fig_num": "547",
+        "original_caption": "Fig. 547. Indian Pond heron, Ardeola grayii (Breeding phase)",
+        "cleaned_caption": "Fig. 547. Indian Pond heron, Ardeola grayii (Breeding phase)",
+        "species_name": "Ardeola grayii",
+        "has_changes": false,
+        "change_summary": "Caption is accurate as presented in the text.",
+        "confidence": "high"
+      },
+      {
+        "id": 438,
+        "fig_num": "548",
+        "original_caption": "Fig. 548. White-collared kingfisher, Todiramphus chloris",
+        "cleaned_caption": "Fig. 548. White-collared kingfisher, Todiramphus chloris",
+        "species_name": "Todiramphus chloris",
+        "has_changes": false,
+        "change_summary": "Caption is accurate as presented in the text.",
+        "confidence": "high"
+      },
+      {
+        "id": 439,
+        "fig_num": "549",
+        "original_caption": "Fig. 549. White-breasted kingfisher, Halcyon smyrnensis",
+        "cleaned_caption": "Fig. 549. White-breasted kingfisher, Halcyon smyrnensis",
+        "species_name": "Halcyon smyrnensis",
+        "has_changes": false,
+        "change_summary": "Caption is accurate as presented in the text.",
+        "confidence": "high"
+      },
+      {
+        "id": 440,
+        "fig_num": "550",
+        "original_caption": "Fig. 550. Little ringed plover, Charadrius dubius (Non-breeding phase)",
+        "cleaned_caption": "Fig. 550. Little ringed plover, Charadrius dubius (Non-breeding phase)",
+        "species_name": "Charadrius dubius",
+        "has_changes": false,
+        "change_summary": "Caption is accurate as presented in the text.",
+        "confidence": "high"
+      },
+      {
+        "id": 441,
+        "fig_num": "551",
+        "original_caption": "Fig. 551. Black-napped tern, Sterna sumatrana",
+        "cleaned_caption": "Fig. 551. Black-napped tern, Sterna sumatrana",
+        "species_name": "Sterna sumatrana",
+        "has_changes": false,
+        "change_summary": "Caption is accurate as presented in the text.",
+        "confidence": "high"
+      },
+      {
+        "id": 442,
+        "fig_num": "552",
+        "original_caption": "Fig. 552. Tern eggs, Sterna sumatrana",
+        "cleaned_caption": "Fig. 552. Tern eggs, Sterna sumatrana",
+        "species_name": "Sterna sumatrana",
+        "has_changes": false,
+        "change_summary": "Caption is accurate as presented in the text.",
+        "confidence": "high"
+      },
+      {
+        "id": 443,
+        "fig_num": "553",
+        "original_caption": "Fig. 553. White-bellied sea eagle, Haliaeetus leucogaster",
+        "cleaned_caption": "Fig. 553. White-bellied sea eagle, Haliaeetus leucogaster",
+        "species_name": "Haliaeetus leucogaster",
+        "has_changes": false,
+        "change_summary": "Caption is accurate as presented in the text.",
+        "confidence": "high"
+      },
+      {
+        "id": 464,
+        "fig_num": "545",
+        "original_caption": "Median egret- Mesophoxy intermedia",
+        "cleaned_caption": "Fig. 545. Median egret, Mesophoyx intermedia",
+        "species_name": "Mesophoyx intermedia",
+        "has_changes": true,
+        "change_summary": "Added figure number prefix, corrected spelling of genus name from 'Mesophoxy' to 'Mesophoyx', and standardized punctuation.",
+        "confidence": "high"
+      },
+      {
+        "id": 465,
+        "fig_num": "546",
+        "original_caption": "Pond heron, Ardeola grayii (Non-breeding phase)",
+        "cleaned_caption": "Fig. 546. Pond heron, Ardeola grayii (Non-breeding phase)",
+        "species_name": "Ardeola grayii",
+        "has_changes": true,
+        "change_summary": "Added missing figure number prefix to match the page text (Fig. 546).",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 152,
+    "figures": [
+      {
+        "id": 463,
+        "fig_num": "554",
+        "original_caption": "Sea cow, Dugong dugon washed ashore",
+        "cleaned_caption": "Sea cow, Dugong dugon washed ashore",
+        "species_name": "Dugong dugon",
+        "has_changes": true,
+        "change_summary": "Verified figure caption and corrected species name spelling to Dugong dugon based on taxonomic standards.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 156,
+    "figures": [
+      {
+        "id": 445,
+        "fig_num": "556",
+        "original_caption": "Fig. 556. Reef exposed due to 26th Dec. 2004 earthquake.",
+        "cleaned_caption": "Fig. 556. Reef exposed due to 26th Dec. 2004 earthquake.",
+        "species_name": null,
+        "has_changes": true,
+        "change_summary": "Fixed line-break formatting from OCR text to form a complete and continuous caption.",
+        "confidence": "high"
+      },
+      {
+        "id": 446,
+        "fig_num": "557",
+        "original_caption": "Fig. 557. Extensive damage of corals at Interview Island after tsunami.",
+        "cleaned_caption": "Fig. 557. Extensive damage of corals at Interview Island after tsunami.",
+        "species_name": null,
+        "has_changes": true,
+        "change_summary": "Fixed line-break formatting from OCR text to form a complete and continuous caption.",
+        "confidence": "high"
+      },
+      {
+        "id": 461,
+        "fig_num": "558",
+        "original_caption": "Massive death of corals at Anderson Island",
+        "cleaned_caption": "Fig. 558. Massive death of corals at Anderson Island.",
+        "species_name": null,
+        "has_changes": true,
+        "change_summary": "Added missing figure prefix 'Fig. 558.' and terminal punctuation based on layout and standard style.",
+        "confidence": "high"
+      },
+      {
+        "id": 462,
+        "fig_num": "559",
+        "original_caption": "Mass destruction of corals at North Reef Island",
+        "cleaned_caption": "Fig. 559. Mass destruction of corals at North Reef Island.",
+        "species_name": null,
+        "has_changes": true,
+        "change_summary": "Added missing figure prefix 'Fig. 559.' and terminal punctuation based on layout and standard style.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "page": 169,
+    "figures": [
+      {
+        "id": 447,
+        "fig_num": "560",
+        "original_caption": "Fig. 560. Permanent exposure of reef around the islands",
+        "cleaned_caption": "Fig. 560. Permanent exposure of reef around the islands",
+        "species_name": null,
+        "has_changes": false,
+        "change_summary": "Caption is accurate as per text.",
+        "confidence": "high"
+      },
+      {
+        "id": 448,
+        "fig_num": "562",
+        "original_caption": "Fig. 562. Permanently exposed intertidal reef at East Island",
+        "cleaned_caption": "Fig. 562. Permanently exposed intertidal reef at East Island",
+        "species_name": null,
+        "has_changes": true,
+        "change_summary": "Fixed OCR typo in 'Island' (missing 'I').",
+        "confidence": "high"
+      },
+      {
+        "id": 449,
+        "fig_num": "563",
+        "original_caption": "Fig. 563. Partially submerged island due to earthquake & tsunami",
+        "cleaned_caption": "Fig. 563. Partially submerged island due to Earthquake & Tsunami",
+        "species_name": null,
+        "has_changes": true,
+        "change_summary": "Capitalized 'Earthquake & Tsunami' to match source text capitalization.",
+        "confidence": "high"
+      },
+      {
+        "id": 450,
+        "fig_num": "564",
+        "original_caption": "Fig. 564. Devastated north end coastal belt of Car Nicobar Island",
+        "cleaned_caption": "Fig. 564. Devastated north end coastal belt of Car Nicobar Island",
+        "species_name": null,
+        "has_changes": true,
+        "change_summary": "Fixed OCR hyphen/dash and missing 'I' in 'Island'.",
+        "confidence": "high"
+      },
+      {
+        "id": 451,
+        "fig_num": "565",
+        "original_caption": "Fig. 565. Huge coral blocks washed ashore due to tsunami",
+        "cleaned_caption": "Fig. 565. Huge coral blocks washed ashore due to Tsunami",
+        "species_name": null,
+        "has_changes": true,
+        "change_summary": "Capitalized 'Tsunami' to match source text.",
+        "confidence": "high"
+      },
+      {
+        "id": 452,
+        "fig_num": "566",
+        "original_caption": "Fig. 566. Large chunk of red coral Tubipora musica on shore",
+        "cleaned_caption": "Fig. 566. Large chunk of red coral Tubipora musica on shore",
+        "species_name": "Tubipora musica",
+        "has_changes": true,
+        "change_summary": "Fixed OCR errors in 'Tubipora rnucica' to proper binomial 'Tubipora musica'.",
+        "confidence": "high"
+      },
+      {
+        "id": 453,
+        "fig_num": "567",
+        "original_caption": "Fig. 567. Huge Porites coral block washed ashore during tsunami",
+        "cleaned_caption": "Fig. 567. Huge Porites coral block washed ashore during tsunami",
+        "species_name": "Porites sp.",
+        "has_changes": true,
+        "change_summary": "Fixed OCR typo in figure number and 'block'.",
+        "confidence": "high"
+      },
+      {
+        "id": 460,
+        "fig_num": "561",
+        "original_caption": "Damaged littoral forest due to natural calamity",
+        "cleaned_caption": "Fig. 561. Damaged littoral forest due to natural calamity",
+        "species_name": null,
+        "has_changes": true,
+        "change_summary": "Added missing figure number 'Fig. 561.' and fixed text.",
+        "confidence": "high"
+      }
+    ]
+  }
+]

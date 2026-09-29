@@ -10,9 +10,9 @@ A high-resolution, expert-curated dataset of marine and coral taxonomic figures,
 | :--- | :--- |
 | **Total Figures** | **495** |
 | **Source Pages** | **112** |
-| **Verified Species Names** | **317** (64.0%) |
-| **Unique Genera** | **230** |
-| **Unique Species** | **365** |
+| **Verified Species Names** | **343** (69.3%) |
+| **Unique Genera** | **248** |
+| **Unique Species** | **393** |
 | **Average Resolution** | **1154 x 737 px** |
 | **Native Extraction DPI** | **300 DPI** (Lossless crops) |
 
@@ -40,8 +40,8 @@ dataset/
 ### Top Genera
 | Genus | Count |
 | :--- | :--- |
-| *Acropora* | 17 |
-| *Cypraea* | 12 |
+| *Acropora* | 20 |
+| *Cypraea* | 13 |
 | *Holothuria* | 11 |
 | *Chaetodon* | 11 |
 | *Acanthurus* | 7 |
@@ -55,6 +55,8 @@ dataset/
 | Species | Count |
 | :--- | :--- |
 | *Acropora sp.* | 5 |
+| *Lobophytum sp.* | 3 |
+| *Cypraea sp.* | 3 |
 | *Holothuria sp.* | 3 |
 | *Actinopyga sp.* | 3 |
 | *Arothron nigropunctatus* | 3 |
@@ -62,8 +64,6 @@ dataset/
 | *Haliclona sp.* | 2 |
 | *Millepora sp.* | 2 |
 | *Heteractis magnifica* | 2 |
-| *Acropora aspera* | 2 |
-| *Pocillopora eydouxi* | 2 |
 
 ---
 

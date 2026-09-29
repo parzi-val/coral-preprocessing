@@ -7306,7 +7306,7 @@
   {
     "page": 169,
     "fig_num": "561",
-    "caption": "Damaged littoral forest due to natural calamity",
+    "caption": "Fig. 561. Damaged littoral forest due to natural calamity",
     "box": [
       1320,
       334,
@@ -7321,7 +7321,7 @@
   {
     "page": 168,
     "fig_num": "558",
-    "caption": "Massive death of corals at Anderson Island",
+    "caption": "Fig. 558. Massive death of corals at Anderson Island.",
     "box": [
       224,
       2467,
@@ -7336,7 +7336,7 @@
   {
     "page": 168,
     "fig_num": "559",
-    "caption": "Mass destruction of corals at North Reef Island",
+    "caption": "Fig. 559. Mass destruction of corals at North Reef Island.",
     "box": [
       1312,
       2460,
@@ -7361,12 +7361,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_554_p164.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 463
+    "id": 463,
+    "species_name": "Dugong dugon"
   },
   {
     "page": 163,
     "fig_num": "545",
-    "caption": "Median egret- Mesophoxy intermedia",
+    "caption": "Fig. 545. Median egret, Mesophoyx intermedia",
     "box": [
       1337,
       278,
@@ -7376,12 +7377,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_545_p163.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 464
+    "id": 464,
+    "species_name": "Mesophoyx intermedia"
   },
   {
     "page": 163,
     "fig_num": "546",
-    "caption": "Pond heron, Ardeola grayii (Non-breeding phase)",
+    "caption": "Fig. 546. Pond heron, Ardeola grayii (Non-breeding phase)",
     "box": [
       282,
       936,
@@ -7391,12 +7393,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_546_p163.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 465
+    "id": 465,
+    "species_name": "Ardeola grayii"
   },
   {
     "page": 162,
     "fig_num": "543",
-    "caption": "Plovers, Pluvialis sp. on muddy shore",
+    "caption": "Fig. 543. Plovers, Pluvialis sp. on muddy shore.",
     "box": [
       1314,
       2651,
@@ -7406,12 +7409,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_543_p162.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 466
+    "id": 466,
+    "species_name": "Pluvialis sp."
   },
   {
     "page": 161,
     "fig_num": "540",
-    "caption": "Sea snake among corals, Laticauda laticauda",
+    "caption": "Fig. 540. Sea snake among corals, Laticauda laticauda",
     "box": [
       1386,
       2029,
@@ -7421,12 +7425,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_540_p161.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 467
+    "id": 467,
+    "species_name": "Laticauda laticauda"
   },
   {
     "page": 160,
     "fig_num": "535",
-    "caption": "Hatchling of leatherback turtle",
+    "caption": "Fig. 535. Hatchling of leatherback turtle",
     "box": [
       1361,
       446,
@@ -7436,12 +7441,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_535_p160.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 468
+    "id": 468,
+    "species_name": "Dermochelys coriacea"
   },
   {
     "page": 160,
     "fig_num": "534",
-    "caption": "Leatherback turtle, Dermochelys coriacea",
+    "caption": "Fig. 534. Leatherback turtle, Dermochelys coriacea",
     "box": [
       290,
       1231,
@@ -7451,12 +7457,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_534_p160.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 469
+    "id": 469,
+    "species_name": "Dermochelys coriacea"
   },
   {
     "page": 158,
     "fig_num": "523",
-    "caption": "Bennett's Puffer, Canthigaster bennetti",
+    "caption": "Fig. 523. Bennett's puffer, Canthigaster bennetti",
     "box": [
       272,
       556,
@@ -7466,12 +7473,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_523_p158.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 470
+    "id": 470,
+    "species_name": "Canthigaster bennetti"
   },
   {
     "page": 156,
     "fig_num": "509",
-    "caption": "Golden trevalley, Gnathanodon speciosus",
+    "caption": "Fig. 509. Golden trevally, Gnathanodon speciosus",
     "box": [
       300,
       1568,
@@ -7481,12 +7489,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_509_p156.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 471
+    "id": 471,
+    "species_name": "Gnathanodon speciosus"
   },
   {
     "page": 155,
     "fig_num": "495",
-    "caption": "Threadfin dart fish, Ptereleotris hanae",
+    "caption": "Fig. 495. Threadfin dartfish, Ptereleotris hanae",
     "box": [
       307,
       338,
@@ -7496,12 +7505,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_495_p155.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 472
+    "id": 472,
+    "species_name": "Ptereleotris hanae"
   },
   {
     "page": 155,
     "fig_num": "501",
-    "caption": "Brown-banded bambooshark, Chiloscyllium punctatum",
+    "caption": "Fig. 501. Brown-banded bambooshark, Chiloscyllium punctatum",
     "box": [
       301,
       2275,
@@ -7511,12 +7521,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_501_p155.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 473
+    "id": 473,
+    "species_name": "Chiloscyllium punctatum"
   },
   {
     "page": 150,
     "fig_num": "456",
-    "caption": "Spotted seahorse, Hippocampus kuda",
+    "caption": "Fig. 456. Spotted seahorse, Hippocampus kuda",
     "box": [
       1325,
       3005,
@@ -7526,12 +7537,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_456_p150.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 474
+    "id": 474,
+    "species_name": "Hippocampus kuda"
   },
   {
     "page": 148,
     "fig_num": "437",
-    "caption": "Brush tail tang, Zebrasoma scopas",
+    "caption": "Fig. 437. Brush-tail tang, Zebrasoma scopas",
     "box": [
       1325,
       1826,
@@ -7541,12 +7553,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_437_p148.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 475
+    "id": 475,
+    "species_name": "Zebrasoma scopas"
   },
   {
     "page": 148,
     "fig_num": "438",
-    "caption": "Blotch-eye soldierfish, Myripristes murdjan",
+    "caption": "Fig. 438. Blotch-eye soldierfish, Myripristes murdjan",
     "box": [
       1342,
       2765,
@@ -7556,12 +7569,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_438_p148.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 476
+    "id": 476,
+    "species_name": "Myripristes murdjan"
   },
   {
     "page": 147,
     "fig_num": "424",
-    "caption": "Young of batfish, Platax orbicularis",
+    "caption": "Fig. 424. Young of batfish, Platax orbicularis",
     "box": [
       256,
       902,
@@ -7571,12 +7585,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_424_p147.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 477
+    "id": 477,
+    "species_name": "Platax orbicularis"
   },
   {
     "page": 146,
     "fig_num": "414",
-    "caption": "Sling jaw wrasse, Epibulus insidiator (Black phase)",
+    "caption": "Fig. 414. Slingjaw wrasse, Epibulus insidiator (Black phase)",
     "box": [
       1408,
       410,
@@ -7586,12 +7601,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_414_p146.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 478
+    "id": 478,
+    "species_name": "Epibulus insidiator"
   },
   {
     "page": 141,
     "fig_num": "375",
-    "caption": "A school of damsels, Dascyllus reticulatus on coral colony",
+    "caption": "Fig. 375. A school of damsels, Dascyllus reticulatus on coral colony",
     "box": [
       275,
       1131,
@@ -7601,12 +7617,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_375_p141.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 479
+    "id": 479,
+    "species_name": "Dascyllus reticulatus"
   },
   {
     "page": 128,
     "fig_num": "330",
-    "caption": "Rock boring sea urchin, Echinomera mathaei",
+    "caption": "Fig. 330. Rock boring sea urchin, Echinometra mathaei",
     "box": [
       231,
       2588,
@@ -7616,12 +7633,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_330_p128.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 480
+    "id": 480,
+    "species_name": "Echinometra mathaei"
   },
   {
     "page": 126,
-    "fig_num": "418",
-    "caption": "Feather star of coral reefs, Himerometra sp.",
+    "fig_num": "318",
+    "caption": "Fig. 318. Feather star of coral reefs, Himerometra sp.",
     "box": [
       252,
       352,
@@ -7631,12 +7649,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_418_p126.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 481
+    "id": 481,
+    "species_name": "Himerometra sp."
   },
   {
     "page": 125,
     "fig_num": "316",
-    "caption": "Brittlestar, ophiomastrix annulosa",
+    "caption": "Fig. 316. Brittlestar, Ophiomastrix annulosa",
     "box": [
       288,
       1260,
@@ -7646,12 +7665,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_316_p125.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 482
+    "id": 482,
+    "species_name": "Ophiomastrix annulosa"
   },
   {
     "page": 123,
     "fig_num": "307",
-    "caption": "Sea star of coral reef areas",
+    "caption": "Fig. 307. Sea star of coral reef areas",
     "box": [
       1345,
       1869,
@@ -7665,8 +7685,8 @@
   },
   {
     "page": 118,
-    "fig_num": "294",
-    "caption": "Chiton Acanthopleura sp. on coral rocks",
+    "fig_num": "2.94",
+    "caption": "Fig. 2.94. Chiton Acanthopleura sp. on coral rocks.",
     "box": [
       1357,
       1445,
@@ -7676,12 +7696,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_294_p118.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 484
+    "id": 484,
+    "species_name": "Acanthopleura sp."
   },
   {
     "page": 117,
     "fig_num": "292",
-    "caption": "Penshell, Atrina vexillum among corals",
+    "caption": "Fig. 292. Penshell, Atrina vexillum among corals.",
     "box": [
       311,
       2468,
@@ -7691,12 +7712,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_292_p117.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 485
+    "id": 485,
+    "species_name": "Atrina vexillum"
   },
   {
     "page": 108,
     "fig_num": "229",
-    "caption": "Cowry, Cypraea sp. on reef",
+    "caption": "Fig. 229. Cowry, Cypraea sp. on reef",
     "box": [
       278,
       387,
@@ -7706,12 +7728,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_229_p108.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 486
+    "id": 486,
+    "species_name": "Cypraea sp."
   },
   {
     "page": 105,
     "fig_num": "216",
-    "caption": "Barnacles, Tetraclita sp.",
+    "caption": "Fig. 216. Barnacles, Tetraclita sp.",
     "box": [
       264,
       1813,
@@ -7721,12 +7744,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_216_p105.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 487
+    "id": 487,
+    "species_name": "Tetraclita sp."
   },
   {
     "page": 104,
     "fig_num": "211",
-    "caption": "Common mantis shrimp, Harpiosquilla sp.",
+    "caption": "Fig. 211. Common mantis shrimp, Harpiosquilla sp.",
     "box": [
       1334,
       1328,
@@ -7736,12 +7760,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_211_p104.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 488
+    "id": 488,
+    "species_name": "Harpiosquilla sp."
   },
   {
     "page": 101,
     "fig_num": "197",
-    "caption": "Pelagic reef crab, Portunus pelagicus",
+    "caption": "Fig. 197. Pelagic reef crab, Portunus pelagicus",
     "box": [
       275,
       1936,
@@ -7751,12 +7776,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_197_p101.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 489
+    "id": 489,
+    "species_name": "Portunus pelagicus"
   },
   {
     "page": 100,
     "fig_num": "188",
-    "caption": "Pelagic crab, Graspus albolineatus",
+    "caption": "Fig. 188. Pelagic crab, Grapsus albolineatus",
     "box": [
       1332,
       396,
@@ -7766,12 +7792,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_188_p100.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 490
+    "id": 490,
+    "species_name": "Grapsus albolineatus"
   },
   {
     "page": 98,
     "fig_num": "180",
-    "caption": "Shallow reef crab, Aulacolambrus sp.",
+    "caption": "Fig. 180. Shallow reef crab, Aulacolambrus sp.",
     "box": [
       1316,
       2609,
@@ -7781,7 +7808,8 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_180_p98.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 491
+    "id": 491,
+    "species_name": "Aulacolambrus sp."
   },
   {
     "page": 89,
@@ -7811,12 +7839,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_158_p87.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 493
+    "id": 493,
+    "species_name": "Gorgonia sp."
   },
   {
     "page": 82,
     "fig_num": "144",
-    "caption": "Lobophytum sp. grown like propeller blades",
+    "caption": "Fig. 144. Lobophytum sp. grown like propeller blades",
     "box": [
       551,
       1439,
@@ -7826,12 +7855,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_144_p82.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 494
+    "id": 494,
+    "species_name": "Lobophytum sp."
   },
   {
     "page": 77,
     "fig_num": "135",
-    "caption": "Huge massive coral, Porites lobata",
+    "caption": "Fig. 135. Huge massive coral, Porites lobata",
     "box": [
       552,
       1402,
@@ -7841,12 +7871,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_135_p77.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 495
+    "id": 495,
+    "species_name": "Porites lobata"
   },
   {
     "page": 67,
     "fig_num": "106",
-    "caption": "Mushroom coral, Fungia echinata",
+    "caption": "Fig. 106. Mushroom coral, Fungia echinata",
     "box": [
       521,
       2401,
@@ -7856,12 +7887,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_106_p67.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 496
+    "id": 496,
+    "species_name": "Fungia echinata"
   },
   {
     "page": 66,
     "fig_num": "102",
-    "caption": "Young colony of encrusted Porites sp",
+    "caption": "Fig. 102. Young colony of encrusted Porites sp.",
     "box": [
       470,
       1410,
@@ -7871,7 +7903,8 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_102_p66.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 497
+    "id": 497,
+    "species_name": "Porites sp."
   },
   {
     "page": 64,
@@ -7886,12 +7919,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_95_p64.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 498
+    "id": 498,
+    "species_name": "Acropora clathrata"
   },
   {
     "page": 60,
     "fig_num": "85",
-    "caption": "Plate coral, Acropora Hyacinthus on shallow reef",
+    "caption": "Fig. 85. Plate coral, Acropora hyacinthus on shallow reef",
     "box": [
       505,
       2450,
@@ -7901,12 +7935,13 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_85_p60.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 499
+    "id": 499,
+    "species_name": "Acropora hyacinthus"
   },
   {
     "page": 59,
     "fig_num": "82",
-    "caption": "A digitale coral, Acropora gemmifera",
+    "caption": "Fig. 82. A digitate coral, Acropora gemmifera",
     "box": [
       524,
       2366,
@@ -7916,6 +7951,7 @@
     "image_path": "D:\\scratchpad\\suchi-textbook-work\\output\\images\\fig_manual_82_p59.jpg",
     "method": "manual_added",
     "review_status": "ok",
-    "id": 500
+    "id": 500,
+    "species_name": "Acropora gemmifera"
   }
 ]

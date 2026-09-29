@@ -10,11 +10,11 @@
 24,9,Fig. 9. A view of North Button Island Sanctuary.,"[265, 2022, 2112, 1320]",D:\scratchpad\suchi-textbook-work\output\images\fig_009_Fig_9_A_vIe_of_North_But.jpg,cv_layout,ok,8,
 25,10,Fig. 10. Rocky coast of Inglish Island,"[271, 563, 2082, 1189]",D:\scratchpad\suchi-textbook-work\output\images\fig_010_Fig_10_Rocky_coast_of_Inglis.jpg,cv_layout,ok,9,
 25,11,Fig. 11. View of West coast of Interview Island,"[281, 1904, 2072, 1396]",D:\scratchpad\suchi-textbook-work\output\images\fig_011_Fig_11_View_of_West_coast_of.jpg,cv_layout,ok,10,
-26,12,Fig. 12. Panoramic aerial view of Little Andaman.,"[78, 150, 2474, 3336]",D:\scratchpad\suchi-textbook-work\output\images\fig_012_Fig_12_Panoramic_aerial_view.jpg,llm_fallback,,11,
+26,12,Fig. 12. Panoramic aerial view of Little Andaman.,"[78, 150, 2474, 3336]",D:\scratchpad\suchi-textbook-work\output\images\fig_012_Fig_12_Panoramic_aerial_view.jpg,llm_fallback,deleted,11,
 27,14,Fig. 14. A view of Chowra Island (Nicobar Group),"[254, 353, 2073, 1452]",D:\scratchpad\suchi-textbook-work\output\images\fig_014_Fig_14_A_view_of_Chowra_Is_a.jpg,cv_layout,ok,12,
 27,15,Fig. 15. Teressa Island (Nicobar Group),"[265, 2382, 2077, 889]",D:\scratchpad\suchi-textbook-work\output\images\fig_015_Fig_15_Teressa_Island_Nicob.jpg,cv_layout,ok,13,
-28,16,Fig. 16. A shallow reef exposed during low tide,"[276, 227, 2075, 3230]",D:\scratchpad\suchi-textbook-work\output\images\fig_016_Fig_16_Fig_16_A_shallow_ree.jpg,llm_fallback,,14,
-31,22,Fig. 22. A reef slope with corals,"[331, 150, 1975, 3222]",D:\scratchpad\suchi-textbook-work\output\images\fig_022_Fig_22_A_reef_slope_with_cor.jpg,llm_fallback,,15,
+28,16,Fig. 16. A shallow reef exposed during low tide,"[276, 227, 2075, 3230]",D:\scratchpad\suchi-textbook-work\output\images\fig_016_Fig_16_Fig_16_A_shallow_ree.jpg,llm_fallback,ok,14,
+31,22,Fig. 22. A reef slope with corals,"[331, 150, 1975, 3222]",D:\scratchpad\suchi-textbook-work\output\images\fig_022_Fig_22_A_reef_slope_with_cor.jpg,llm_fallback,ok,15,
 32,24,Fig. 24. A shallow reef with diverse coral colonies,"[244, 400, 2109, 1286]",D:\scratchpad\suchi-textbook-work\output\images\fig_024_Fig_24_A_shallow_reef_with_d.jpg,manual_recrop,ok,16,
 32,26,Fig. 26. Underwater videography studies by the author.,"[120, 1804, 2393, 1628]",D:\scratchpad\suchi-textbook-work\output\images\fig_026_Fig_26_Underwater_videograph.jpg,llm_fallback,ok,17,
 37,27,Fig. 27. Extensive patches of Sargassum sp. weeds in intertidal reef area.,"[460, 391, 1699, 780]",D:\scratchpad\suchi-textbook-work\output\images\fig_027_Fig_27_Extensive_patches_of.jpg,cv_layout,ok,18,Sargassum sp.
@@ -27,7 +27,7 @@
 39,35,Fig. 35. Extensive patches of Gracilaria sp.,"[1333, 400, 1020, 713]",D:\scratchpad\suchi-textbook-work\output\images\fig_035_Fig_35_Extensive_patches_of.jpg,cv_layout,ok,25,Gracilaria sp.
 39,37,"Fig. 37. Seagrass, Thalassia hemprichii","[635, 1249, 1367, 2047]",D:\scratchpad\suchi-textbook-work\output\images\fig_037_Fig_37_Seagrass_Thalassia_h.jpg,cv_layout,ok,26,Thalassia hemprichii
 40,36,"Fig. 36. Seagrass, Cymodocea sp.","[482, 402, 1603, 920]",D:\scratchpad\suchi-textbook-work\output\images\fig_036_Fig_36_Sea_grass_Cymodocea.jpg,manual_recrop,ok,27,Cymodocea sp.
-40,38,"Fig. 38. Seagrass, Enbalus acoroides","[483, 1406, 1606, 915]",D:\scratchpad\suchi-textbook-work\output\images\fig_038_Fig_38_Seagrass_Enbalus_aco.jpg,manual_recrop,deleted,28,
+40,38,"Fig. 38. Seagrass, Enbalus acoroides","[483, 1406, 1606, 915]",D:\scratchpad\suchi-textbook-work\output\images\fig_038_Fig_38_Seagrass_Enbalus_aco.jpg,manual_recrop,ok,28,
 43,42,Fig. 42. An encrusted sponge on dead coral colony.,"[281, 404, 1024, 772]",D:\scratchpad\suchi-textbook-work\output\images\fig_042_Fig_42_An_encrusted_sponge_o.jpg,cv_layout,ok,29,
 43,43,"Fig. 43. Shallow water sponge, Xestospongia sp.","[1349, 412, 1012, 767]",D:\scratchpad\suchi-textbook-work\output\images\fig_043_Fig_43_Shallow_water_sponge.jpg,cv_layout,ok,30,Xestospongia sp.
 43,44,Fig. 44. Encrusted shallow water sponge Haliclona sp.,"[280, 1344, 1023, 840]",D:\scratchpad\suchi-textbook-work\output\images\fig_044_Fig_44_Encusted_shallow_wate.jpg,cv_layout,ok,31,Haliclona sp.
@@ -51,7 +51,7 @@
 50,64,Fig. 64. Clown and damsel fishes associate with sea anemone,"[457, 2382, 1614, 989]",D:\scratchpad\suchi-textbook-work\output\images\fig_064_Fig_64_Clown_and_damsel_fish.jpg,cv_layout,ok,49,
 52,68,Fig 68: Usually most of the corals grow in shallow waters...,"[332, 280, 1988, 783]",D:\scratchpad\suchi-textbook-work\output\images\fig_068_Fig_68_Usually_most_of_the_co.jpg,llm_fallback,deleted,50,
 53,68,"Fig 68: Fig. 68. The limiting environmental factors of reef growth (after A.T. White, 1987)","[325, 94, 2037, 1457]",D:\scratchpad\suchi-textbook-work\output\images\fig_068_Fig_68_Fig_68_The_limiting.jpg,llm_fallback,deleted,51,
-54,69,Fig. 69. Anatomy of a coral polyp,"[304, 427, 2071, 2042]",D:\scratchpad\suchi-textbook-work\output\images\fig_069_Fig_69_Anatomy_of_a_coral_po.jpg,manual_recrop,ok,52,
+54,69,Fig. 69. Anatomy of a coral polyp,"[304, 427, 2071, 2042]",D:\scratchpad\suchi-textbook-work\output\images\fig_069_Fig_69_Anatomy_of_a_coral_po.jpg,manual_recrop,deleted,52,
 55,70,Fig. 70. Coral colonies with their associated fauna.,"[435, 2051, 1813, 1169]",D:\scratchpad\suchi-textbook-work\output\images\fig_070_Fig_70_Coral_colonies_with_i.jpg,cv_layout,ok,53,
 56,71,Fig. 71. Thicket of Acropora aspera,"[134, 279, 2367, 3204]",D:\scratchpad\suchi-textbook-work\output\images\fig_071_Fig_71_Thicket_of_Acropora_a.jpg,llm_fallback,ok,54,Acropora aspera
 57,74,Fig. 74. Pocilopora eydouxi growing along with Porites sp.,"[538, 379, 1587, 929]",D:\scratchpad\suchi-textbook-work\output\images\fig_074_Fig_74_Pocilopora_eydouxi_gr.jpg,cv_layout,ok,55,Pocillopora eydouxi
@@ -459,3 +459,44 @@
 170,571,Fig. 571. Destruction of corals due to fishing nets.,"[1327, 1253, 1032, 633]",D:\scratchpad\suchi-textbook-work\output\images\fig_571_Fig_571_Destruction_of_cora.jpg,manual_recrop,ok,457,
 26,12,Fig. 12. Panoramic aerial view of Little Andaman.,"[267, 422, 2109, 1335]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_12_p26.jpg,manual_added,ok,458,
 26,13,"Fig. 13. Southernmost point of island chain, Indira Point (Great Nicobar).","[270, 2122, 2101, 1224]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_13_p26.jpg,manual_added,ok,459,
+169,561,Fig. 561. Damaged littoral forest due to natural calamity,"[1320, 334, 1017, 619]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_561_p169.jpg,manual_added,ok,460,
+168,558,Fig. 558. Massive death of corals at Anderson Island.,"[224, 2467, 1036, 854]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_558_p168.jpg,manual_added,ok,461,
+168,559,Fig. 559. Mass destruction of corals at North Reef Island.,"[1312, 2460, 1022, 856]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_559_p168.jpg,manual_added,ok,462,
+164,554,"Sea cow, Dugong dugon washed ashore","[252, 2068, 2115, 1249]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_554_p164.jpg,manual_added,ok,463,Dugong dugon
+163,545,"Fig. 545. Median egret, Mesophoyx intermedia","[1337, 278, 1009, 528]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_545_p163.jpg,manual_added,ok,464,Mesophoyx intermedia
+163,546,"Fig. 546. Pond heron, Ardeola grayii (Non-breeding phase)","[282, 936, 1018, 541]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_546_p163.jpg,manual_added,ok,465,Ardeola grayii
+162,543,"Fig. 543. Plovers, Pluvialis sp. on muddy shore.","[1314, 2651, 1057, 728]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_543_p162.jpg,manual_added,ok,466,Pluvialis sp.
+161,540,"Fig. 540. Sea snake among corals, Laticauda laticauda","[1386, 2029, 1000, 541]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_540_p161.jpg,manual_added,ok,467,Laticauda laticauda
+160,535,Fig. 535. Hatchling of leatherback turtle,"[1361, 446, 1036, 657]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_535_p160.jpg,manual_added,ok,468,Dermochelys coriacea
+160,534,"Fig. 534. Leatherback turtle, Dermochelys coriacea","[290, 1231, 1028, 672]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_534_p160.jpg,manual_added,ok,469,Dermochelys coriacea
+158,523,"Fig. 523. Bennett's puffer, Canthigaster bennetti","[272, 556, 1028, 536]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_523_p158.jpg,manual_added,ok,470,Canthigaster bennetti
+156,509,"Fig. 509. Golden trevally, Gnathanodon speciosus","[300, 1568, 1028, 440]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_509_p156.jpg,manual_added,ok,471,Gnathanodon speciosus
+155,495,"Fig. 495. Threadfin dartfish, Ptereleotris hanae","[307, 338, 1010, 425]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_495_p155.jpg,manual_added,ok,472,Ptereleotris hanae
+155,501,"Fig. 501. Brown-banded bambooshark, Chiloscyllium punctatum","[301, 2275, 1010, 496]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_501_p155.jpg,manual_added,ok,473,Chiloscyllium punctatum
+150,456,"Fig. 456. Spotted seahorse, Hippocampus kuda","[1325, 3005, 1029, 413]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_456_p150.jpg,manual_added,ok,474,Hippocampus kuda
+148,437,"Fig. 437. Brush-tail tang, Zebrasoma scopas","[1325, 1826, 1072, 751]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_437_p148.jpg,manual_added,ok,475,Zebrasoma scopas
+148,438,"Fig. 438. Blotch-eye soldierfish, Myripristes murdjan","[1342, 2765, 1023, 594]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_438_p148.jpg,manual_added,ok,476,Myripristes murdjan
+147,424,"Fig. 424. Young of batfish, Platax orbicularis","[256, 902, 1011, 721]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_424_p147.jpg,manual_added,ok,477,Platax orbicularis
+146,414,"Fig. 414. Slingjaw wrasse, Epibulus insidiator (Black phase)","[1408, 410, 1022, 518]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_414_p146.jpg,manual_added,ok,478,Epibulus insidiator
+141,375,"Fig. 375. A school of damsels, Dascyllus reticulatus on coral colony","[275, 1131, 1014, 612]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_375_p141.jpg,manual_added,ok,479,Dascyllus reticulatus
+128,330,"Fig. 330. Rock boring sea urchin, Echinometra mathaei","[231, 2588, 1022, 708]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_330_p128.jpg,manual_added,ok,480,Echinometra mathaei
+126,318,"Fig. 318. Feather star of coral reefs, Himerometra sp.","[252, 352, 1032, 630]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_418_p126.jpg,manual_added,ok,481,Himerometra sp.
+125,316,"Fig. 316. Brittlestar, Ophiomastrix annulosa","[288, 1260, 1028, 644]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_316_p125.jpg,manual_added,ok,482,Ophiomastrix annulosa
+123,307,Fig. 307. Sea star of coral reef areas,"[1345, 1869, 1007, 676]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_307_p123.jpg,manual_added,ok,483,
+118,2.94,Fig. 2.94. Chiton Acanthopleura sp. on coral rocks.,"[1357, 1445, 1022, 769]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_294_p118.jpg,manual_added,ok,484,Acanthopleura sp.
+117,292,"Fig. 292. Penshell, Atrina vexillum among corals.","[311, 2468, 1023, 747]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_292_p117.jpg,manual_added,ok,485,Atrina vexillum
+108,229,"Fig. 229. Cowry, Cypraea sp. on reef","[278, 387, 1025, 606]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_229_p108.jpg,manual_added,ok,486,Cypraea sp.
+105,216,"Fig. 216. Barnacles, Tetraclita sp.","[264, 1813, 1014, 644]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_216_p105.jpg,manual_added,ok,487,Tetraclita sp.
+104,211,"Fig. 211. Common mantis shrimp, Harpiosquilla sp.","[1334, 1328, 1025, 724]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_211_p104.jpg,manual_added,ok,488,Harpiosquilla sp.
+101,197,"Fig. 197. Pelagic reef crab, Portunus pelagicus","[275, 1936, 1008, 646]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_197_p101.jpg,manual_added,ok,489,Portunus pelagicus
+100,188,"Fig. 188. Pelagic crab, Grapsus albolineatus","[1332, 396, 1020, 755]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_188_p100.jpg,manual_added,ok,490,Grapsus albolineatus
+98,180,"Fig. 180. Shallow reef crab, Aulacolambrus sp.","[1316, 2609, 1034, 673]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_180_p98.jpg,manual_added,ok,491,Aulacolambrus sp.
+89,162,Whip coral colony,"[471, 1577, 1570, 1728]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_162_p89.jpg,manual_added,ok,492,
+87,158,"Seafan, Gorgonia sp.","[318, 1700, 2057, 1590]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_158_p87.jpg,manual_added,ok,493,Gorgonia sp.
+82,144,Fig. 144. Lobophytum sp. grown like propeller blades,"[551, 1439, 1597, 934]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_144_p82.jpg,manual_added,ok,494,Lobophytum sp.
+77,135,"Fig. 135. Huge massive coral, Porites lobata","[552, 1402, 1569, 910]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_135_p77.jpg,manual_added,ok,495,Porites lobata
+67,106,"Fig. 106. Mushroom coral, Fungia echinata","[521, 2401, 1580, 919]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_106_p67.jpg,manual_added,ok,496,Fungia echinata
+66,102,Fig. 102. Young colony of encrusted Porites sp.,"[470, 1410, 1620, 918]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_102_p66.jpg,manual_added,ok,497,Porites sp.
+64,95,"Plate coral, Acropora clathrata","[503, 396, 1607, 929]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_95_p64.jpg,manual_added,ok,498,Acropora clathrata
+60,85,"Fig. 85. Plate coral, Acropora hyacinthus on shallow reef","[505, 2450, 1599, 915]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_85_p60.jpg,manual_added,ok,499,Acropora hyacinthus
+59,82,"Fig. 82. A digitate coral, Acropora gemmifera","[524, 2366, 1570, 911]",D:\scratchpad\suchi-textbook-work\output\images\fig_manual_82_p59.jpg,manual_added,ok,500,Acropora gemmifera

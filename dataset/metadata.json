@@ -2151,13 +2151,13 @@
     "page_number": 59,
     "figure_number": "82",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
-      "has_verified_binomial": false
+      "scientific_name": "Acropora gemmifera",
+      "genus": "Acropora",
+      "specific_epithet": "gemmifera",
+      "has_verified_binomial": true
     },
     "caption": {
-      "text": "A digitale coral, Acropora gemmifera",
+      "text": "Fig. 82. A digitate coral, Acropora gemmifera",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -2262,13 +2262,13 @@
     "page_number": 60,
     "figure_number": "85",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
-      "has_verified_binomial": false
+      "scientific_name": "Acropora hyacinthus",
+      "genus": "Acropora",
+      "specific_epithet": "hyacinthus",
+      "has_verified_binomial": true
     },
     "caption": {
-      "text": "Plate coral, Acropora Hyacinthus on shallow reef",
+      "text": "Fig. 85. Plate coral, Acropora hyacinthus on shallow reef",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -2632,10 +2632,10 @@
     "page_number": 64,
     "figure_number": "95",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
-      "has_verified_binomial": false
+      "scientific_name": "Acropora clathrata",
+      "genus": "Acropora",
+      "specific_epithet": "clathrata",
+      "has_verified_binomial": true
     },
     "caption": {
       "text": "Plate coral, Acropora clathrata",
@@ -2891,13 +2891,13 @@
     "page_number": 66,
     "figure_number": "102",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
+      "scientific_name": "Porites sp.",
+      "genus": "Porites",
+      "specific_epithet": "sp.",
       "has_verified_binomial": false
     },
     "caption": {
-      "text": "Young colony of encrusted Porites sp",
+      "text": "Fig. 102. Young colony of encrusted Porites sp.",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -3039,13 +3039,13 @@
     "page_number": 67,
     "figure_number": "106",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
-      "has_verified_binomial": false
+      "scientific_name": "Fungia echinata",
+      "genus": "Fungia",
+      "specific_epithet": "echinata",
+      "has_verified_binomial": true
     },
     "caption": {
-      "text": "Mushroom coral, Fungia echinata",
+      "text": "Fig. 106. Mushroom coral, Fungia echinata",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -3816,13 +3816,13 @@
     "page_number": 77,
     "figure_number": "135",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
-      "has_verified_binomial": false
+      "scientific_name": "Porites lobata",
+      "genus": "Porites",
+      "specific_epithet": "lobata",
+      "has_verified_binomial": true
     },
     "caption": {
-      "text": "Huge massive coral, Porites lobata",
+      "text": "Fig. 135. Huge massive coral, Porites lobata",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -4149,13 +4149,13 @@
     "page_number": 82,
     "figure_number": "144",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
+      "scientific_name": "Lobophytum sp.",
+      "genus": "Lobophytum",
+      "specific_epithet": "sp.",
       "has_verified_binomial": false
     },
     "caption": {
-      "text": "Lobophytum sp. grown like propeller blades",
+      "text": "Fig. 144. Lobophytum sp. grown like propeller blades",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -4556,9 +4556,9 @@
     "page_number": 87,
     "figure_number": "158",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
+      "scientific_name": "Gorgonia sp.",
+      "genus": "Gorgonia",
+      "specific_epithet": "sp.",
       "has_verified_binomial": false
     },
     "caption": {
@@ -5148,13 +5148,13 @@
     "page_number": 98,
     "figure_number": "180",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
+      "scientific_name": "Aulacolambrus sp.",
+      "genus": "Aulacolambrus",
+      "specific_epithet": "sp.",
       "has_verified_binomial": false
     },
     "caption": {
-      "text": "Shallow reef crab, Aulacolambrus sp.",
+      "text": "Fig. 180. Shallow reef crab, Aulacolambrus sp.",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -5333,13 +5333,13 @@
     "page_number": 100,
     "figure_number": "188",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
-      "has_verified_binomial": false
+      "scientific_name": "Grapsus albolineatus",
+      "genus": "Grapsus",
+      "specific_epithet": "albolineatus",
+      "has_verified_binomial": true
     },
     "caption": {
-      "text": "Pelagic crab, Graspus albolineatus",
+      "text": "Fig. 188. Pelagic crab, Grapsus albolineatus",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -5703,13 +5703,13 @@
     "page_number": 101,
     "figure_number": "197",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
-      "has_verified_binomial": false
+      "scientific_name": "Portunus pelagicus",
+      "genus": "Portunus",
+      "specific_epithet": "pelagicus",
+      "has_verified_binomial": true
     },
     "caption": {
-      "text": "Pelagic reef crab, Portunus pelagicus",
+      "text": "Fig. 197. Pelagic reef crab, Portunus pelagicus",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -6184,13 +6184,13 @@
     "page_number": 104,
     "figure_number": "211",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
+      "scientific_name": "Harpiosquilla sp.",
+      "genus": "Harpiosquilla",
+      "specific_epithet": "sp.",
       "has_verified_binomial": false
     },
     "caption": {
-      "text": "Common mantis shrimp, Harpiosquilla sp.",
+      "text": "Fig. 211. Common mantis shrimp, Harpiosquilla sp.",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -6443,13 +6443,13 @@
     "page_number": 105,
     "figure_number": "216",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
+      "scientific_name": "Tetraclita sp.",
+      "genus": "Tetraclita",
+      "specific_epithet": "sp.",
       "has_verified_binomial": false
     },
     "caption": {
-      "text": "Barnacles, Tetraclita sp.",
+      "text": "Fig. 216. Barnacles, Tetraclita sp.",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -6887,13 +6887,13 @@
     "page_number": 108,
     "figure_number": "229",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
+      "scientific_name": "Cypraea sp.",
+      "genus": "Cypraea",
+      "specific_epithet": "sp.",
       "has_verified_binomial": false
     },
     "caption": {
-      "text": "Cowry, Cypraea sp. on reef",
+      "text": "Fig. 229. Cowry, Cypraea sp. on reef",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -8811,13 +8811,13 @@
     "page_number": 117,
     "figure_number": "292",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
-      "has_verified_binomial": false
+      "scientific_name": "Atrina vexillum",
+      "genus": "Atrina",
+      "specific_epithet": "vexillum",
+      "has_verified_binomial": true
     },
     "caption": {
-      "text": "Penshell, Atrina vexillum among corals",
+      "text": "Fig. 292. Penshell, Atrina vexillum among corals.",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -8846,15 +8846,15 @@
     "figure_id": "coral_fig_240",
     "image_path": "images/coral_fig_240_p118.jpg",
     "page_number": 118,
-    "figure_number": "294",
+    "figure_number": "2.94",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
+      "scientific_name": "Acanthopleura sp.",
+      "genus": "Acanthopleura",
+      "specific_epithet": "sp.",
       "has_verified_binomial": false
     },
     "caption": {
-      "text": "Chiton Acanthopleura sp. on coral rocks",
+      "text": "Fig. 2.94. Chiton Acanthopleura sp. on coral rocks.",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -9224,7 +9224,7 @@
       "has_verified_binomial": false
     },
     "caption": {
-      "text": "Sea star of coral reef areas",
+      "text": "Fig. 307. Sea star of coral reef areas",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -9588,13 +9588,13 @@
     "page_number": 125,
     "figure_number": "316",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
-      "has_verified_binomial": false
+      "scientific_name": "Ophiomastrix annulosa",
+      "genus": "Ophiomastrix",
+      "specific_epithet": "annulosa",
+      "has_verified_binomial": true
     },
     "caption": {
-      "text": "Brittlestar, ophiomastrix annulosa",
+      "text": "Fig. 316. Brittlestar, Ophiomastrix annulosa",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -9697,15 +9697,15 @@
     "figure_id": "coral_fig_263",
     "image_path": "images/coral_fig_263_p126.jpg",
     "page_number": 126,
-    "figure_number": "418",
+    "figure_number": "318",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
+      "scientific_name": "Himerometra sp.",
+      "genus": "Himerometra",
+      "specific_epithet": "sp.",
       "has_verified_binomial": false
     },
     "caption": {
-      "text": "Feather star of coral reefs, Himerometra sp.",
+      "text": "Fig. 318. Feather star of coral reefs, Himerometra sp.",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -10106,13 +10106,13 @@
     "page_number": 128,
     "figure_number": "330",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
-      "has_verified_binomial": false
+      "scientific_name": "Echinometra mathaei",
+      "genus": "Echinometra",
+      "specific_epithet": "mathaei",
+      "has_verified_binomial": true
     },
     "caption": {
-      "text": "Rock boring sea urchin, Echinomera mathaei",
+      "text": "Fig. 330. Rock boring sea urchin, Echinometra mathaei",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -11475,13 +11475,13 @@
     "page_number": 141,
     "figure_number": "375",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
-      "has_verified_binomial": false
+      "scientific_name": "Dascyllus reticulatus",
+      "genus": "Dascyllus",
+      "specific_epithet": "reticulatus",
+      "has_verified_binomial": true
     },
     "caption": {
-      "text": "A school of damsels, Dascyllus reticulatus on coral colony",
+      "text": "Fig. 375. A school of damsels, Dascyllus reticulatus on coral colony",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -12548,13 +12548,13 @@
     "page_number": 146,
     "figure_number": "414",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
-      "has_verified_binomial": false
+      "scientific_name": "Epibulus insidiator",
+      "genus": "Epibulus",
+      "specific_epithet": "insidiator",
+      "has_verified_binomial": true
     },
     "caption": {
-      "text": "Sling jaw wrasse, Epibulus insidiator (Black phase)",
+      "text": "Fig. 414. Slingjaw wrasse, Epibulus insidiator (Black phase)",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -12992,13 +12992,13 @@
     "page_number": 147,
     "figure_number": "424",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
-      "has_verified_binomial": false
+      "scientific_name": "Platax orbicularis",
+      "genus": "Platax",
+      "specific_epithet": "orbicularis",
+      "has_verified_binomial": true
     },
     "caption": {
-      "text": "Young of batfish, Platax orbicularis",
+      "text": "Fig. 424. Young of batfish, Platax orbicularis",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -13362,13 +13362,13 @@
     "page_number": 148,
     "figure_number": "437",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
-      "has_verified_binomial": false
+      "scientific_name": "Zebrasoma scopas",
+      "genus": "Zebrasoma",
+      "specific_epithet": "scopas",
+      "has_verified_binomial": true
     },
     "caption": {
-      "text": "Brush tail tang, Zebrasoma scopas",
+      "text": "Fig. 437. Brush-tail tang, Zebrasoma scopas",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -13436,13 +13436,13 @@
     "page_number": 148,
     "figure_number": "438",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
-      "has_verified_binomial": false
+      "scientific_name": "Myripristes murdjan",
+      "genus": "Myripristes",
+      "specific_epithet": "murdjan",
+      "has_verified_binomial": true
     },
     "caption": {
-      "text": "Blotch-eye soldierfish, Myripristes murdjan",
+      "text": "Fig. 438. Blotch-eye soldierfish, Myripristes murdjan",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -14102,13 +14102,13 @@
     "page_number": 150,
     "figure_number": "456",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
-      "has_verified_binomial": false
+      "scientific_name": "Hippocampus kuda",
+      "genus": "Hippocampus",
+      "specific_epithet": "kuda",
+      "has_verified_binomial": true
     },
     "caption": {
-      "text": "Spotted seahorse, Hippocampus kuda",
+      "text": "Fig. 456. Spotted seahorse, Hippocampus kuda",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -15471,13 +15471,13 @@
     "page_number": 155,
     "figure_number": "495",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
-      "has_verified_binomial": false
+      "scientific_name": "Ptereleotris hanae",
+      "genus": "Ptereleotris",
+      "specific_epithet": "hanae",
+      "has_verified_binomial": true
     },
     "caption": {
-      "text": "Threadfin dart fish, Ptereleotris hanae",
+      "text": "Fig. 495. Threadfin dartfish, Ptereleotris hanae",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -15730,13 +15730,13 @@
     "page_number": 155,
     "figure_number": "501",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
-      "has_verified_binomial": false
+      "scientific_name": "Chiloscyllium punctatum",
+      "genus": "Chiloscyllium",
+      "specific_epithet": "punctatum",
+      "has_verified_binomial": true
     },
     "caption": {
-      "text": "Brown-banded bambooshark, Chiloscyllium punctatum",
+      "text": "Fig. 501. Brown-banded bambooshark, Chiloscyllium punctatum",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -15989,13 +15989,13 @@
     "page_number": 156,
     "figure_number": "509",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
-      "has_verified_binomial": false
+      "scientific_name": "Gnathanodon speciosus",
+      "genus": "Gnathanodon",
+      "specific_epithet": "speciosus",
+      "has_verified_binomial": true
     },
     "caption": {
-      "text": "Golden trevalley, Gnathanodon speciosus",
+      "text": "Fig. 509. Golden trevally, Gnathanodon speciosus",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -16544,13 +16544,13 @@
     "page_number": 158,
     "figure_number": "523",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
-      "has_verified_binomial": false
+      "scientific_name": "Canthigaster bennetti",
+      "genus": "Canthigaster",
+      "specific_epithet": "bennetti",
+      "has_verified_binomial": true
     },
     "caption": {
-      "text": "Bennett's Puffer, Canthigaster bennetti",
+      "text": "Fig. 523. Bennett's puffer, Canthigaster bennetti",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -16877,13 +16877,13 @@
     "page_number": 160,
     "figure_number": "535",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
-      "has_verified_binomial": false
+      "scientific_name": "Dermochelys coriacea",
+      "genus": "Dermochelys",
+      "specific_epithet": "coriacea",
+      "has_verified_binomial": true
     },
     "caption": {
-      "text": "Hatchling of leatherback turtle",
+      "text": "Fig. 535. Hatchling of leatherback turtle",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -16988,13 +16988,13 @@
     "page_number": 160,
     "figure_number": "534",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
-      "has_verified_binomial": false
+      "scientific_name": "Dermochelys coriacea",
+      "genus": "Dermochelys",
+      "specific_epithet": "coriacea",
+      "has_verified_binomial": true
     },
     "caption": {
-      "text": "Leatherback turtle, Dermochelys coriacea",
+      "text": "Fig. 534. Leatherback turtle, Dermochelys coriacea",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -17099,13 +17099,13 @@
     "page_number": 161,
     "figure_number": "540",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
-      "has_verified_binomial": false
+      "scientific_name": "Laticauda laticauda",
+      "genus": "Laticauda",
+      "specific_epithet": "laticauda",
+      "has_verified_binomial": true
     },
     "caption": {
-      "text": "Sea snake among corals, Laticauda laticauda",
+      "text": "Fig. 540. Sea snake among corals, Laticauda laticauda",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -17210,13 +17210,13 @@
     "page_number": 162,
     "figure_number": "543",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
+      "scientific_name": "Pluvialis sp.",
+      "genus": "Pluvialis",
+      "specific_epithet": "sp.",
       "has_verified_binomial": false
     },
     "caption": {
-      "text": "Plovers, Pluvialis sp. on muddy shore",
+      "text": "Fig. 543. Plovers, Pluvialis sp. on muddy shore.",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -17284,13 +17284,13 @@
     "page_number": 163,
     "figure_number": "545",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
-      "has_verified_binomial": false
+      "scientific_name": "Mesophoyx intermedia",
+      "genus": "Mesophoyx",
+      "specific_epithet": "intermedia",
+      "has_verified_binomial": true
     },
     "caption": {
-      "text": "Median egret- Mesophoxy intermedia",
+      "text": "Fig. 545. Median egret, Mesophoyx intermedia",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -17358,13 +17358,13 @@
     "page_number": 163,
     "figure_number": "546",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
-      "has_verified_binomial": false
+      "scientific_name": "Ardeola grayii",
+      "genus": "Ardeola",
+      "specific_epithet": "grayii",
+      "has_verified_binomial": true
     },
     "caption": {
-      "text": "Pond heron, Ardeola grayii (Non-breeding phase)",
+      "text": "Fig. 546. Pond heron, Ardeola grayii (Non-breeding phase)",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -17654,10 +17654,10 @@
     "page_number": 164,
     "figure_number": "554",
     "species": {
-      "scientific_name": null,
-      "genus": null,
-      "specific_epithet": null,
-      "has_verified_binomial": false
+      "scientific_name": "Dugong dugon",
+      "genus": "Dugong",
+      "specific_epithet": "dugon",
+      "has_verified_binomial": true
     },
     "caption": {
       "text": "Sea cow, Dugong dugon washed ashore",
@@ -17808,7 +17808,7 @@
       "has_verified_binomial": false
     },
     "caption": {
-      "text": "Mass destruction of corals at North Reef Island",
+      "text": "Fig. 559. Mass destruction of corals at North Reef Island.",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -17845,7 +17845,7 @@
       "has_verified_binomial": false
     },
     "caption": {
-      "text": "Massive death of corals at Anderson Island",
+      "text": "Fig. 558. Massive death of corals at Anderson Island.",
       "is_refined": true
     },
     "bounding_box_300dpi": {
@@ -17919,7 +17919,7 @@
       "has_verified_binomial": false
     },
     "caption": {
-      "text": "Damaged littoral forest due to natural calamity",
+      "text": "Fig. 561. Damaged littoral forest due to natural calamity",
       "is_refined": true
     },
     "bounding_box_300dpi": {

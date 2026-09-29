@@ -50,6 +50,8 @@ LLM_MODEL=gemini-2.5-flash
 | `--apply` | *(disabled)* | **Directly applies** verified changes back into `figures.json` |
 | `--start-page` | `None` | Filter: start at this page number (inclusive) |
 | `--end-page` | `None` | Filter: end at this page number (inclusive) |
+| `--pages` | `None` | Comma-separated page numbers (e.g. `26,59,60`) or `'manual'` to target pages with manual figures |
+| `--only-manual` | *(disabled)* | Only apply updates to manual added figures (`method == "manual_added"`) |
 | `--limit-pages` | `None` | Limit total number of pages to process |
 
 ---

@@ -152,6 +152,8 @@ def main():
     parser.add_argument("--output-csv", default="output/refined_captions.csv", help="Path to output CSV")
     parser.add_argument("--start-page", type=int, default=None, help="Start page filter")
     parser.add_argument("--end-page", type=int, default=None, help="End page filter")
+    parser.add_argument("--pages", type=str, default=None, help="Comma-separated page numbers or 'manual' for all pages with manual figures")
+    parser.add_argument("--only-manual", action="store_true", help="Only apply updates to manual added figures (method == 'manual_added')")
     parser.add_argument("--limit-pages", type=int, default=None, help="Limit number of pages")
     parser.add_argument("--apply", action="store_true", help="Directly update figures.json with cleaned captions")
     args = parser.parse_args()
@@ -174,6 +176,13 @@ def main():
         pages_map[p].append(fig)
 
     pages = sorted(list(pages_map.keys()))
+    if args.pages:
+        if args.pages.strip().lower() == "manual":
+            manual_pages = sorted(list(set(f["page"] for f in figures if f.get("method") == "manual_added" and f.get("review_status") != "deleted")))
+            pages = [p for p in pages if p in manual_pages]
+        else:
+            selected_pages = set(int(p.strip()) for p in args.pages.split(",") if p.strip())
+            pages = [p for p in pages if p in selected_pages]
     if args.start_page:
         pages = [p for p in pages if p >= args.start_page]
     if args.end_page:
@@ -213,6 +222,8 @@ def main():
             if args.apply:
                 fid = fig_res.get("id")
                 if fid is not None and 0 <= fid < len(figures):
+                    if args.only_manual and figures[fid].get("method") != "manual_added":
+                        continue
                     if fig_res.get("has_changes") and fig_res.get("cleaned_caption"):
                         figures[fid]["caption"] = fig_res["cleaned_caption"]
                     if fig_res.get("fig_num"):
@@ -227,6 +238,11 @@ def main():
         if args.apply:
             with open(args.metadata, "w", encoding="utf-8") as f:
                 json.dump(figures, f, indent=2, ensure_ascii=False)
+            csv_path = Path(args.metadata).with_suffix(".csv")
+            try:
+                pd.DataFrame(figures).to_csv(csv_path, index=False, encoding="utf-8-sig")
+            except Exception:
+                pass
 
     # Save final CSV
     if flat_rows:
